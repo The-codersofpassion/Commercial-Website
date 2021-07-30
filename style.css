@@ -36,17 +36,19 @@ body {
 
 /* For navbar */
 nav {
-    background: transparent;
+    background: lightblue;
     height: 95px;
     width: 100%;
 }
 
-.logo img {
+.logo img{
     float: left;
+    position: relative;
     max-width: 130px;
     max-height: auto;
     padding-top: 0.5rem;
     padding-left: 0.7rem;
+    /* overflow: hidden; */
 }
 
 nav ul {
@@ -58,20 +60,17 @@ nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 13px;
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
 }
 
 nav ul li a {
-    color: rgb(226, 17, 17);
+    color: rgb(248, 2, 2);
     font-size: 17px;
     padding: 7px 3 px;
     border-radius: 2px;
     text-transform: uppercase;
 }
 
-a.active,
-a:hover {
+a.active,a:hover {
     background: gold;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
