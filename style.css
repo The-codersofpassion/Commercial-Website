@@ -1,78 +1,87 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 html {
-    scroll-behavior: smooth;
-    width: 100%;
+  scroll-behavior: smooth;
+  width: 100%;
 }
 
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
-    width: 14px;
+  width: 14px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(207, 189, 189);
+  background: rgb(207, 189, 189);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(61, 53, 53);
+  background: rgb(61, 53, 53);
 }
 
 /* For navbar */
 nav {
-    background: lightblue;
-    height: 95px;
-    width: 100%;
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  background-color: transparent;
+  height: auto;
 }
 
-.logo img{
-    float: left;
-    position: relative;
-    max-width: 130px;
-    max-height: auto;
-    padding-top: 0.5rem;
-    padding-left: 0.7rem;
-    /* overflow: hidden; */
+.logo img {
+  float: left;
+  position: relative;
+  max-width: 130px;
+  max-height: auto;
+  padding-top: 0.5rem;
+  padding-left: 0.7rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  /* overflow: hidden; */
 }
 
 nav ul {
-    float: right;
-    margin-right: 20px;
+  float: right;
+  margin-right: 20px;
 }
 
 nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 13px;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 13px;
 }
 
 nav ul li a {
-    color: rgb(248, 2, 2);
-    font-size: 17px;
-    padding: 7px 3 px;
-    border-radius: 2px;
-    text-transform: uppercase;
+  color:white;
+  font-size: 17px;
+  padding: 7px 3px;
+  border-radius: 2px;
+  text-transform: uppercase;
 }
 
-a.active,a:hover {
-    background: gold;
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
-    border-radius: 4px;
+a.active,
+a:hover {
+  background: black;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  border-radius: 4px;
+}
+
+.slider {
+  margin-top: 0;
+  width: 100vw;
+  height: max-content;
 }
