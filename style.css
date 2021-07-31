@@ -13,6 +13,7 @@ html {
 
 body {
   font-family: "Playfair Display", serif;
+  overflow-x: hidden;
 }
 
 /* custom scroll bar */
@@ -44,11 +45,11 @@ nav {
 .logo img {
   float: left;
   position: relative;
-  max-width: 130px;
+  max-width: 160px;
   max-height: auto;
   padding-top: 0.5rem;
   padding-left: 0.7rem;
-  margin-left: 2rem;
+  margin-left: 3rem;
   margin-top: 1rem;
   /* overflow: hidden; */
 }
@@ -56,6 +57,7 @@ nav {
 nav ul {
   float: right;
   margin-right: 20px;
+  margin-top: 1vh;
 }
 
 nav ul li {
@@ -65,8 +67,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color:white;
-  font-size: 17px;
+  color: white;
+  font-size: 1vw;
   padding: 7px 3px;
   border-radius: 2px;
   text-transform: uppercase;
@@ -84,4 +86,36 @@ a:hover {
   margin-top: 0;
   width: 100vw;
   height: max-content;
+  
 }
+
+
+.choose__slider {
+  display: flex;
+  background: transparent;
+  margin-left: 5vw;
+  position: absolute !important;
+  top: 28px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  margin-top: 88vh;
+}
+
+.choose__slider button {
+  color: white;
+  font-size: 20px;
+  font-family: "BaronMTModern" !important;
+  text-transform: uppercase;
+  padding: 0 3vw;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.choose__slider button:hover {
+  font-size: 22px;
+}
+
+
+
