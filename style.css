@@ -86,7 +86,6 @@ a:hover {
   margin-top: 0;
   width: 100vw;
   height: max-content;
-  
 }
 
 
@@ -103,6 +102,8 @@ a:hover {
 }
 
 .choose__slider button {
+  position: relative;
+  bottom: 1vh;
   color: white;
   font-size: 20px;
   font-family: "BaronMTModern" !important;
