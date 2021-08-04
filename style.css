@@ -74,49 +74,68 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-a.active,
-a:hover {
+nav ul li a.active,
+nav ul li a:hover {
   background: black;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
   border-radius: 4px;
 }
 
-.slider {
+.slide-container {
+  width: 800px;
+  height: 600px;
+  /* margin-left: auto; */
+  margin-right: auto;
+  /* overflow: hidden; */
+}
+
+.image-container{
+  width: 4100px;
+  height: fit-content;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+}
+
+.slider-image {
+  float: left;
   margin-top: 0;
   width: 100vw;
   height: max-content;
 }
 
-
-.choose__slider {
-  display: flex;
+.button-container {
+  position: relative;
+  top: -34vh;
+  display: inline-flex;
   background: transparent;
   margin-left: 5vw;
-  position: absolute !important;
-  top: 28px;
-  bottom: 1px;
-  left: 1px;
-  right: 1px;
-  margin-top: 88vh;
 }
 
-.choose__slider button {
-  position: relative;
-  bottom: 1vh;
+.slider-button {
   color: white;
-  font-size: 20px;
+  font-size: 12px;
   font-family: "BaronMTModern" !important;
   text-transform: uppercase;
   padding: 0 3vw;
   cursor: pointer;
-  background-color: transparent;
-  border: none;
 }
 
-.choose__slider button:hover {
-  font-size: 22px;
+.button-container a:hover {
+  font-size: 12.3px;
 }
+
+#slider-image-1:target ~ .image-container{
+  left: 0px;
+}
+#slider-image-2:target ~ .image-container{
+  left: -1366px;
+}
+#slider-image-3:target ~ .image-container{
+  left: -2733px;
+}
+
 
 
 

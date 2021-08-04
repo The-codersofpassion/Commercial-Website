@@ -9,10 +9,10 @@
     <title>Document</title>
   </head>
   <body>
-    <script type="text/javascript" src="js/index.js" ></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <!-- For navbar -->
     <nav>
-      <label class="logo"> 
+      <label class="logo">
         <img src="img/logo.png" alt="logo" />
       </label>
       <ul>
@@ -22,22 +22,25 @@
         <li><a href="#">Explore</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
-      <div class="choose__slider"> 
-        <button onclick="Fa()" class="Fashion">Fashion</button>
-        <button onclick="Sd()" class="SD">Space Design</button>
-        <button onclick="Ar()" class="Art">Art</button>
-      </div>
     </nav>
-    
-    <header>
-       <img 
-        class="slider"
-        src="./img/DeepSiteBackground.JPG"
-        />
-        
-    </header>
 
-    
+    <header>
+      <div class="slide-container">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-container">
+          <img class="slider-image" src="./img/DSC_1881 (1).jpg" />
+          <img class="slider-image" src="./img/SD (1).jpg" />
+          <img class="slider-image" src="./img/0001_021 (1).jpg" />
+        </div>
+        <div class="button-container">
+          <a href="#slider-image-1" class="slider-button"><h1>Fashion</h1></a>
+          <a href="#slider-image-2" class="slider-button"><h1>Space Design</h1></a>
+          <a href="#slider-image-3" class="slider-button"><h1>Art</h1></a>
+        </div>
+      </div>
+    </header>
 
     <!-- FOR HOME  -->
   </body>
