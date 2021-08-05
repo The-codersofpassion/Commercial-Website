@@ -26,10 +26,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
+  padding: 5px;
   background: rgb(207, 189, 189);
 }
 
 ::-webkit-scrollbar-thumb:hover {
+  padding: 5px;
   background: rgb(61, 53, 53);
 }
 
@@ -126,15 +128,15 @@ nav ul li a:hover {
   font-size: 12.3px;
 }
 
-#slider-image-1:target~.image-container {
+#slider-image-1:target ~ .image-container {
   left: 0px;
 }
 
-#slider-image-2:target~.image-container {
+#slider-image-2:target ~ .image-container {
   left: -1366px;
 }
 
-#slider-image-3:target~.image-container {
+#slider-image-3:target ~ .image-container {
   left: -2733px;
 }
 @media only screen and (min-width: 1366px) {
@@ -146,15 +148,14 @@ nav ul li a:hover {
     -webkit-transition: left 2s;
   }
 
-  #slider-image-2:target~.image-container {
+  #slider-image-2:target ~ .image-container {
     left: -1366px;
   }
 
-  #slider-image-3:target~.image-container {
+  #slider-image-3:target ~ .image-container {
     left: -2740px;
   }
 }
-
 
 @media only screen and (min-width: 1920px) {
   .image-container {
@@ -165,68 +166,49 @@ nav ul li a:hover {
     -webkit-transition: left 2s;
   }
 
-  #slider-image-2:target~.image-container {
+  #slider-image-2:target ~ .image-container {
     left: -1537px;
   }
 
-  #slider-image-3:target~.image-container {
+  #slider-image-3:target ~ .image-container {
     left: -3071px;
   }
 }
 
 .mystory {
   display: flex;
-  width: fit-content;
-  padding-top: 190px;
-  padding-bottom: 163px;
+  width: 100vw;
+  margin-top: 280px;
+  margin-bottom: 280px;
+  margin-left: 300px;
+  margin-right: 300px;
   height: 436px;
-  justify-content: center;
-  align-items: center;
 }
 
 .write {
   display: flex;
 }
 
-.dhoni {
-  padding-left: 225px;  
-  height: 535px;
-  width: 475px;
-
+.story_image {
+  height: 400px;
+  width: 320px;
+  border-radius: 0.5rem;
 }
 
 .story-title {
- text-align: center;
- /* flex-direction:row; */
-  padding-left: 7px;
+  height: 180px;
+  width: 300px;
 }
 
-.inner-story {
-  /* padding-right: 69px; */
-}
-
-
-.mystory {
-  display: flex;
-  width: fit-content;
-  padding-top: 190px;
-  padding-left: 101px;
-  padding-bottom: 163px;
-  height: 436px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 300px;
-}
-  
-.write {
-  display: flex;
-}
-  
-.dhoni {
-  height: 535px;
-  width: 475px;
-}
-  
-.inner-story {
-  padding-right: 99px;
+.story_content {
+  height: 200px;
+  width: 500px;
+  margin-left: 2vw;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 5px;
 }
