@@ -178,7 +178,7 @@ nav ul li a:hover {
 .mystory {
   display: flex;
   width: 100vw;
-  margin-top: 280px;
+  margin-top: 300px;
   margin-bottom: 280px;
   margin-left: 300px;
   margin-right: 300px;
@@ -212,3 +212,5 @@ nav ul li a:hover {
   font-style: normal;
   margin-bottom: 5px;
 }
+
+
