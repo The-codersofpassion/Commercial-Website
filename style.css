@@ -142,7 +142,6 @@ nav ul li a:hover {
   display: flex;
   width: fit-content;
   padding-top: 190px;
-  padding-left: 245px;
   padding-bottom: 163px;
   height: 436px;
   justify-content: center;
@@ -154,18 +153,20 @@ nav ul li a:hover {
 }
 
 .dhoni {
+  padding-left: 225px;  
   height: 535px;
   width: 475px;
+
 }
 
 .story-title {
  text-align: center;
+ /* flex-direction:row; */
   padding-left: 7px;
-  flex-direction: row;
 }
 
 .inner-story {
-  padding-right: 99px;
+  /* padding-right: 69px; */
 }
 
 
@@ -202,4 +203,35 @@ nav ul li a:hover {
   #slider-image-3:target~.image-container {
     left: -3071px;
   }
+
+  .mystory {
+    display: flex;
+    width: fit-content;
+    padding-top: 190px;
+    padding-left: 245px;
+    padding-bottom: 163px;
+    height: 436px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .write {
+    display: flex;
+  }
+  
+  .dhoni {
+    height: 535px;
+    width: 475px;
+  }
+  
+  .story-title {
+   text-align: center;
+    padding-left: 7px;
+    flex-direction: row;
+  }
+  
+  .inner-story {
+    padding-right: 99px;
+  }
+  
 }
