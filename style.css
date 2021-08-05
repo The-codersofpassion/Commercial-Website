@@ -90,7 +90,7 @@ nav ul li a:hover {
   /* overflow: hidden; */
 }
 
-.image-container{
+.image-container {
   width: 4100px;
   height: fit-content;
   position: relative;
@@ -126,16 +126,80 @@ nav ul li a:hover {
   font-size: 12.3px;
 }
 
-#slider-image-1:target ~ .image-container{
+#slider-image-1:target~.image-container {
   left: 0px;
 }
-#slider-image-2:target ~ .image-container{
+
+#slider-image-2:target~.image-container {
   left: -1366px;
 }
-#slider-image-3:target ~ .image-container{
+
+#slider-image-3:target~.image-container {
   left: -2733px;
 }
 
+.mystory {
+  display: flex;
+  width: fit-content;
+  padding-top: 190px;
+  padding-left: 245px;
+  padding-bottom: 163px;
+  height: 436px;
+  justify-content: center;
+  align-items: center;
+}
+
+.write {
+  display: flex;
+}
+
+.dhoni {
+  height: 535px;
+  width: 475px;
+}
+
+.story-title {
+ text-align: center;
+  padding-left: 7px;
+  flex-direction: row;
+}
+
+.inner-story {
+  padding-right: 99px;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1920px) {
+  .image-container {
+    width: 5500px;
+    height: fit-content;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+  }
+
+  #slider-image-2:target~.image-container {
+    left: -1537px;
+  }
+
+  #slider-image-3:target~.image-container {
+    left: -3071px;
+  }
+}
