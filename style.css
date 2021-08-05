@@ -126,16 +126,34 @@ nav ul li a:hover {
   font-size: 12.3px;
 }
 
-#slider-image-1:target~.image-container {
+#slider-image-1:target ~.image-container {
   left: 0px;
+} 
+
+#slider-image-2:target ~.image-container {
+  left: -1368px;
 }
 
-#slider-image-2:target~.image-container {
-  left: -1366px;
-}
-
-#slider-image-3:target~.image-container {
+#slider-image-3:target ~.image-container {
   left: -2733px;
+} 
+
+@media only screen and (max-width: 1920px) {
+  .image-container {
+    width: 5500px;
+    height: fit-content;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+  }
+
+  #slider-image-2:target~.image-container {
+    left: -1537px;
+  }
+
+  #slider-image-3:target~.image-container {
+    left: -3071px;
+  }
 }
 
 .mystory {
@@ -186,20 +204,3 @@ nav ul li a:hover {
 
 
 
-@media only screen and (max-width: 1920px) {
-  .image-container {
-    width: 5500px;
-    height: fit-content;
-    position: relative;
-    transition: left 2s;
-    -webkit-transition: left 2s;
-  }
-
-  #slider-image-2:target~.image-container {
-    left: -1537px;
-  }
-
-  #slider-image-3:target~.image-container {
-    left: -3071px;
-  }
-}
