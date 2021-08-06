@@ -44,7 +44,7 @@ nav {
   height: auto;
 }
 
-.logo img {
+.logo a img {
   float: left;
   position: relative;
   max-width: 160px;
@@ -53,6 +53,7 @@ nav {
   padding-left: 0.7rem;
   margin-left: 3rem;
   margin-top: 1rem;
+  cursor: pointer;
   /* overflow: hidden; */
 }
 
@@ -178,7 +179,6 @@ nav ul li a:hover {
 .mystory {
   display: flex;
   width: 100vw;
-  margin-top: 300px;
   margin-bottom: 280px;
   margin-left: 300px;
   margin-right: 300px;
@@ -193,9 +193,11 @@ nav ul li a:hover {
   height: 400px;
   width: 320px;
   border-radius: 0.5rem;
+  margin-top: 100px;
 }
 
 .story-title {
+  margin-top: 100px;
   height: 180px;
   width: 280px;
 }

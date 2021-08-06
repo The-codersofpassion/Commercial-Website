@@ -12,7 +12,7 @@
     <!-- For navbar -->
     <nav>
       <label class="logo">
-        <img src="img/logo.png" alt="logo" />
+        <a href="#home" onclick="scrollto('home')";><img  src="img/logo.png" alt="logo" /></a>
       </label>
       <ul>
         <li><a href="#story" onclick="scrollto('story');"> MyStory</a></li>
@@ -23,7 +23,7 @@
       </ul>
     </nav>
 
-    <header>
+    <header id="home">
       <div class="slide-container">
         <span id="slider-image-1"></span>
         <span id="slider-image-2"></span>
@@ -45,18 +45,25 @@
 
     <!-- MY STORY  -->
     <div id="story">
-    <section class="mystory">
-      <div class="write">
-        <img class="story_image" src="img/DSC_1673.JPG" alt="dhoni" />
-        <div>
-        <img class="story-title" src="img/Mystory text deepsite1.png" alt="My Story"/>
-        <div class="story_content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod nisi atque tempore illum provident iusto, culpa dolore quasi reprehenderit non at distinctio dolores quisquam enim ratione praesentium! Officia, voluptatem.
+      <section class="mystory">
+        <div class="write">
+          <img class="story_image" src="img/DSC_1673.JPG" alt="Deep Khatri" />
+          <div>
+            <img
+              class="story-title"
+              src="img/Mystory text deepsite1.png"
+              alt="My Story"
+            />
+            <div class="story_content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod
+              nisi atque tempore illum provident iusto, culpa dolore quasi
+              reprehenderit non at distinctio dolores quisquam enim ratione
+              praesentium! Officia, voluptatem.
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
-    </section>
-  </div>
+      </section>
+    </div>
     <script src="js/index.js"></script>
   </body>
 </html>
