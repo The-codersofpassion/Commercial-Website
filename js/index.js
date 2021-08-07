@@ -7,15 +7,15 @@ function function1() {
             scroll_pos = $(window).scrollTop();
             if(scroll_pos === 0){
                 $("nav").css('background-color', "transparent");
-                $("nav").css('transition', "2s");
+                $("nav").css('transition', "1s");
                 $(".logo a img").css('max-width', '160px');
-                $(".logo a img").css('transition', "2s");
+                $(".logo a img").css('transition', "1s");
             }
             else if (scroll_pos > 100) {
                 $("nav").css('background-color', "rgba(241, 232, 230, 0.40)");
-                $("nav").css('transition', "2s");
+                $("nav").css('transition', "1s");
                 $(".logo a img").css('max-width', '100px');
-                $(".logo a img").css('transition', "2s");
+                $(".logo a img").css('transition', "1s");
             }
         });
 };
