@@ -16,24 +16,23 @@ body {
   overflow-x: hidden;
 }
 
-/* custom scroll bar */
 /* ::-webkit-scrollbar {
-  width: 14px;
+  scroll-behavior: auto;
 }
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
+  transition: 2s;
 }
 
 ::-webkit-scrollbar-thumb {
-  padding: 5px;
   background: rgb(207, 189, 189);
 }
 
 ::-webkit-scrollbar-thumb:hover {
   padding: 5px;
   background: rgb(61, 53, 53);
-} */
+}  */
 
 /* For navbar */
 nav {
@@ -83,6 +82,7 @@ nav ul li a:hover {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
   border-radius: 4px;
+  transition: 1s;
 }
 
 .slide-container {
@@ -118,15 +118,16 @@ nav ul li a:hover {
 
 .slider-button {
   color: white;
-  font-size: 12px;
-  font-family: "BaronMTModern" !important;
+  font-size: 10px;
+  font-family: "BaronMTModern";
   text-transform: uppercase;
   padding: 0 3vw;
   cursor: pointer;
 }
 
 .button-container a:hover {
-  font-size: 12.3px;
+  font-size: 11px;
+  transition: 0.5s;
 }
 
 #slider-image-1:target ~ .image-container {
