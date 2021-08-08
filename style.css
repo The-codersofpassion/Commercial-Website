@@ -280,12 +280,13 @@ and (max-width: 1366px)  {
 } */
 
 .img3 {
-  background-color: black;
+  background-color: rgb(243, 238, 235);
   height: 300px;
-  width: 100px;
+  width: 130px;
   position: relative;
   top: 250px;
-  margin-left: 130px;
+  margin-left: 100px;
+  border-radius: 10px;
 }
 
 .img1 {
