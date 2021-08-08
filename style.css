@@ -34,14 +34,25 @@ body {
   background: rgb(61, 53, 53);
 }  */
 
-/* For navbar */
-.nav {
+/* .forScrollNav {
   width: 100%;
   z-index: 999;
   position: fixed;
   background-color: transparent;
-  background-image: aqua;
+  background-image: linear-gradient(to right,white,rgba(241, 232, 230, 0.40),rgba(72, 77, 73,0.40));
   height: auto;
+  transition: 1s;
+} */
+
+/* For navbar */
+nav {
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  background-color: transparent;
+  background-image: linear-gradient(to right,rgb(252, 252, 249,0),rgba(231, 231, 219,0));
+  height: auto;
+  transition: 2s;
 }
 
 .logo a img {
@@ -54,22 +65,24 @@ body {
   margin-left: 3rem;
   margin-top: 1rem;
   cursor: pointer;
+  transition: 2s;
   /* overflow: hidden; */
 }
 
-.nav ul {
+
+nav ul {
   float: right;
   margin-right: 20px;
   margin-top: 1vh;
 }
 
-.nav ul li {
+nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 13px;
 }
 
-.nav ul li a {
+nav ul li a {
   color: white;
   font-size: 1vw;
   padding: 7px 3px;
@@ -77,8 +90,7 @@ body {
   text-transform: uppercase;
 }
 
-.nav ul li a.active,
-.nav ul li a:hover {
+nav ul li a:hover {
   background: black;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
@@ -121,6 +133,7 @@ body {
   color: white;
   font-size: 10px;
   font-family: "BaronMTModern";
+  font-weight: normal;
   text-transform: uppercase;
   cursor: pointer;
   margin-right: 30px;
@@ -234,4 +247,12 @@ body {
 
 #story {
   margin-top: 130px;
+}
+
+.myWork {
+  
+}
+
+.FashionWork {
+
 }
