@@ -10,7 +10,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>
-   
     <!-- For navbar -->
     <nav class="nav">
       <label class="logo">
@@ -19,11 +18,11 @@
         /></a>
       </label>
       <ul>
-        <li><a href="#story" onclick="scrollto('story');" class="links"> My Story</a></li>
-        <li><a href="#work" class="links" onclick="scrollto('Work');">My Work</a></li>
-        <li><a href="#Testimonials" class="links">Testimonials</a></li>
-        <li><a href="#explore" class="links">Explore</a></li>
-        <li><a href="#contact" class="links">Contact Us</a></li>
+        <li><a href="#story" onclick="scrollto('story');" >My Story</a></li>
+        <li><a href="#Work" class="links" onclick="scrollto('Work');" >My Work</a></li>
+        <li><a href="#Testimonials" >Testimonials</a></li>
+        <li><a href="#explore" >Explore</a></li>
+        <li><a href="#contact" >Contact Us</a></li>
       </ul>
     </nav>
 
@@ -38,7 +37,9 @@
           <img class="slider-image" src="./img/0001_021 (1).jpg" />
         </div>
         <div class="button-container">
-          <a href="#slider-image-1" class="slider-button fashion"><h1>Fashion</h1></a>
+          <a href="#slider-image-1" class="slider-button fashion"
+            ><h1>Fashion</h1></a
+          >
           <a href="#slider-image-2" class="slider-button SD"
             ><h1>Space Design</h1></a
           >
@@ -69,15 +70,25 @@
       </section>
     </div>
 
-    <div id="myWork">
-      <div class="WorkAdjust" id="Work">
-      <div class="FashionWork">
-        <img src="img/DeepFashionWork.jpg" alt="">
+    <div id="Work">
+      <div class="WorkAdjust">
+        <div class="FashionWork" >
+          <div class="img3" ></div>
+          <img src="img/DeepFashionWork.jpg" alt="" class="img1"/>
+          <img src="img/FashionText1.png" alt="" class="img2"/>
+        </div>
+        
+        <div class="space" >
+          <div class="img3" ></div>
+          <img src="img/2.jpg" alt="" class="img1"/>
+          <img src="img/FinalFS.png" alt="" class="img2"/>
+        </div>
+        <div class="art" >
+          <div class="img3" ></div>
+          <img src="img/011.jpg" alt="" class="img1" />
+          <img src="img/FinalFArt.png" alt="" class="img2"/>
+        </div>
       </div>
-      <div class="FashionContent">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est culpa iste perspiciatis necessitatibus nostrum impedit similique voluptatem beatae facilis esse, ut accusamus voluptatibus ea? Eaque natus facilis iusto incidunt, voluptatem sit aut a numquam.</p>
-      </div>
-    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
