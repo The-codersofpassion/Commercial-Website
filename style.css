@@ -254,10 +254,13 @@ nav ul li a:hover {
   margin-top: 130px;
 }
 
-.myWork {
-
+#myWork{
+  margin-top: -160px;
+  background: black;
 }
-
-.FashionWork {
-
+.WorkAdjust {
+  
+}
+.FashionWork img {
+  
 }
