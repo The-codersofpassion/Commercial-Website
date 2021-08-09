@@ -112,7 +112,7 @@ nav ul li a:hover {
 }
 
 .image-container {
-  width: 4100px;
+  width: 6100px;
   height: 768px;
   position: sticky;
   transition: left 2s;
@@ -176,10 +176,10 @@ nav ul li a:hover {
 }
 
 
-@media only screen and ((min-width: 1920px) and (max-width: 2560px)) {
+@media only screen and (max-width: 1920px) {
   .button-container {
     position: relative;
-    top: -15vh;
+    top: -30vh;
   }
   .image-container {
     width: 5500px;
@@ -317,11 +317,3 @@ and (max-width: 1366px)  {
   border: 2px solid black;
   border-radius: 20px;
 }
-
-
-
-
-
-
-
- 
