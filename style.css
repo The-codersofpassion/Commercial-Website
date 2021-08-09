@@ -239,6 +239,7 @@ and (max-width: 1366px)  {
 
 .story-title {
   margin-top: 100px;
+  padding-left: 155px;
   height: 180px;
   width: 280px;
 }
@@ -246,7 +247,7 @@ and (max-width: 1366px)  {
 .story_content {
   height: 200px;
   width: 500px;
-  margin-left: 2vw;
+  margin-left: 4.7vw;
   line-height: 1.8;
   letter-spacing: 0.05em;
   font-size: 16px;
