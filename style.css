@@ -51,9 +51,10 @@ nav {
   z-index: 999;
   position: fixed;
   background-color: transparent;
+  overflow: hidden;
   background-image: linear-gradient(to right,rgb(252, 252, 249,0),rgba(231, 231, 219,0));
   height: auto;
-  transition: 2s;
+  transition: 1s;
 }
 
 .logo a img {
@@ -67,7 +68,7 @@ nav {
   margin-top: 0.5rem;
   cursor: pointer;
   transition: 2s;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 
@@ -174,6 +175,33 @@ nav ul li a:hover {
 #slider-image-3:target ~ .image-container {
   left: -2733px;
 }
+
+
+.mywork2{
+  position: relative;
+  display: flex;
+}
+.work2{
+  display: flex;
+}
+.workimg2{
+  width: 1520px;
+  height: 700px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.worktext2{
+  padding-top: 16rem;
+  padding-left: 9rem;
+  color: rgb(250, 16, 230);
+  font-size: 2rem;
+}
+
+.workchangetext{
+  color: blue;
+  font-size: 5rem;
+}
+
 
 
 @media only screen and (max-width: 1920px) {
