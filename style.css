@@ -193,15 +193,43 @@ nav ul li a:hover {
 .worktext2{
   padding-top: 16rem;
   padding-left: 9rem;
-  color: rgb(250, 16, 230);
+  color: rgb(255, 8, 214);
   font-size: 2rem;
 }
 
-.workchangetext{
+.workchangetext {
   color: blue;
   font-size: 5rem;
+  padding-left: 3px;
 }
 
+/* Fashion Styling */
+
+.fashionhead{
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.FashionCo{
+  display: flex;
+}
+
+
+.fashionimg{
+  width: 450px;
+  height: 560px;
+  padding-left: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 3.5rem;
+}
+
+.fashiondiv{
+  padding-top: 4rem;
+padding-left: 3rem;
+padding-right: 4rem;
+}
 
 
 @media only screen and (max-width: 1920px) {

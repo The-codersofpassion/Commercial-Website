@@ -45,7 +45,7 @@ function scrollto(div) {
 
 
 var typed = new Typed(".workchangetext", {
-    strings: ["Collobarations","Decoration","Efficiency"],
+    strings: ["Collobarations", "Decoration", "Efficiency"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
