@@ -235,6 +235,21 @@ nav ul li a:hover {
 
 /* Fashion Styling */
 
+.fashionsection{
+  padding-top: 3rem;
+  padding-bottom: 3.7rem;
+  position: relative;
+  display: flex;
+}
+
+.fashionbgimg{
+
+    width: 1520px;
+    height: 870px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .fashionhead{
   font-weight: 800;
   font-size: 50px;
@@ -250,15 +265,18 @@ nav ul li a:hover {
 .fashionimg{
   width: 450px;
   height: 560px;
-  padding-left: 3rem;
+  padding-left: 5rem;
   padding-top: 4rem;
   padding-bottom: 3.5rem;
+  border-radius: 38px;
+  float: left;
 }
 
 .fashiondiv{
   padding-top: 4rem;
 padding-left: 3rem;
 padding-right: 4rem;
+
 }
 
 
