@@ -202,9 +202,9 @@ nav ul li a:hover {
   display: inline-block;
   	overflow: hidden;
   	letter-spacing: 2px;
- 	  animation: typing 5s steps(34, end), blink .75s step-end infinite;
+ 	  animation: typing 8s steps(34, end) 1s 1 normal both, blink 900ms steps(34) infinite normal;
     white-space: nowrap;
-    border-right: 4px solid orange;
+    border-right: 4px solid black;
     box-sizing: border-box;
 }
 
@@ -218,12 +218,13 @@ nav ul li a:hover {
 }
 
 @keyframes blink {
-  from, to { 
+  from{ 
       border-color: transparent 
   }
-  50% { 
-      border-color: orange; 
+  to {
+    border-color: black;
   }
+
 }
 
 /* .workchangetext {
