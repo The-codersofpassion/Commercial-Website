@@ -191,10 +191,14 @@ nav ul li a:hover {
   background-size: cover;
 }
 .worktext2{
-  padding-top: 16rem;
-  padding-left: 9rem;
-  color: rgb(255, 8, 214);
-  font-size: 2rem;
+  position: sticky;
+  margin: auto;
+  padding: auto;
+  margin-top: 380px;
+  /* padding-left: 9rem; */
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  text-align: center;
 }
 
 .workchangetext {
@@ -374,3 +378,5 @@ and (max-width: 1366px)  {
   border: 2px solid black;
   border-radius: 20px;
 }
+
+
