@@ -55,6 +55,7 @@ nav {
   background-image: linear-gradient(to right,rgb(252, 252, 249,0),rgba(231, 231, 219,0));
   height: auto;
   transition: 1s;
+  /* box-shadow: 0 2px 2px -2px rgba(0,0,0,.2); */
 }
 
 .logo a img {
@@ -227,58 +228,6 @@ nav ul li a:hover {
 
 }
 
-/* .workchangetext {
-  color: blue;
-  font-size: 5rem;
-  padding-left: 3px;
-} */
-
-/* Fashion Styling */
-
-.fashionsection{
-  padding-top: 3rem;
-  padding-bottom: 3.7rem;
-  position: relative;
-  display: flex;
-}
-
-.fashionbgimg{
-
-    width: 1520px;
-    height: 870px;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.fashionhead{
-  font-weight: 800;
-  font-size: 50px;
-  text-align: center;
-  padding-top: 3rem;
-}
-
-.FashionCo{
-  display: flex;
-}
-
-
-.fashionimg{
-  width: 450px;
-  height: 560px;
-  padding-left: 5rem;
-  padding-top: 4rem;
-  padding-bottom: 3.5rem;
-  border-radius: 38px;
-  float: left;
-}
-
-.fashiondiv{
-  padding-top: 4rem;
-padding-left: 3rem;
-padding-right: 4rem;
-
-}
-
 
 @media only screen and (max-width: 1920px) {
   .button-container {
@@ -422,5 +371,51 @@ and (max-width: 1366px)  {
   border: 2px solid black;
   border-radius: 20px;
 }
+
+.fashionsection{
+  padding-top: 3rem;
+  padding-bottom: 3.7rem;
+  position: relative;
+  display: flex;
+}
+
+.fashionbgimg{
+
+    width: 1520px;
+    height: 870px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fashionhead{
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.FashionCo{
+  display: flex;
+}
+
+
+.fashionimg{
+  width: 450px;
+  height: 560px;
+  padding-left: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 3.5rem;
+  border-radius: 38px;
+  float: left;
+}
+
+.fashiondiv{
+  padding-top: 4rem;
+padding-left: 3rem;
+padding-right: 4rem;
+
+}
+
+
 
 
