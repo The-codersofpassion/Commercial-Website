@@ -13,7 +13,7 @@ function function1() {
             $(".img1").css("animation","none");
             $(".worktext2 h1").css("animation","typing 8s steps(34, end) 1s 1 normal both, blink 900ms steps(34) infinite normal");
         }
-        else if(scroll_pos >= 993 && scroll_pos <= 1484){
+        else if(scroll_pos >= 1687 && scroll_pos <= 2607){
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))");
             $(".logo a img").css('max-width', '80px');
             $("nav ul").css("margin-top","0.2vh");
