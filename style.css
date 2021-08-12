@@ -381,7 +381,7 @@ and (max-width: 1366px)  {
 .fashionbgimg{
     background-image: url('https://wallpapercave.com/wp/wp3626992.jpg');
     width: 1520px;
-    height: 870px;
+    height: 730px;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -406,6 +406,7 @@ and (max-width: 1366px)  {
 
 .heritage {
   position: relative;
+  /* padding-top: 7rem; */
   margin-left: 65px;
   height: 130px;
   width: 285px;
@@ -427,9 +428,3 @@ and (max-width: 1366px)  {
   margin-left: 20px;
   margin-right: 20px;
 }
-
-
-
-
-
-
