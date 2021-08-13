@@ -385,6 +385,11 @@ nav ul li a:hover {
   margin-right: 20px;
 }
 
+.personalstylingBranding {
+  padding-bottom: 3.7rem;
+  position: relative;
+}
+
 .PSBbgimg {
   background-image: url('img/wallpaperflare.com_wallpaper.jpg');
   width: 1366px;
@@ -395,7 +400,50 @@ nav ul li a:hover {
   top: -1125px;
 }
 
+.PSBranding {
+  width: 400px;
+  height: 530px;
+  margin-left:  144px;
+  position: relative;
+  top: -550px;
+}
+
+.PSBrad {
+  width: 400px;
+  height: 530px;
+  background: white;
+  position: relative;
+  top: -2472px;
+  margin-left:  220px;
+  align-content: center;
+}
+
+.PSBrd {
+  position: relative;
+  /* padding-top: 7rem; */
+  margin-left: 65px;
+  height: 110px;
+  width: 285px;
+}
+
+.PSBcontent {
+  display: block;
+  padding: auto;
+  margin: auto;
+}
+
+.PSBcontent h1{
+  color: black;
+  font-size: 18px;
+  line-height: 35px;
+  word-spacing: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
 .mySlides {display: none;}
+.mySlides1 {display: none;}
 
 .fashionimage-container {
   width: 400px;
@@ -403,6 +451,14 @@ nav ul li a:hover {
   margin-left:  2px;
   position: relative;
   top: -20px;
+}
+
+.PSBimage-container {
+  width: 400px;
+  height: 530px;
+  margin-left:  580px;
+  position: relative;
+  top: -1260px;
 }
 
 .fade {
