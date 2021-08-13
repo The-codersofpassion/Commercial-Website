@@ -55,7 +55,7 @@ nav {
   background-image: linear-gradient(to right,rgb(252, 252, 249,0),rgba(231, 231, 219,0));
   height: auto;
   transition: 1s;
-  box-shadow: 0px 0px 10px #0000001c;
+  box-shadow: none;
 }
 
 .logo a img {
@@ -228,48 +228,6 @@ nav ul li a:hover {
 
 }
 
-
-@media only screen and (max-width: 1920px) {
-  .button-container {
-    position: relative;
-    top: -30vh;
-  }
-  .image-container {
-    width: 5500px;
-    height: fit-content;
-    position: relative;
-    transition: left 2s;
-    -webkit-transition: left 2s;
-  }
-
-  #slider-image-2:target ~ .image-container {
-    left: -1537px;
-  }
-
-  #slider-image-3:target ~ .image-container {
-    left: -3071px;
-  }
-}
-
-@media only screen and (min-width: 1030px)   
-and (max-width: 1366px)  {
-  .image-container {
-    width: 5500px;
-    height: fit-content;
-    position: relative;
-    transition: left 2s;
-    -webkit-transition: left 2s;
-  }
-
-  #slider-image-2:target ~ .image-container {
-    left: -1366px;
-  }
-
-  #slider-image-3:target ~ .image-container {
-    left: -2740px;
-  }
-}
-
 .mystory {
   display: flex;
   width: 100vw;
@@ -416,8 +374,6 @@ and (max-width: 1366px)  {
   display: block;
   padding: auto;
   margin: auto;
-  
-
 }
 
 .heritagecontent h1{
@@ -427,4 +383,66 @@ and (max-width: 1366px)  {
   word-spacing: 7px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.PSBbgimg {
+  background-image: url('img/wallpaperflare.com_wallpaper.jpg');
+  width: 1366px;
+  height: 900px;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  top: -1125px;
+}
+
+
+@media only screen and (max-width: 1920px) {
+  .button-container {
+    position: relative;
+    top: -30vh;
+  }
+  .image-container {
+    width: 5500px;
+    height: fit-content;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+  }
+
+  #slider-image-2:target ~ .image-container {
+    left: -1537px;
+  }
+
+  #slider-image-3:target ~ .image-container {
+    left: -3071px;
+  }
+}
+
+@media only screen and (min-width: 1030px)   
+and (max-width: 1366px)  {
+  .image-container {
+    width: 5500px;
+    height: fit-content;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+  }
+
+  #slider-image-2:target ~ .image-container {
+    left: -1366px;
+  }
+
+  #slider-image-3:target ~ .image-container {
+    left: -2740px;
+  }
+
+  .heritageCouture {
+    width: 400px;
+    height: 530px;
+    background: white;
+    position: relative;
+    top: -1180px;
+    margin-left:  760px;
+    align-content: center;
+  }
 }
