@@ -444,6 +444,7 @@ nav ul li a:hover {
 
 .mySlides {display: none;}
 .mySlides1 {display: none;}
+.mySlides2 {display: none;}
 
 .fashionimage-container {
   width: 400px;
@@ -478,6 +479,69 @@ nav ul li a:hover {
   to {opacity: 1}
 }
 
+.jewelry {
+  padding-bottom: 3.7rem;
+  position: relative;
+}
+
+.jewelrybgimg {
+  background-image: url('https://a-static.besthdwallpaper.com/decorative-jewellery-wallpaper-1920x1080-11136_48.jpg');
+  width: 1366px;
+  height: 900px;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  top: -2244px;
+}
+
+.jewelryimage-container {
+  width: 400px;
+  height: 530px;
+  margin-left:  80px;
+  position: relative;
+  top: -2380px;
+}
+
+.jewelryimages {
+  width: 400px;
+  height: 530px;
+  margin-left:  144px;
+  position: relative;
+  top: -550px;
+}
+
+.EJtext {
+  width: 400px;
+  height: 530px;
+  background: white;
+  position: relative;
+  top: -3585px;
+  margin-left:  720px;
+  align-content: center;
+}
+
+.EJT {
+  position: relative;
+  /* padding-top: 7rem; */
+  margin-left: 65px;
+  height: 110px;
+  width: 285px;
+}
+
+.EJcontent {
+  display: block;
+  padding: auto;
+  margin: auto;
+}
+
+.EJcontent h1{
+  color: black;
+  font-size: 18px;
+  line-height: 35px;
+  word-spacing: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 @media only screen and (max-width: 1920px) {
   .button-container {
