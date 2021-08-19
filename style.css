@@ -280,7 +280,7 @@ nav ul li a:hover {
 
 .WorkAdjust {
   background-color: white;
-  /* background-image: url("https://eskipaper.com/images/purple-flower-wallpaper-tumblr-1.jpg"); */
+  /* background-image: url("https://www.clipartkey.com/mpngs/m/10-108759_clip-art-color-smoke-png-colored-smoke-transparent.png"); */
   height: 628px;
   width: 1366px;
   display: inline-flex;
@@ -295,20 +295,20 @@ nav ul li a:hover {
 } */
 
 .img3 {
-  /* background-image: url("https://previews.123rf.com/images/jansucko/jansucko1610/jansucko161000048/65571189-yellow-flower-with-thin-petals-on-natural-light-green-background.jpg"); */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8qpZl4sdKiS42ioobI5QcrPw1kpfdr3fSydVcMuwGvzl9ec9jJyxbbKDjLFGfbn7ryt4&usqp=CAU");
   background-color: white;
   height: 300px;
-  width: 130px;
+  width: 310px;
   position: relative;
   top: 250px;
-  margin-left: 100px;
-  border-radius: 10px;
+  margin-left: 110px;
+  border-radius: 20px;
 }
 
 .img1 {
   height: 350px;
   width: 250px;
-  margin-left: 150px;
+  margin-left: 140px;
   margin-top: -200px;
   border-radius: 5px;
   position: relative;
