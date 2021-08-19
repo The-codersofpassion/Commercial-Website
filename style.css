@@ -445,6 +445,12 @@ nav ul li a:hover {
 .mySlides {display: none;}
 .mySlides1 {display: none;}
 .mySlides2 {display: none;}
+.mySlides3 {display: none;}
+.mySlides4 {display: none;}
+.mySlides5 {display: none;}
+.mySlides6 {display: none;}
+.mySlides7 {display: none;}
+.mySlides8 {display: none;}
 
 .fashionimage-container {
   width: 400px;
@@ -535,6 +541,242 @@ nav ul li a:hover {
 }
 
 .EJcontent h1{
+  color: black;
+  font-size: 18px;
+  line-height: 35px;
+  word-spacing: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.SDbgimg {
+  background-image: url('img/IMG_7111.JPG');
+  width: 100%;
+  height: 900px;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  top: -3363.5px;
+}
+
+.SDimage-container {
+  width: 400px;
+  height: 530px;
+  margin-left:  80px;
+  position: relative;
+  top: -3520px;
+}
+
+.SDimages {
+  width: 400px;
+  height: 530px;
+  margin-left:  144px;
+  position: relative;
+  top: -550px;
+}
+
+.SDtext {
+  width: 400px;
+  height: 530px;
+  background: white;
+  position: relative;
+  top: -4710.5px;
+  margin-left:  720px;
+  align-content: center;
+}
+
+.SDT {
+  position: relative;
+  /* padding-top: 7rem; */
+  margin-left: 65px;
+  height: 110px;
+  width: 285px;
+}
+
+.SDcontent {
+  display: block;
+  padding: auto;
+  margin: auto;
+}
+
+.SDcontent h1{
+  color: black;
+  font-size: 18px;
+  line-height: 35px;
+  word-spacing: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.LSbgimg {
+  background-image: url('https://blenderartists.org/uploads/default/original/4X/6/6/a/66a3ab32f2c88c6f5867e96038e97d1d69d3af5f.jpeg');
+  width: 100%;
+  height: 900px;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  top: -4423.5px;
+}
+
+.LSimage-container {
+  width: 400px;
+  height: 530px;
+  margin-left:  80px;
+  position: relative;
+  top: -4540px;
+}
+
+.LSimages {
+  width: 400px;
+  height: 530px;
+  margin-left:  144px;
+  position: relative;
+  top: -550px;
+}
+
+.LStext {
+  width: 400px;
+  height: 530px;
+  background: white;
+  position: relative;
+  top: -5740px;
+  margin-left:  720px;
+  align-content: center;
+}
+
+.LST {
+  position: relative;
+  /* padding-top: 7rem; */
+  margin-left: 65px;
+  height: 110px;
+  width: 285px;
+}
+
+.LScontent {
+  display: block;
+  padding: auto;
+  margin: auto;
+}
+
+.LScontent h1{
+  color: black;
+  font-size: 18px;
+  line-height: 35px;
+  word-spacing: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.CSbgimg {
+  background-image: url('https://www.saffrontouch.com/wp-content/uploads/2014/08/Ansal-3D-HD-1-830x430.jpg');
+  width: 100%;
+  height: 900px;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  top: -5484px;
+}
+
+.CSimage-container {
+  width: 400px;
+  height: 530px;
+  margin-left:  570px;
+  position: relative;
+  top: -5630px;
+}
+
+.CSimages {
+  width: 400px;
+  height: 530px;
+  margin-left:  144px;
+  position: relative;
+  top: -550px;
+}
+
+.CStext {
+  width: 400px;
+  height: 530px;
+  background: white;
+  position: relative;
+  top: -6821px;
+  margin-left:  220px;
+  align-content: center;
+}
+
+.CST {
+  position: relative;
+  /* padding-top: 7rem; */
+  margin-left: 65px;
+  height: 110px;
+  width: 285px;
+}
+
+.CScontent {
+  display: block;
+  padding: auto;
+  margin: auto;
+}
+
+.CScontent h1{
+  color: black;
+  font-size: 18px;
+  line-height: 35px;
+  word-spacing: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.HDbgimg {
+  background-image: url('http://cdn.home-designing.com/wp-content/uploads/2019/03/wooden-wall-decor.jpg');
+  width: 100%;
+  height: 900px;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  top: -6544px;
+}
+
+.HDimage-container {
+  width: 400px;
+  height: 530px;
+  margin-left:  80px;
+  position: relative;
+  top: -6659px;
+}
+
+.HDimages {
+  width: 400px;
+  height: 530px;
+  margin-left:  144px;
+  position: relative;
+  top: -550px;
+}
+
+.HDtext {
+  width: 400px;
+  height: 530px;
+  background: white;
+  position: relative;
+  top: -7861px;
+  margin-left:  720px;
+  align-content: center;
+}
+
+.HDT {
+  position: relative;
+  /* padding-top: 7rem; */
+  margin-left: 65px;
+  height: 110px;
+  width: 285px;
+}
+
+.HDcontent {
+  display: block;
+  padding: auto;
+  margin: auto;
+}
+
+.HDcontent h1{
   color: black;
   font-size: 18px;
   line-height: 35px;
