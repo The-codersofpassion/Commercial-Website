@@ -925,6 +925,17 @@ nav ul li a:hover {
   #slider-image-3:target ~ .image-container {
     left: -3071px;
   }
+
+  .img1 {
+    height: 280px;
+    width: 250px;
+    margin-left: 140px;
+    margin-top: -200px;
+    border-radius: 5px;
+    position: relative;
+    animation: none;
+    border-radius: 7px;
+  }
 }
 
 @media only screen and (min-width: 1030px)   
