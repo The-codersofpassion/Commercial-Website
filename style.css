@@ -990,6 +990,20 @@ nav ul li a:hover {
   background-size: cover;
 }
 
+.name-1 {
+  margin-top: 11.7rem;
+  margin-left: 5.9rem;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.text-1{
+  margin-top: 15.7rem;
+  margin-left: -6rem;
+  font-size: 1.1rem;
+  color: white;
+}
+
 .innertestimonialsimg-2 {
   width: 110px;
   height: 110px;
@@ -1003,6 +1017,13 @@ nav ul li a:hover {
   background-size: cover;
 }
 
+.name-2 {
+  margin-top: 11.7rem;
+  margin-left: 30.2rem;
+  font-size: 1.1rem;
+  color: white;
+}
+
 .innertestimonialsimg-3 {
   width: 110px;
   height: 110px;
@@ -1014,6 +1035,13 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.name-3 {
+  margin-top: 11.7rem;
+  margin-left: 31rem;
+  font-size: 1.1rem;
+  color: white;
 }
 
 /* Contact Us Styling */
@@ -1057,15 +1085,15 @@ nav ul li a:hover {
   padding-bottom: 5px;
 }
 
-.submit-btn:hover{
-background-color: darkgray;
+.submit-btn:hover {
+  background-color: darkgray;
 }
 
 .footer {
   background-color: rgb(152, 210, 236);
 }
 
-.footertitle{
+.footertitle {
   text-align: center;
   justify-content: center;
   padding-top: 2.5rem;
@@ -1077,7 +1105,7 @@ background-color: darkgray;
   display: flex;
 }
 
-.leftconnectstatement{
+.leftconnectstatement {
   padding-left: 15rem;
   font-size: 2rem;
 }
@@ -1087,7 +1115,7 @@ background-color: darkgray;
   font-size: 2rem;
 }
 
-.mobnumber{
+.mobnumber {
   font-size: 1.3rem;
 }
 
