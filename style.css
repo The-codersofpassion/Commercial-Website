@@ -1035,9 +1035,23 @@ nav ul li a:hover {
   padding: 7px 10px;
   width: 100%;
   font-size: 19px;
-  border: 2px solid grey;
+  border: 3.5px solid gold;
   border-radius: 6px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submit-btn {
+  font-size: 20px;
+  background-color: lightgray;
+  border-radius: 5px solid gray;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.submit-btn:hover{
+background-color: darkgray;
 }
 
 /* ADD CSS HERE */
