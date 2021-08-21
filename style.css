@@ -593,6 +593,12 @@ nav ul li a:hover {
   margin-right: 20px;
 }
 
+.SDsection {
+  /* padding-top: 3rem; */
+  padding-bottom: 3.7rem;
+  position: relative;
+}
+
 .SDbgimg {
   background-image: url('img/IMG_7111.JPG');
   width: 100%;
