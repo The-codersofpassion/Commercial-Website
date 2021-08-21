@@ -1021,6 +1021,7 @@ nav ul li a:hover {
   /* background-color: #f6f5f4; */
   background-image: url('img/test-bg.jpg');
   height: 580px;
+  padding-bottom: 1.7rem;
 }
 
 .text-center {
@@ -1059,6 +1060,37 @@ nav ul li a:hover {
 .submit-btn:hover{
 background-color: darkgray;
 }
+
+.footer {
+  background-color: rgb(152, 210, 236);
+}
+
+.footertitle{
+  text-align: center;
+  justify-content: center;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+}
+
+.connectstatement {
+  padding-top: 1rem;
+  display: flex;
+}
+
+.leftconnectstatement{
+  padding-left: 15rem;
+  font-size: 2rem;
+}
+
+.rightconnectstatement {
+  padding-left: 32rem;
+  font-size: 2rem;
+}
+
+.mobnumber{
+  font-size: 1.3rem;
+}
+
 
 /* ADD CSS HERE */
 
