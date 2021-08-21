@@ -606,7 +606,7 @@ nav ul li a:hover {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  top: -3363.5px;
+  top: 0px;
 }
 
 .SDimage-container {
@@ -614,7 +614,7 @@ nav ul li a:hover {
   height: 530px;
   margin-left: 80px;
   position: relative;
-  top: -3520px;
+  top: 0px;
 }
 
 .SDimages {
@@ -622,7 +622,7 @@ nav ul li a:hover {
   height: 530px;
   margin-left: 144px;
   position: relative;
-  top: -550px;
+  top: 50px;
 }
 
 .SDtext {
@@ -630,7 +630,7 @@ nav ul li a:hover {
   height: 530px;
   background: white;
   position: relative;
-  top: -4710.5px;
+  top: -1200px;
   margin-left: 720px;
   align-content: center;
 }
