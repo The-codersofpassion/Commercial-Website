@@ -953,7 +953,7 @@ nav ul li a:hover {
 .sectiontestimonials {
   position: relative;
   width: 100%;
-  height: 680px;
+  height: 538px;
   background-image: url('img/testimonialbackground.jpg');
 }
 
@@ -965,12 +965,6 @@ nav ul li a:hover {
   font-size: 5rem;
 }
 
-/* .backgroundtestimonials {
-  width: 100%;
-  left: 0;
-  position: relative;
-  z-index: 100;
-} */
 
 .testimonialbox {
   display: flex;
@@ -978,40 +972,42 @@ nav ul li a:hover {
 }
 
 .innertestimonialsimg-1 {
-  padding-top: 5%;
-  padding-bottom: 4%;
-  padding-right: 3%;
-  padding-left: 5%;
-  width: 300px;
-  height: 400px;
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+  margin-top: 4rem;
+  margin-left: 5rem;
   position: absolute;
-  left: 25px;
-  z-index: 2;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .innertestimonialsimg-2 {
-  padding-top: 5%;
-  padding-bottom: 4%;
-  padding-right: 3%;
-  padding-left: 37%;
-  width: 300px;
-  height: 400px;
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+  margin-top: 4rem;
+  margin-left: 40rem;
   position: absolute;
-  left: 25px;
-  z-index: 2;
-  border-radius: 8px solid black;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .innertestimonialsimg-3 {
-  padding-top: 5%;
-  padding-bottom: 4%;
-  padding-right: 3%;
-  padding-left: 69%;
-  width: 300px;
-  height: 400px;
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+  margin-top: 4rem;
+  margin-left: 75rem;
   position: absolute;
-  left: 25px;
-  z-index: 2;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 /* ADD CSS HERE */
