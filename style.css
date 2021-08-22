@@ -1061,6 +1061,21 @@ nav ul li a:hover {
   width: 22rem;
 }
 
+/* Explore Styling */
+.explore{
+  background-image: url('img/bgexplore.jpg');
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+
+.exploretitle{
+  text-align: center;
+  justify-content: center;
+  padding-top: 1.7rem;
+  font-size: 2.7rem;
+}
+
 /* Contact Us Styling */
 .contact {
   /* background-color: #f6f5f4; */
