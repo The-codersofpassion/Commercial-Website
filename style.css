@@ -339,8 +339,6 @@ nav ul li a:hover {
 }
 
 .fashionsection {
-  /* padding-top: 3rem; */
-  padding-bottom: 3.7rem;
   position: relative;
 }
 
@@ -365,14 +363,12 @@ nav ul li a:hover {
   height: 530px;
   background: white;
   position: relative;
-  top: -1322px;
   margin-left: 760px;
   align-content: center;
 }
 
 .heritage {
   position: relative;
-  /* padding-top: 7rem; */
   margin-left: 65px;
   height: 110px;
   width: 285px;
@@ -405,7 +401,7 @@ nav ul li a:hover {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  top: -1125px;
+  top: -1060px;
 }
 
 .PSBranding {
@@ -421,7 +417,7 @@ nav ul li a:hover {
   height: 530px;
   background: white;
   position: relative;
-  top: -2472px;
+  top: -2410px;
   margin-left: 220px;
   align-content: center;
 }
@@ -485,6 +481,9 @@ nav ul li a:hover {
 .mySlides8 {
   display: none;
 }
+.mySlidesFirst {
+  display: none;
+}
 
 .fashionimage-container {
   width: 400px;
@@ -499,7 +498,7 @@ nav ul li a:hover {
   height: 530px;
   margin-left: 580px;
   position: relative;
-  top: -1260px;
+  top: -1200px;
 }
 
 .fade {
@@ -529,11 +528,6 @@ nav ul li a:hover {
   }
 }
 
-.jewelry {
-  padding-bottom: 3.7rem;
-  position: relative;
-}
-
 .jewelrybgimg {
   background-image: url('https://a-static.besthdwallpaper.com/decorative-jewellery-wallpaper-1920x1080-11136_48.jpg');
   width: 100%;
@@ -541,7 +535,7 @@ nav ul li a:hover {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  top: -2244px;
+  top: -2180px;
 }
 
 .jewelryimage-container {
@@ -549,7 +543,7 @@ nav ul li a:hover {
   height: 530px;
   margin-left: 80px;
   position: relative;
-  top: -2380px;
+  top: -2300px;
 }
 
 .jewelryimages {
@@ -565,7 +559,7 @@ nav ul li a:hover {
   height: 530px;
   background: white;
   position: relative;
-  top: -3585px;
+  top: -3517px;
   margin-left: 720px;
   align-content: center;
 }
@@ -590,6 +584,23 @@ nav ul li a:hover {
   line-height: 35px;
   word-spacing: 7px;
   margin-left: 20px;
+  margin-right: 20px;
+}
+
+.slider1image-container {
+  width: 1450px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 100px;
+}
+
+.slider1First {
+  width: 150px;
+  height: 500px;
+  margin-left: 20px;
+  padding-top: 100px;
+  position: relative;
+  top: -1100px;
   margin-right: 20px;
 }
 
@@ -1121,6 +1132,17 @@ nav ul li a:hover {
   background-color: darkgray;
 }
 
+/* Fashion contact us */
+.contact1 {
+  /* background-color: #f6f5f4; */
+  background-image: url('img/test-bg.jpg');
+  height: 580px;
+  padding-bottom: 1.7rem;
+  position: relative;
+  top: -3240px;
+}
+
+
 .footer {
   background-color: rgb(152, 210, 236);
 }
@@ -1150,6 +1172,49 @@ nav ul li a:hover {
 .mobnumber {
   font-size: 1.3rem;
 }
+
+.headerF {
+  background-image: url("https://img.freepik.com/free-vector/fashion-background-with-jeans-cosmetic-shoes_83728-1896.jpg?size=626&ext=jpg");
+  width: 100%;
+  height: 900px;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+/* Fashion footer */
+.footer1 {
+  background-color: rgb(152, 210, 236);
+  position: relative;
+  top: -3240px;
+}
+
+.footertitle1 {
+  text-align: center;
+  justify-content: center;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+}
+
+.connectstatement1 {
+  padding-top: 1rem;
+  display: flex;
+}
+
+.leftconnectstatement1 {
+  padding-left: 15rem;
+  font-size: 2rem;
+}
+
+.rightconnectstatement1 {
+  padding-left: 32rem;
+  font-size: 2rem;
+}
+
+.mobnumber1 {
+  font-size: 1.3rem;
+}
+
 
 
 /* ADD CSS HERE */
