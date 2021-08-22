@@ -997,11 +997,12 @@ nav ul li a:hover {
   color: white;
 }
 
-.text-1{
+.text-1 {
   margin-top: 15.7rem;
-  margin-left: -6rem;
+  margin-left: -7rem;
   font-size: 1.1rem;
   color: white;
+  width: 20rem;
 }
 
 .innertestimonialsimg-2 {
@@ -1019,9 +1020,17 @@ nav ul li a:hover {
 
 .name-2 {
   margin-top: 11.7rem;
-  margin-left: 30.2rem;
+  margin-left: 17.3rem;
   font-size: 1.1rem;
   color: white;
+}
+
+.text-2 {
+  margin-top: 15.7rem;
+  margin-left: -9rem;
+  font-size: 1.1rem;
+  color: white;
+  width: 22rem;
 }
 
 .innertestimonialsimg-3 {
@@ -1039,9 +1048,17 @@ nav ul li a:hover {
 
 .name-3 {
   margin-top: 11.7rem;
-  margin-left: 31rem;
+  margin-left: 18.5rem;
   font-size: 1.1rem;
   color: white;
+}
+
+.text-3 {
+  margin-top: 15.7rem;
+  margin-left: -9rem;
+  font-size: 1.1rem;
+  color: white;
+  width: 22rem;
 }
 
 /* Contact Us Styling */
