@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+.Body {
+  max-height: 4222.19px;
+}
+
 /* ::-webkit-scrollbar {
   scroll-behavior: auto;
 }
