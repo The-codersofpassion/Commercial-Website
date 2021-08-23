@@ -21,7 +21,7 @@ body {
   max-height: 4222.19px;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   scroll-behavior: auto;
 }
 
@@ -37,9 +37,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   padding: 5px;
   background: rgb(61, 53, 53);
-}  */
+} 
 
-/* .forScrollNav {
+.forScrollNav {
   width: 100%;
   z-index: 999;
   position: fixed;
@@ -47,7 +47,7 @@ body {
   background-image: linear-gradient(to right,white,rgba(241, 232, 230, 0.40),rgba(72, 77, 73,0.40));
   height: auto;
   transition: 1s;
-} */
+}
 
 /* For navbar */
 nav {
@@ -394,7 +394,7 @@ nav ul li a:hover {
 }
 
 .personalstylingBranding {
-  padding-bottom: 3.7rem;
+  /* padding-bottom: 3.7rem; */
   position: relative;
 }
 
@@ -1134,6 +1134,14 @@ nav ul li a:hover {
 
 .submit-btn:hover {
   background-color: darkgray;
+}
+
+.submit-btn1{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 18px;
 }
 
 /* Fashion contact us */
