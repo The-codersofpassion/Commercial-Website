@@ -354,7 +354,7 @@ nav ul li a:hover {
 .fashionbgimg {
   background-image: url('https://wallpapercave.com/wp/wp3626992.jpg');
   width: 1520px;
-  height: 730px;
+  height: 734px;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -399,18 +399,15 @@ nav ul li a:hover {
 }
 
 .personalstylingBranding {
-  /* padding-bottom: 3.7rem; */
   position: relative;
 }
 
 .PSBbgimg {
-  background-image: url('img/wallpaperflare.com_wallpaper.jpg');
-  width: 100%;
-  height: 900px;
+  background-image: url('img/wallpaperflare.com_wallpaper.jpg'); 
+  width: 1520px; 
+  height: 734px;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
-  top: -1060px;
 }
 
 .PSBranding {
@@ -425,15 +422,13 @@ nav ul li a:hover {
   width: 400px;
   height: 530px;
   background: white;
+  margin-left: 146px;
   position: relative;
-  top: -2410px;
-  margin-left: 220px;
-  align-content: center;
+  top: -1160px;
 }
 
 .PSBrd {
   position: relative;
-  /* padding-top: 7rem; */
   margin-left: 65px;
   height: 110px;
   width: 285px;
@@ -454,46 +449,6 @@ nav ul li a:hover {
   margin-right: 20px;
 }
 
-
-.mySlides {
-  display: none;
-}
-
-.mySlides1 {
-  display: none;
-}
-
-.mySlides2 {
-  display: none;
-}
-
-.mySlides3 {
-  display: none;
-}
-
-.mySlides4 {
-  display: none;
-}
-
-.mySlides5 {
-  display: none;
-}
-
-.mySlides6 {
-  display: none;
-}
-
-.mySlides7 {
-  display: none;
-}
-
-.mySlides8 {
-  display: none;
-}
-.mySlidesFirst {
-  display: none;
-}
-
 .fashionimage-container {
   width: 400px;
   height: 530px;
@@ -507,7 +462,6 @@ nav ul li a:hover {
   height: 530px;
   margin-left: 580px;
   position: relative;
-  top: -1200px;
 }
 
 .fade {
@@ -537,22 +491,24 @@ nav ul li a:hover {
   }
 }
 
+.jewelry {
+  position: relative;
+}
+
 .jewelrybgimg {
   background-image: url('https://a-static.besthdwallpaper.com/decorative-jewellery-wallpaper-1920x1080-11136_48.jpg');
-  width: 100%;
-  height: 900px;
+  width: 1520px;
+  height: 734px;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
-  top: -2180px;
 }
 
 .jewelryimage-container {
   width: 400px;
   height: 530px;
-  margin-left: 80px;
+  margin-left: 2px;
   position: relative;
-  top: -2300px;
+  top: -20px;
 }
 
 .jewelryimages {
@@ -568,14 +524,14 @@ nav ul li a:hover {
   height: 530px;
   background: white;
   position: relative;
-  top: -3517px;
-  margin-left: 720px;
+  top: -1175px;
+  margin-left: 760px;
   align-content: center;
+
 }
 
 .EJT {
   position: relative;
-  /* padding-top: 7rem; */
   margin-left: 65px;
   height: 110px;
   width: 285px;
@@ -593,23 +549,6 @@ nav ul li a:hover {
   line-height: 35px;
   word-spacing: 7px;
   margin-left: 20px;
-  margin-right: 20px;
-}
-
-.slider1image-container {
-  width: 1450px;
-  margin-left: 80px;
-  margin-right: 80px;
-  padding-top: 100px;
-}
-
-.slider1First {
-  width: 150px;
-  height: 500px;
-  margin-left: 20px;
-  padding-top: 100px;
-  position: relative;
-  top: -1100px;
   margin-right: 20px;
 }
 
@@ -1156,7 +1095,7 @@ nav ul li a:hover {
   height: 580px;
   padding-bottom: 1.7rem;
   position: relative;
-  top: -3240px;
+  /* top: -3240px; */
 }
 
 
@@ -1193,7 +1132,7 @@ nav ul li a:hover {
 .headerF {
   background-image: url("https://img.freepik.com/free-vector/fashion-background-with-jeans-cosmetic-shoes_83728-1896.jpg?size=626&ext=jpg");
   width: 100%;
-  height: 900px;
+  height: 650px;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -1203,7 +1142,7 @@ nav ul li a:hover {
 .footer1 {
   background-color: rgb(152, 210, 236);
   position: relative;
-  top: -3240px;
+  /* top: -3240px; */
 }
 
 .footertitle1 {
