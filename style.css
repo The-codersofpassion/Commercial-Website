@@ -433,7 +433,7 @@ nav ul li a:hover {
   background: white;
   margin-left: 146px;
   position: relative;
-  top: -1160px;
+  top: -1212px;
 }
 
 .PSBrd {
@@ -499,11 +499,14 @@ nav ul li a:hover {
     opacity: 1
   }
 }
-.jSection {
-  max-height: 768px;
-}
+
 .jewelry {
   position: relative;
+  max-height: 768px;
+}
+
+.jSection {
+  max-height: 768px;
 }
 
 .jewelrybgimg {
@@ -535,7 +538,7 @@ nav ul li a:hover {
   height: 530px;
   background: white;
   position: relative;
-  top: -1175px;
+  top: -1215px;
   margin-left: 760px;
   align-content: center;
 
@@ -1055,7 +1058,7 @@ nav ul li a:hover {
 }
 
 .Fcontact {
-  padding-top: 270px;
+  position: relative;
 }
 
 .text-center {
@@ -1103,6 +1106,9 @@ nav ul li a:hover {
   font-size: 18px;
 }
 
+.Ffooter {
+  position: relative;
+}
 
 .footer {
   background-color: rgb(152, 210, 236);
@@ -1241,7 +1247,7 @@ nav ul li a:hover {
     height: 530px;
     background: white;
     position: relative;
-    top: -1180px;
+    top: -1212px;
     margin-left: 760px;
     align-content: center;
   }
