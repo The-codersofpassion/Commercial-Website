@@ -600,12 +600,12 @@ nav ul li a:hover {
 
 .SDtext {
   width: 400px;
-    height: 530px;
-    background: white;
-    position: relative;
-    top: -1212px;
-    margin-left: 760px;
-    align-content: center;
+  height: 530px;
+  background: white;
+  position: relative;
+  top: -1212px;
+  margin-left: 760px;
+  align-content: center;
 }
 
 .SDT {
@@ -794,6 +794,7 @@ nav ul li a:hover {
   height: 530px;
   background: white;
   position: relative;
+  top: -1212px;
   margin-left: 760px;
   align-content: center;
 }
