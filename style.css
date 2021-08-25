@@ -159,6 +159,7 @@ nav ul li a:hover {
 
 .slider-button h1 {
   width: 155px;
+  font-size: 20px;
 }
 
 .fashion {
@@ -351,10 +352,14 @@ nav ul li a:hover {
   position: relative;
 }
 
+#fashion {
+  max-height: 768px;
+}
+
 .fashionbgimg {
   background-image: url('https://wallpapercave.com/wp/wp3626992.jpg');
   width: 1520px;
-  height: 734px;
+  height: 768px;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -402,10 +407,14 @@ nav ul li a:hover {
   position: relative;
 }
 
+.PSBsection {
+  max-height: 768px;
+}
+
 .PSBbgimg {
   background-image: url('img/wallpaperflare.com_wallpaper.jpg'); 
   width: 1520px; 
-  height: 734px;
+  height: 768px;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -490,7 +499,9 @@ nav ul li a:hover {
     opacity: 1
   }
 }
-
+.jSection {
+  max-height: 768px;
+}
 .jewelry {
   position: relative;
 }
@@ -498,7 +509,7 @@ nav ul li a:hover {
 .jewelrybgimg {
   background-image: url('https://a-static.besthdwallpaper.com/decorative-jewellery-wallpaper-1920x1080-11136_48.jpg');
   width: 1520px;
-  height: 734px;
+  height: 768px;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -1043,6 +1054,10 @@ nav ul li a:hover {
   padding-bottom: 1.7rem;
 }
 
+.Fcontact {
+  padding-top: 270px;
+}
+
 .text-center {
   text-align: center;
   padding-top: 35px;
@@ -1088,16 +1103,6 @@ nav ul li a:hover {
   font-size: 18px;
 }
 
-/* Fashion contact us */
-.contact1 {
-  /* background-color: #f6f5f4; */
-  background-image: url('img/test-bg.jpg');
-  height: 580px;
-  padding-bottom: 1.7rem;
-  position: relative;
-  /* top: -3240px; */
-}
-
 
 .footer {
   background-color: rgb(152, 210, 236);
@@ -1129,10 +1134,14 @@ nav ul li a:hover {
   font-size: 1.3rem;
 }
 
+.Fheader {
+  max-height: 768px;
+}
+
 .headerF {
   background-image: url("https://img.freepik.com/free-vector/fashion-background-with-jeans-cosmetic-shoes_83728-1896.jpg?size=626&ext=jpg");
-  width: 100%;
-  height: 650px;
+  width: 1366px;
+  height: 768px;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
