@@ -567,27 +567,27 @@ nav ul li a:hover {
 }
 
 .SDsection {
-  /* padding-top: 3rem; */
-  padding-bottom: 3.7rem;
   position: relative;
+}
+
+#SDco {
+  max-height: 768px;
 }
 
 .SDbgimg {
   background-image: url('img/IMG_7111.JPG');
-  width: 100%;
-  height: 900px;
+  width: 1520px;
+  height: 768px;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
-  top: 0px;
 }
 
 .SDimage-container {
   width: 400px;
   height: 530px;
-  margin-left: 80px;
+  margin-left: 2px;
   position: relative;
-  top: 0px;
+  top: -20px;
 }
 
 .SDimages {
@@ -595,22 +595,21 @@ nav ul li a:hover {
   height: 530px;
   margin-left: 144px;
   position: relative;
-  top: 50px;
+  top: -550px;
 }
 
 .SDtext {
   width: 400px;
-  height: 530px;
-  background: white;
-  position: relative;
-  top: -1200px;
-  margin-left: 720px;
-  align-content: center;
+    height: 530px;
+    background: white;
+    position: relative;
+    top: -1212px;
+    margin-left: 760px;
+    align-content: center;
 }
 
 .SDT {
   position: relative;
-  /* padding-top: 7rem; */
   margin-left: 65px;
   height: 110px;
   width: 285px;
@@ -631,22 +630,27 @@ nav ul li a:hover {
   margin-right: 20px;
 }
 
+.LivingSpaceDesign{
+  position: relative;
+}
+
+.LSsection {
+  max-height: 768px;
+}
+
 .LSbgimg {
   background-image: url('https://blenderartists.org/uploads/default/original/4X/6/6/a/66a3ab32f2c88c6f5867e96038e97d1d69d3af5f.jpeg');
-  width: 100%;
-  height: 900px;
+  width: 1520px; 
+  height: 768px;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
-  top: -4423.5px;
 }
 
 .LSimage-container {
   width: 400px;
   height: 530px;
-  margin-left: 80px;
+  margin-left: 580px;
   position: relative;
-  top: -4540px;
 }
 
 .LSimages {
@@ -661,15 +665,13 @@ nav ul li a:hover {
   width: 400px;
   height: 530px;
   background: white;
+  margin-left: 146px;
   position: relative;
-  top: -5740px;
-  margin-left: 720px;
-  align-content: center;
+  top: -1212px;
 }
 
 .LST {
   position: relative;
-  /* padding-top: 7rem; */
   margin-left: 65px;
   height: 110px;
   width: 285px;
@@ -690,22 +692,29 @@ nav ul li a:hover {
   margin-right: 20px;
 }
 
+.CommSpaceDesign {
+  position: relative;
+  max-height: 768px;
+}
+
+.CSsection {
+  max-height: 768px;
+}
+
 .CSbgimg {
   background-image: url('https://www.saffrontouch.com/wp-content/uploads/2014/08/Ansal-3D-HD-1-830x430.jpg');
-  width: 100%;
-  height: 900px;
+  width: 1520px;
+  height: 768px;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
-  top: -5484px;
 }
 
 .CSimage-container {
   width: 400px;
   height: 530px;
-  margin-left: 570px;
+  margin-left: 2px;
   position: relative;
-  top: -5630px;
+  top: -20px;
 }
 
 .CSimages {
@@ -721,14 +730,13 @@ nav ul li a:hover {
   height: 530px;
   background: white;
   position: relative;
-  top: -6821px;
-  margin-left: 220px;
+  top: -1215px;
+  margin-left: 760px;
   align-content: center;
 }
 
 .CST {
   position: relative;
-  /* padding-top: 7rem; */
   margin-left: 65px;
   height: 110px;
   width: 285px;
@@ -749,22 +757,28 @@ nav ul li a:hover {
   margin-right: 20px;
 }
 
+.HomeDecor {
+  position: relative;
+}
+
+.HDsection {
+  max-height: 768px;
+}
+
 .HDbgimg {
   background-image: url('http://cdn.home-designing.com/wp-content/uploads/2019/03/wooden-wall-decor.jpg');
-  width: 100%;
-  height: 900px;
+  width: 1520px;
+  height: 768px;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
-  top: -6544px;
 }
 
 .HDimage-container {
   width: 400px;
   height: 530px;
-  margin-left: 80px;
+  margin-left: 2px;
   position: relative;
-  top: -6689px;
+  top: -20px;
 }
 
 .HDimages {
@@ -780,14 +794,12 @@ nav ul li a:hover {
   height: 530px;
   background: white;
   position: relative;
-  top: -7891px;
-  margin-left: 720px;
+  margin-left: 760px;
   align-content: center;
 }
 
 .HDT {
   position: relative;
-  /* padding-top: 7rem; */
   margin-left: 65px;
   height: 110px;
   width: 285px;
@@ -808,22 +820,27 @@ nav ul li a:hover {
   margin-right: 20px;
 }
 
+.Wearable {
+  position: relative;
+}
+
+.wsection {
+  max-height: 768px;
+}
+
 .Wbgimg {
   background-image: url('https://images.unsplash.com/photo-1584377334016-464803e03b80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80');
-  width: 100%;
-  height: 900px;
+  width: 1520px; 
+  height: 768px;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
-  top: -7603.5px;
 }
 
 .Wimage-container {
   width: 400px;
   height: 530px;
-  margin-left: 570px;
+  margin-left: 580px;
   position: relative;
-  top: -7729px;
 }
 
 .Wimages {
@@ -838,15 +855,13 @@ nav ul li a:hover {
   width: 400px;
   height: 530px;
   background: white;
+  margin-left: 146px;
   position: relative;
-  top: -8920px;
-  margin-left: 220px;
-  align-content: center;
+  top: -1212px;
 }
 
 .WT {
   position: relative;
-  /* padding-top: 7rem; */
   margin-left: 65px;
   height: 110px;
   width: 285px;
@@ -867,22 +882,29 @@ nav ul li a:hover {
   margin-right: 20px;
 }
 
+.Craft {
+  position: relative;
+  max-height: 768px;
+}
+
+.Csection {
+  max-height: 768px;
+}
+
 .Cbgimg {
   background-image: url('https://images.unsplash.com/photo-1488806374796-a4071c52353b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNyYWZ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
-  width: 100%;
-  height: 900px;
+  width: 1520px;
+  height: 768px;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
-  top: -8664px;
 }
 
 .Cimage-container {
   width: 400px;
   height: 530px;
-  margin-left: 80px;
+  margin-left: 2px;
   position: relative;
-  top: -8769px;
+  top: -20px;
 }
 
 .Cimages {
@@ -898,14 +920,13 @@ nav ul li a:hover {
   height: 530px;
   background: white;
   position: relative;
-  top: -9981px;
-  margin-left: 720px;
+  top: -1215px;
+  margin-left: 760px;
   align-content: center;
 }
 
 .CT {
   position: relative;
-  /* padding-top: 7rem; */
   margin-left: 65px;
   height: 110px;
   width: 285px;
