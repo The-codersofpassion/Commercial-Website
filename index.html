@@ -1,169 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DK | Fashion Designer</title>
+    <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>DK | Fashion Designer</title>
-  <title>Document</title>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-</head>
+  <body>
+    <!-- For navbar -->
+    <nav class="nav">
+      <label class="logo">
+        <a href="#home" onclick="scrollto('home')" ;
+          ><img src="img/logo.png" alt="logo"
+        /></a>
+      </label>
+      <ul>
+        <li><a href="#story" onclick="scrollto('story');">My Story</a></li>
+        <li>
+          <a href="#Work" onclick="scrollto('Work');">My Work</a>
+        </li>
+        <li><a href="#Test" onclick="scrollto('Test');">Testimonials</a></li>
+        <li><a href="#explore">Explore</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
 
-<body>
-  <!-- For navbar -->
-  <nav class="nav">
-    <label class="logo">
-      <a href="#home" onclick="scrollto('home')" ;><img src="img/logo.png" alt="logo" /></a>
-    </label>
-    <ul>
-      <li><a href="#story" onclick="scrollto('story');">My Story</a></li>
-      <li>
-        <a href="#Work" class="links" onclick="scrollto('Work');">My Work</a>
-      </li>
-      <li><a href="#Testimonials">Testimonials</a></li>
-      <li><a href="#explore">Explore</a></li>
-      <li><a href="#contact">Contact Us</a></li>
-    </ul>
-  </nav>
-
-  <header id="home">
-    <div class="slide-container">
-      <span id="slider-image-1"></span>
-      <span id="slider-image-2"></span>
-      <span id="slider-image-3"></span>
-      <div class="image-container">
-        <img class="slider-image" src="./img/DSC_1881 (1).jpg" />
-        <img class="slider-image" src="./img/SD (1).jpg" />
-        <img class="slider-image" src="./img/0001_021 (1).jpg" />
+    <header id="home">
+      <div class="slide-container">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-container">
+          <img class="slider-image" src="./img/DSC_1881 (1).jpg" />
+          <img class="slider-image" src="./img/SD (1).jpg" />
+          <img class="slider-image" src="./img/0001_021 (1).jpg" />
+        </div>
+        <div class="button-container">
+          <a href="#slider-image-1" class="slider-button">
+            <h1>Fashion</h1>
+          </a>
+          <a href="#slider-image-2" class="slider-button">
+            <h1>Space Design</h1>
+          </a>
+          <a href="#slider-image-3" class="slider-button">
+            <h1>Art</h1>
+          </a>
+        </div>
       </div>
-      <div class="button-container">
-        <a href="#slider-image-1" class="slider-button">
-          <h1>Fashion</h1>
-        </a>
-        <a href="#slider-image-2" class="slider-button">
-          <h1>Space Design</h1>
-        </a>
-        <a href="#slider-image-3" class="slider-button">
-          <h1>Art</h1>
-        </a>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- MY STORY  -->
-  <div id="story">
-    <section class="mystory">
-      <div class="write">
-        <img class="story_image" src="img/DSC_1673.JPG" alt="Deep Khatri" />
-        <div>
-          <img class="story-title" src="img/Mystory text deepsite1.png" alt="My Story" />
-          <div class="story_content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod
-            nisi atque tempore illum provident iusto, culpa dolore quasi
-            reprehenderit non at distinctio dolores quisquam enim ratione
-            praesentium! Officia, voluptatem.
+    <!-- MY STORY  -->
+    <div id="story">
+      <section class="mystory">
+        <div class="write">
+          <img class="story_image" src="img/DSC_1673.JPG" alt="Deep Khatri" />
+          <div>
+            <img
+              class="story-title"
+              src="img/Mystory text deepsite1.png"
+              alt="My Story"
+            />
+            <div class="story_content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod
+              nisi atque tempore illum provident iusto, culpa dolore quasi
+              reprehenderit non at distinctio dolores quisquam enim ratione
+              praesentium! Officia, voluptatem.
+            </div>
           </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- MY WORK-2 -->
+    <section class="mywork2">
+      <div class="workimg2" style="background-image: url('img/fort.jpg')">
+        <div class="worktext2">
+          <h1>Style is a way to say who you are.</h1>
         </div>
       </div>
     </section>
-  </div>
 
-  <!-- MY WORK-2 -->
-  <section class="mywork2">
-    <div class="workimg2" style="background-image: url('img/fort.jpg')">
-      <div class="worktext2">
-        <h1>Style is a way to say who you are.</h1>
+    <div id="Work">
+      <div class="WorkAdjust">
+        <div class="FashionWork">
+          <div class="img3"></div>
+          <a href="Fashion.html"
+            ><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA93f9ouwG-uf2ZkeousIcoEp394zH1SU1ZQ&usqp=CAU"
+              alt=""
+              class="img1"
+          /></a>
+          <a href="Fashion.html"
+            ><img src="img/FashionText1.png" alt="" class="img2"
+          /></a>
+        </div>
+        <div class="space">
+          <div class="img3"></div>
+          <a href="SD.html"
+            ><img
+              src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/interior-design-hbx030120raji-009-copy-1580424230.jpg"
+              alt=""
+              class="img1"
+          /></a>
+          <a href="SD.html"
+            ><img src="img/FinalFS.png" alt="" class="img2"
+          /></a>
+        </div>
+        <div class="art">
+          <div class="img3"></div>
+          <a href="ART.html"
+            ><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfehpij5MHL4VCeIUJBrV0Yho4N3oNoOnmQQ&usqp=CAU"
+              alt=""
+              class="img1"
+          /></a>
+          <a href="ART.html"
+            ><img src="img/FinalFArt.png" alt="" class="img2"
+          /></a>
+        </div>
       </div>
     </div>
-  </section>
 
-  <div id="Work">
-    <div class="WorkAdjust">
-      <div class="FashionWork">
-        <div class="img3"></div>
-        <a href="Fashion.html"><img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA93f9ouwG-uf2ZkeousIcoEp394zH1SU1ZQ&usqp=CAU"
-            alt="" class="img1" /></a>
-        <a href="Fashion.html"><img src="img/FashionText1.png" alt="" class="img2" /></a>
+    <!-- Testimonials -->
+    <section class="testimonial text-center" id="Test">
+      <div class="container">
+        <div class="heading white-heading"><h1>Testimonial</h1></div>
+        <div class="testimonial-slider">
+          <ul class="slider">
+            <li>
+              <div class="testimonial-slider-content">
+                <q>This is the first quote in your slider!</q>
+                <p class="source">- Paul C, TX</p>
+              </div>
+            </li>
+            <li>
+              <div class="testimonial-slider-content">
+                <q>Here is the second one, this is awesome!</q>
+                <p class="source">- Ella M, TX</p>
+              </div>
+            </li>
+            <li>
+              <div class="testimonial-slider-content">
+                <q>Next, the third quote - AMAZING!</q>
+                <p class="source">- Blaine B, TX</p>
+              </div>
+            </li>
+            <li>
+              <div class="testimonial-slider-content">
+                <q
+                  >This is the last quote, I can't believe how well this
+                  worked!</q
+                >
+                <p class="source">- Guillermo O, TX</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="space">
-        <div class="img3"></div>
-        <a href="SD.html"><img
-            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/interior-design-hbx030120raji-009-copy-1580424230.jpg"
-            alt="" class="img1" /></a>
-        <a href="SD.html"><img src="img/FinalFS.png" alt="" class="img2" /></a>
+    </section>
+
+  
+    <!-- Explore -->
+    <section class="explore">
+      <div class="exploretitle">Explore Me</div>
+    </section>
+
+    <!-- CONTACT US -->
+    <section class="contact">
+      <h1 class="text-center" id="contact">Contact Us</h1>
+      <div class="form">
+        <input
+          class="form-input"
+          type="text"
+          name="Name"
+          id="name"
+          placeholder="Please enter your Name"
+        />
+        <input
+          class="form-input"
+          type="text"
+          name="phone"
+          id="phone"
+          placeholder="Please enter your Mobile Number"
+        />
+        <input
+          class="form-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Please enter your email"
+        />
+        <textarea
+          class="form-input"
+          name="text"
+          id="text"
+          cols="25"
+          rows="7"
+          placeholder="Please tell about your area of interest"
+        ></textarea>
+        <button class="submit-btn">Submit</button>
       </div>
-      <div class="art">
-        <div class="img3"></div>
-        <a href="ART.html"><img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfehpij5MHL4VCeIUJBrV0Yho4N3oNoOnmQQ&usqp=CAU"
-            alt="" class="img1" /></a>
-        <a href="ART.html"><img src="img/FinalFArt.png" alt="" class="img2" /></a>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="footertitle">
+        Our Events are Exclusive, Elegant & Extraordinary
       </div>
-    </div>
-  </div>
-
-  <!-- Testimonials -->
-  <section class="sectiontestimonials">
-    <div class="testimonialheading">Testimonials</div>
-    <div class="testimonialbox">
-      <img class="innertestimonialsimg-1" src="img/dhoni.jpg" alt="" srcset="" />
-      <div class="name-1">MS Dhoni</div>
-      <div class="text-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam repudiandae quas odio. Blanditiis modi necessitatibus minus eaque, repellendus voluptatem animi aut ipsam labore, nulla officiis.</div>
-      <img class="innertestimonialsimg-2" src="img/dhoni.jpg" alt="" srcset="" />
-      <div class="name-2">Tendulkar</div>
-      <div class="text-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque reprehenderit atque porro recusandae consequatur quibusdam voluptates animi accusamus, exercitationem sunt deleniti blanditiis, tempora, necessitatibus consequuntur?</div>
-      <img class="innertestimonialsimg-3" src="img/fashion1.jpg" alt="" srcset="" />
-      <div class="name-3">Kohli</div>
-      <div class="text-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis fuga quisquam quaerat, ut quis maxime enim quas expedita obcaecati quidem eos qui doloremque, sequi non.</div>
-    </div>
-  </section>
-
-
-  <!-- Explore -->
-  <section class="explore">
-    <div class="exploretitle">Explore Me</div>
-  </section>
-
-  <!-- CONTACT US -->
-  <section class="contact">
-    <h1 class="text-center" id="contact">Contact Us</h1>
-    <div class="form">
-      <input class="form-input" type="text" name="Name" id="name" placeholder="Please enter your Name" />
-      <input class="form-input" type="text" name="phone" id="phone" placeholder="Please enter your Mobile Number" />
-      <input class="form-input" type="email" name="email" id="email" placeholder="Please enter your email" />
-      <textarea class="form-input" name="text" id="text" cols="25" rows="7"
-        placeholder="Please tell about your area of interest"></textarea>
-      <button class="submit-btn">Submit</button>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <section class="footer">
-    <div class="footertitle">Our Events are Exclusive, Elegant & Extraordinary</div>
-    <div class="connectstatement">
-      <div class="leftconnectstatement">
-        Let us Connect
-        <br>
-        <a class="mobnumber" href="tel:+91-9374131686">+91-9374131686</a>
+      <div class="connectstatement">
+        <div class="leftconnectstatement">
+          Let us Connect
+          <br />
+          <a class="mobnumber" href="tel:+91-9374131686">+91-9374131686</a>
+        </div>
+        <div class="rightconnectstatement">
+          Stay Connected
+          <br />
+          <a
+            href="https://twitter.com/DesignersKhatri?ref_src=twsrc%5Etfw"
+            class="twitter-follow-button"
+            data-show-count="false"
+            >Follow @DesignersKhatri</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
       </div>
-      <div class="rightconnectstatement">
-        Stay Connected
-        <br>
-        <a href="https://twitter.com/DesignersKhatri?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-          data-show-count="false">Follow @DesignersKhatri</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                
-      </div>
+    </section>
 
-    </div>
-  </section>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-  <script src="js/index.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="js/index.js"></script>
+  </body>
 </html>

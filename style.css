@@ -288,7 +288,7 @@ nav ul li a:hover {
 
 #Work {
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
 }
 
 .WorkAdjust {
@@ -951,11 +951,199 @@ nav ul li a:hover {
 
 /* Tstimonials designing */
 
-.sectiontestimonials {
+.testimonial-slider {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
+}
+
+.testimonial-slider ul.slider {
+  display: block;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.testimonial-slider ul.slider li {
+   position: absolute;
+   display: block;
+   width: 100%;
+   opacity: 0;
+   margin: 0 auto;
+}
+.testimonial-slider ul.slider li:nth-child(1) {
+   opacity: 1;
+
+   -webkit-animation: fade-animation-1 25s infinite;
+           animation: fade-animation-1 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(2) {
+   -webkit-animation: fade-animation-2 25s infinite;
+           animation: fade-animation-2 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(3) {
+   -webkit-animation: fade-animation-3 25s infinite;
+           animation: fade-animation-3 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(4) {
+   -webkit-animation: fade-animation-4 25s infinite;
+           animation: fade-animation-4 25s infinite;
+}
+
+.testimonial-slider q {
+  display: inline-block;
+  font: normal 700 50px / 1.25 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+  letter-spacing: .5pt;
+  text-shadow: 0 5px 10px rgba(0,0,0,.1);
+  max-width: 35ch;
+}
+
+.testimonial-slider .source {
+   margin-top: 25px;
+   color: #d9e0f9;
+   font: italic 400 30px / 1.35 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+}
+
+/* KEYFRAME DECLARATIONS */
+@keyframes fade-animation-1 {
+   0%, 25%, 100% {
+       opacity:0
+   }
+   3%, 22% {
+       opacity: 1;
+   }
+}
+@keyframes fade-animation-2 {
+   0%, 25%, 50%, 100% {
+       opacity:0
+   }
+   28%, 47% {
+       opacity: 1;
+   }
+}
+@keyframes fade-animation-3 {
+   0%, 50%, 75%, 100% {
+       opacity:0
+   }
+   53%, 72% {
+       opacity: 1;
+   }
+}
+@keyframes fade-animation-4 {
+   0%, 75%, 100% {
+       opacity:0
+   }
+   78%, 97% {
+       opacity: 1;
+   }
+}
+
+@-webkit-keyframes fade-animation-1 {
+   0%, 25%, 100% {
+       opacity:0
+   }
+   3%, 22% {
+       opacity: 1;
+   }
+}
+@-webkit-keyframes fade-animation-2 {
+   0%, 25%, 50%, 100% {
+       opacity:0
+   }
+   28%, 47% {
+       opacity: 1;
+   }
+}
+@-webkit-keyframes fade-animation-3 {
+   0%, 50%, 75%, 100% {
+       opacity:0
+   }
+   53%, 72% {
+       opacity: 1;
+   }
+}
+@-webkit-keyframes fade-animation-4 {
+   0%, 75%, 100% {
+       opacity:0
+   }
+   78%, 97% {
+       opacity: 1;
+   }
+}
+
+.heading {
+  text-align: center;
+  color: #454343;
+  padding-top: 100px;
+  position: relative;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  z-index: 999;
+  
+}
+
+.heading h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.white-heading h1{
+  color: #ffffff;
+}
+
+.testimonial:after {
+  position: absolute;
+  top: -0 !important;
+  left: 0;
+  content: " ";
+  background: url(img/testimonial.bg-top.png);
+  background-size: 100% 100px;
+  width: 100%;
+  height: 100px;
+  float: left;
+  z-index: 99;
+}
+
+.testimonial {
+  min-height: 375px;
+  position: relative;
+  background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-position: center;
+      background-size: cover;
+}
+
+.heading:after {
+  content: ' ';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  height: 40px;
+  width: 180px;
+  border-radius: 4px;
+  transform: translateX(-50%);
+  background: url(img/heading-line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.white-heading:after {
+  background: url(https://i.ibb.co/d7tSD1R/heading-line-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .sectiontestimonials {
   position: relative;
   width: 100%;
-  height: 538px;
-  background-image: url('img/testimonialbackground.jpg');
+  height: 768px;
+  background-image: url('https://www.korvia.com/wp-content/uploads/2015/10/testimonial-background-academy.jpg');
 }
 
 .testimonialheading {
@@ -964,6 +1152,7 @@ nav ul li a:hover {
   color: white;
   font-weight: 150;
   font-size: 5rem;
+  padding-top: 80px;
 }
 
 
@@ -983,9 +1172,9 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}
+} */
 
-.name-1 {
+/* .name-1 {
   margin-top: 11.7rem;
   margin-left: 5.9rem;
   font-size: 1.1rem;
@@ -1054,7 +1243,7 @@ nav ul li a:hover {
   font-size: 1.1rem;
   color: white;
   width: 22rem;
-}
+} */
 
 /* Explore Styling */
 .explore{
