@@ -1128,19 +1128,6 @@ nav ul li a:hover {
   color: #ffffff;
 }
 
-.testimonial:after {
-  position: absolute;
-  top: -0 !important;
-  left: 0;
-  content: " ";
-  background: url(img/testimonial.bg-top.png);
-  background-size: 100% 100px;
-  width: 100%;
-  height: 100px;
-  float: left;
-  z-index: 99;
-}
-
 .testimonial {
   min-height: 375px;
   position: relative;
@@ -1253,6 +1240,16 @@ nav ul li a:hover {
   padding-bottom: 1.7rem;
 }
 
+.placeholderRed {
+  margin: 14px 0;
+  padding: 12px 10px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "BaronMTModern";
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  background-color: rgba(206, 48, 48, 0.8);
+}
 
 
 .Fcontact {
@@ -1321,39 +1318,7 @@ nav ul li a:hover {
   font-size: 18px;
 }
 
-.Ffooter {
-  position: relative;
-}
 
-.footer {
-  background-color: rgb(152, 210, 236);
-}
-
-.footertitle {
-  text-align: center;
-  justify-content: center;
-  padding-top: 2.5rem;
-  font-size: 2rem;
-}
-
-.connectstatement {
-  padding-top: 1rem;
-  display: flex;
-}
-
-.leftconnectstatement {
-  padding-left: 15rem;
-  font-size: 2rem;
-}
-
-.rightconnectstatement {
-  padding-left: 32rem;
-  font-size: 2rem;
-}
-
-.mobnumber {
-  font-size: 1.3rem;
-}
 
 .Fheader {
   max-height: 768px;
@@ -1368,12 +1333,13 @@ nav ul li a:hover {
   position: relative;
 }
 
-/* Fashion footer */
-.footer {
-  background-color: gold;
+/* footer styling */
+
+.Ffooter {
   position: relative;
-  /* top: -3240px; */
 }
+
+
 
 .footertitle {
   text-align: center;
@@ -1382,16 +1348,53 @@ nav ul li a:hover {
   font-size: 2rem;
 }
 
+.connectstatement {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftconnectstatement {
+  padding-left: 15rem;
+  font-size: 2rem;
+  width: max-content;
+  color: white;
+}
+
 .rightconnectstatement {
-  padding-left: 37rem;
+  padding-right: 15rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.mobnumber {
+  font-size: 1.3rem;
+}
+
+
+.footer {
+  /* background-image: url("https://hindi.gyaanghantaa.com/wp-content/uploads/sites/2/2020/03/footer-background.jpg"); */
+  position: relative;
+  background-attachment: fixed;
+  background-color: rgba(245, 189, 2);
+}
+
+.footertitle {
+  text-align: center;
+  justify-content: center;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+  color: white;
 }
 
 .socialmedia {
   padding-left: 3px;
 }
 
+/* Fashion footer */
 .mobnumber1 {
   font-size: 1.3rem;
+  color: white;
 }
 
 /* ADD CSS HERE */
