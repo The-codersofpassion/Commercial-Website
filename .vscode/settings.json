@@ -25,5 +25,5 @@
     "workchangetext"
   ],
   "liveServer.settings.port": 5501,
-  "php.validate.executablePath": ""
+  "php.validate.executablePath": "C:/PHP8/php.exe"
 }
