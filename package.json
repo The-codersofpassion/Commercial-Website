@@ -1,0 +1,31 @@
+{
+  "name": "commercial-website",
+  "version": "1.0.0",
+  "description": "\"Commercial Website\"",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-codersofpassion/Commercial-Website.git"
+  },
+  "keywords": [
+    "Commercial",
+    "server"
+  ],
+  "author": "\"Nupur Khatri\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-codersofpassion/Commercial-Website/issues"
+  },
+  "homepage": "https://github.com/The-codersofpassion/Commercial-Website#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.3"
+  }
+}

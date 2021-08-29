@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>DK | Fashion Designer</title>
+  <title>Document</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/integration
+        emailjs.init('user_rBtYccqrUQ51Zlus8n0zr');
+    })(); -->
+  </script>
+</head>
+
+<body>
+  <!-- For navbar -->
+  <nav class="nav">
+    <label class="logo">
+      <a href="#home" onclick="scrollto('home')" ;><img src="img/logo.png" alt="logo" /></a>
+    </label>
+    <ul>
+      <li><a href="#story" onclick="scrollto('story');">My Story</a></li>
+      <li>
+        <a href="#Work" onclick="scrollto('Work');">My Work</a>
+      </li>
+      <li><a href="#Test" onclick="scrollto('Test');">Testimonials</a></li>
+      <li><a href="#Feature" onclick="scrollto('Feature');">Featured</a></li>
+      <li>
+        <a href="#Contactus" onclick="scrollto('Contactus');">Contact Us</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <div class="slide-container">
+      <span id="slider-image-1"></span>
+      <span id="slider-image-2"></span>
+      <span id="slider-image-3"></span>
+      <div class="image-container">
+        <img class="slider-image" src="./img/DSC_1881 (1).jpg" />
+        <img class="slider-image" src="./img/SD (1).jpg" />
+        <img class="slider-image" src="./img/0001_021 (1).jpg" />
+      </div>
+      <div class="button-container">
+        <a href="#slider-image-1" class="slider-button">
+          <h1>Fashion</h1>
+        </a>
+        <a href="#slider-image-2" class="slider-button">
+          <h1>Space Design</h1>
+        </a>
+        <a href="#slider-image-3" class="slider-button">
+          <h1>Art</h1>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MY STORY  -->
+  <div id="story">
+    <section class="mystory">
+      <div class="write">
+        <img class="story_image" src="img/DSC_1673.JPG" alt="Deep Khatri" />
+        <div>
+          <img class="story-title" src="img/Mystory text deepsite1.png" alt="My Story" />
+          <div class="story_content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod
+            nisi atque tempore illum provident iusto, culpa dolore quasi
+            reprehenderit non at distinctio dolores quisquam enim ratione
+            praesentium! Officia, voluptatem.
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- MY WORK-2 -->
+  <section class="mywork2">
+    <div class="workimg2" style="background-image: url('img/fort.jpg')">
+      <div class="worktext2">
+        <h1>Style is a way to say who you are.</h1>
+      </div>
+    </div>
+  </section>
+
+  <div id="Work">
+    <div class="WorkAdjust">
+      <div class="FashionWork">
+        <div class="img3"></div>
+        <a href="Fashion.html"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA93f9ouwG-uf2ZkeousIcoEp394zH1SU1ZQ&usqp=CAU"
+            alt="" class="img1" /></a>
+        <a href="Fashion.html"><img src="img/FashionText1.png" alt="" class="img2" /></a>
+      </div>
+      <div class="space">
+        <div class="img3"></div>
+        <a href="SD.html"><img
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/interior-design-hbx030120raji-009-copy-1580424230.jpg"
+            alt="" class="img1" /></a>
+        <a href="SD.html"><img src="img/FinalFS.png" alt="" class="img2" /></a>
+      </div>
+      <div class="art">
+        <div class="img3"></div>
+        <a href="ART.html"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfehpij5MHL4VCeIUJBrV0Yho4N3oNoOnmQQ&usqp=CAU"
+            alt="" class="img1" /></a>
+        <a href="ART.html"><img src="img/FinalFArt.png" alt="" class="img2" /></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <section class="testimonial text-center" id="Test">
+    <div class="container">
+      <div class="heading white-heading">
+        <h1>Testimonial</h1>
+      </div>
+      <div class="testimonial-slider">
+        <ul class="slider">
+          <li>
+            <div class="testimonial-slider-content">
+              <q>This is the first quote in your slider!</q>
+              <p class="source">- Paul C, TX</p>
+            </div>
+          </li>
+          <li>
+            <div class="testimonial-slider-content">
+              <q>Here is the second one, this is awesome!</q>
+              <p class="source">- Ella M, TX</p>
+            </div>
+          </li>
+          <li>
+            <div class="testimonial-slider-content">
+              <q>Next, the third quote - AMAZING!</q>
+              <p class="source">- Blaine B, TX</p>
+            </div>
+          </li>
+          <li>
+            <div class="testimonial-slider-content">
+              <q>This is the last quote, I can't believe how well this
+                worked!</q>
+              <p class="source">- Guillermo O, TX</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature -->
+  <section class="Feature" id="Feature">
+    <img src="img/TheGuardian.jpg" alt="" class="FeatureImage" />
+    <div class="Featuretitle">
+      <h1>FEATURED</h1>
+    </div>
+    <div class="scontainer"></div>
+    <div class="slider1 mySlides fade">
+      <div class="slider2">
+        <img class="SliderImg" src="img/TheGuardian.jpg" alt="" />
+        <div class="slidercontent">
+          <h1>The Guardian</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
+            rerum quae adipisci quod eum dolore quis quidem animi consequatur,
+            optio ad maxime omnis molestias! Repellat nesciunt aspernatur
+            reprehenderit quos praesentium. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Soluta debitis omnis cum! Quibusdam
+            dicta quos cumque soluta maiores tempora sit cum! Adipisci
+            laboriosam iste reiciendis debitis expedita ex vitae numquam.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="slider1 mySlides fade">
+      <div class="slider2">
+        <img class="SliderImg" src="img/Madhurima.jpg" alt="" />
+        <div class="slidercontent">
+          <h1>Divya Bhaskar</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+            enim provident, veritatis quisquam, eveniet incidunt cum ab
+            facilis voluptate maiores quidem deleniti? Sint soluta voluptate
+            iste suscipit accusantium minima numquam. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Praesentium sit aperiam illo
+            minima? Dolorem, voluptatibus vero amet, aliquam similique natus
+            odio pariatur facere sunt tempora ex! Libero voluptatum sequi
+            numquam.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  <!-- CONTACT US -->
+  <section class="contact" id="Contactus">
+    <h1 class="text-center" id="contact">LET'S TALK</h1>
+    <form class="contact-form">
+      <div class="form">
+        <div class="NamePhone">
+          <input class="form-input" type="text" name="user_name" id="name" placeholder="Please enter your Name" />
+          <input class="form-input" type="text" name="phone" id="phone" placeholder="Please enter your Mobile Number" />
+        </div>
+        <input class="form-input" type="email" name="email" id="email" placeholder="Please enter your email" />
+        <textarea class="form-input" name="textC" id="textC" cols="25" rows="7"
+          placeholder="Please tell about your area of interest"></textarea>
+        <input type="submit" name="submit" value="Submit" class="submit-btn" />
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer">
+    <div class="footertitle">
+      Our Events are Exclusive, Elegant & Extraordinary
+    </div>
+    <div class="connectstatement">
+      <div class="leftconnectstatement">
+        Let us Connect
+        <br />
+        <a class="mobnumber" href="tel:+91-9374131686">+91-9374131686</a>
+      </div>
+      <div class="rightconnectstatement">
+        Stay Connected
+        <br />
+        <div class="socialmedia">
+          &nbsp;
+          <a href="https://twitter.com/thedeepkhatri?s=08" class="symbol" target="_blank" rel="noopener noreferrer"><img
+              src="https://cdn.dribbble.com/users/2652449/screenshots/14764078/twitter.gif" width="25"
+              height="25" /></a>
+
+          &nbsp;
+          <a href="https://www.linkedin.com/in/deepkhatri" class="symbol" target="_blank" rel="noopener noreferrer"><img
+              src="https://i.pinimg.com/originals/de/b4/6f/deb46f02a59e3b3a2aa58fac16290d63.gif" width="25"
+              height="25" /></a>
+
+          &nbsp;
+          <a href="mailto:deep93741@gmail.com" class="symbol" target="_blank" rel="noopener noreferrer"><img
+              src="https://img.icons8.com/plasticine/100/000000/gmail.png" width="25" height="25" /></a>
+
+          &nbsp;
+          <a href="https://www.instagram.com/deepkhatriofficial++" class="symbol" target="_blank"
+            rel="noopener noreferrrer"><img
+              src="https://media1.tenor.com/images/f26b2768c4f985a9349c3db3b2ef6a75/tenor.gif?itemid=12518165"
+              width="25" height="25" /></a>
+
+          &nbsp;
+          <a href="https://www.facebook.com/khatri.deep/" class="symbol" target="_blank" rel="noopener noreferrrer"><img
+              src="https://www.pinclipart.com/picdir/big/528-5284537_computer-icons-facebook-inc-logo-fb-png-hd.png"
+              width="25" height="25" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+  <script src="js/common.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
