@@ -22,17 +22,13 @@ body {
   overflow-x: hidden;
 }
 
-.Body {
-  max-height: 4222.19px;
-}
-
 ::-webkit-scrollbar {
   scroll-behavior: auto;
 }
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
-  transition: 2s;
+  transition: 5s;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -79,7 +75,7 @@ nav {
 .logo a img {
   float: left;
   position: relative;
-  max-width: 160px;
+  max-width: 10vw;
   max-height: auto;
   padding-top: 0.5rem;
   padding-left: 0.7rem;
@@ -92,9 +88,9 @@ nav {
 
 nav ul {
   float: right;
-  margin-right: 20px;
-  margin-top: 1vh;
-  transition: all 0.5s ease-in;
+  margin-right: 3.4vw;
+  margin-top: 2vh;
+  transition: all 0.7s ease;
 }
 
 nav ul li {

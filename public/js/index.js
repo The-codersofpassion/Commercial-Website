@@ -7,8 +7,8 @@ function function1() {
         scroll_pos = $(window).scrollTop();
         if (scroll_pos >= 1294 && scroll_pos <= 1894) {
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))");
-            $(".logo a img").css('max-width', '80px');
-            $("nav ul").css("margin-top","0.2vh");
+            $(".logo a img").css('max-width', '7vw');
+            $("nav ul").css("margin-top","1.3vh");
             $("nav ul li a").css("color","black");
             $(".img1").css("animation","none");
             $(".worktext2 h1").css("animation","typing 8s steps(34, end) 1s 1 normal both, blink 900ms steps(34) infinite normal");
@@ -16,8 +16,8 @@ function function1() {
         }
         else if(scroll_pos >= 1687 && scroll_pos <= 2607){
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))");
-            $(".logo a img").css('max-width', '80px');
-            $("nav ul").css("margin-top","0.2vh");
+            $(".logo a img").css('max-width', '7vw');
+            $("nav ul").css("margin-top","1.3vh");
             $("nav ul li a").css("color","black");
             $(".img1").css("animation","img11 3s ease-in-out 0s 1");
             $(".worktext2 h1").css("animation","none");
@@ -25,8 +25,8 @@ function function1() {
         }
         else if (scroll_pos >= 100) {
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))"); 
-            $(".logo a img").css('max-width', '80px');
-            $("nav ul").css("margin-top","0.2vh");
+            $(".logo a img").css('max-width', '7vw');
+            $("nav ul").css("margin-top","1.3vh");
             $("nav ul li a").css("color","black");
             $(".img1").css("animation","none");
             $(".worktext2 h1").css("animation","none");
@@ -34,8 +34,8 @@ function function1() {
         }
         else {
             $("nav").css("background-image","linear-gradient(to right,rgb(252, 252, 249,0),rgba(231, 231, 219,0))"); 
-            $(".logo a img").css('max-width', '160px');
-            $("nav ul").css("margin-top","1vh");
+            $(".logo a img").css('max-width', '10vw');
+            $("nav ul").css("margin-top","2vh");
             $("nav ul li a").css("color","white");
             $(".img1").css("animation","none");
             $(".worktext2 h1").css("animation","none");
