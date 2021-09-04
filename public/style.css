@@ -1436,7 +1436,7 @@ nav ul li a:hover {
   }
 
   #slider-image-2:target ~ .slider-image {
-    right: 100%;
+    left: -300px;
   }
 
   #slider-image-3:target ~ .slider-image {
