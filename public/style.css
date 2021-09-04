@@ -19,10 +19,10 @@ html {
 
 body {
   font-family: "Playfair Display", serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   scroll-behavior: auto;
 }
 
@@ -38,7 +38,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   padding: 5px;
   background: rgb(61, 53, 53);
-} */
+}
 
 .forScrollNav {
   width: 100%;
@@ -117,6 +117,19 @@ nav ul li a:hover {
   border-radius: 0.7vw;
 }
 
+#image1 {
+  transform: unset;
+  transition: 2s;
+}
+#image2 {
+  transform: unset;
+  transition: 2s;
+}
+#image3 {
+  transform: unset;
+  transition: 2s;
+}
+
 .slide-container {
   width: 58.5vw;
   height: 96vh;
@@ -176,17 +189,6 @@ nav ul li a:hover {
   width: 11.5vw;
 }
 
-#slider-image-1:target ~ .slider-image {
-  left: 0vw;
-}
-
-#slider-image-2:target ~ .slider-image {
-  left: -100vw;
-}
-
-#slider-image-3:target ~ .slider-image {
-  left: -200vw;
-}
 
 .mywork2 {
   position: relative;
@@ -1406,14 +1408,6 @@ nav ul li a:hover {
     -webkit-transition: left 3s;
   }
 
-  #slider-image-2:target ~ .image-container {
-    left: -1537px;
-  }
-
-  #slider-image-3:target ~ .image-container {
-    left: -3071px;
-  }
-
   .img1 {
     height: 280px;
     width: 250px;
@@ -1435,13 +1429,6 @@ nav ul li a:hover {
     -webkit-transition: left 3s;
   }
 
-  #slider-image-2:target ~ .slider-image {
-    left: -300px;
-  }
-
-  #slider-image-3:target ~ .slider-image {
-    left: -200vw;
-  }
 
   .heritageCouture {
     width: 400px;
