@@ -5,7 +5,7 @@ function function1() {
     $(window).scroll(function () {
         window.scrollBy({ behavior: 'smooth' });
         scroll_pos = $(window).scrollTop();
-        if (scroll_pos >= 1294 && scroll_pos <= 1894) {
+        if (scroll_pos >= 1870.5 && scroll_pos <= 2665.5) {
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))");
             $(".logo a img").css('max-width', '7vw');
             $("nav ul").css("margin-top","1.3vh");
@@ -14,7 +14,7 @@ function function1() {
             $(".worktext2 h1").css("animation","typing 8s steps(34, end) 1s 1 normal both, blink 900ms steps(34) infinite normal");
             $("nav").css("box-shadow"," 0px 0px 10px #0000001c");
         }
-        else if(scroll_pos >= 1687 && scroll_pos <= 2607){
+        else if(scroll_pos >= 2394 && scroll_pos <= 3925.5){
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))");
             $(".logo a img").css('max-width', '7vw');
             $("nav ul").css("margin-top","1.3vh");
