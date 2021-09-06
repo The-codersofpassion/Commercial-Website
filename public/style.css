@@ -118,6 +118,20 @@ nav ul li a:hover {
   border-radius: 0.7vw;
 }
 
+.FnavLI{
+  display: inline-block;
+  line-height: 4.9vw;
+  width: 9vw;
+  text-align: center;
+}
+
+.artNav{
+  display: inline-block;
+  line-height: 4.9vw;
+  width: 4vw;
+  text-align: center;
+}
+
 #image1 {
   transform: unset;
   transition: 2s;
@@ -360,39 +374,40 @@ nav ul li a:hover {
 }
 
 #fashion {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .fashionbgimg {
   background-image: url("https://wallpapercave.com/wp/wp3626992.jpg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .KivaCouture {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.282vw;
+  height: 84.8vh;
+  margin-left: 10.54vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .heritageCouture {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  margin-left: 760px;
+  top: -194.4vh;
+  margin-left: 55.636vw;
   align-content: center;
 }
 
 .heritage {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .heritagecontent {
@@ -403,11 +418,11 @@ nav ul li a:hover {
 
 .heritagecontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size: 1.317vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .personalstylingBranding {
@@ -415,39 +430,39 @@ nav ul li a:hover {
 }
 
 .PSBsection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .PSBbgimg {
   background-image: url("img/wallpaperflare.com_wallpaper.jpg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .PSBranding {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.282vw;
+  height: 84.8vh;
+  margin-left: 10.54vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .PSBrad {
-  width: 400px;
-  height: 530px;
+  width: 29.282vw;
+  height: 84.8vh;
   background: white;
-  margin-left: 146px;
+  margin-left: 10.688vw;
   position: relative;
-  top: -1212px;
+  top: -193.92vh;
 }
 
 .PSBrd {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.86vw;
 }
 
 .PSBcontent {
@@ -458,25 +473,25 @@ nav ul li a:hover {
 
 .PSBcontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .fashionimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.1464vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .PSBimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 580px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 92.8vh;
   position: relative;
 }
 
@@ -509,52 +524,52 @@ nav ul li a:hover {
 
 .jewelry {
   position: relative;
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .jSection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .jewelrybgimg {
   background-image: url("https://a-static.besthdwallpaper.com/decorative-jewellery-wallpaper-1920x1080-11136_48.jpg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .jewelryimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.146vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .jewelryimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.54vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .EJtext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  top: -1215px;
-  margin-left: 760px;
+  top: -194.4vh;
+  margin-left: 55.636vw;
   align-content: center;
 }
 
 .EJT {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.86vw;
 }
 
 .EJcontent {
@@ -565,11 +580,11 @@ nav ul li a:hover {
 
 .EJcontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .SDsection {
@@ -577,48 +592,48 @@ nav ul li a:hover {
 }
 
 #SDco {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .SDbgimg {
   background-image: url("img/IMG_7111.JPG");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .SDimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.1464vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .SDimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.541vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .SDtext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  top: -1212px;
-  margin-left: 760px;
+  top: -193.92vh;
+  margin-left: 55.6368vw;
   align-content: center;
 }
 
 .SDT {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .SDcontent {
@@ -629,11 +644,11 @@ nav ul li a:hover {
 
 .SDcontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .LivingSpaceDesign {
@@ -641,46 +656,46 @@ nav ul li a:hover {
 }
 
 .LSsection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .LSbgimg {
   background-image: url("https://blenderartists.org/uploads/default/original/4X/6/6/a/66a3ab32f2c88c6f5867e96038e97d1d69d3af5f.jpeg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .LSimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 580px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 42.459vw;
   position: relative;
 }
 
 .LSimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.541vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .LStext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
-  margin-left: 146px;
+  margin-left: 10.688vw;
   position: relative;
-  top: -1212px;
+  top: -193.92vh;
 }
 
 .LST {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .LScontent {
@@ -691,61 +706,61 @@ nav ul li a:hover {
 
 .LScontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .CommSpaceDesign {
   position: relative;
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .CSsection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .CSbgimg {
   background-image: url("https://www.saffrontouch.com/wp-content/uploads/2014/08/Ansal-3D-HD-1-830x430.jpg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .CSimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.1464vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .CSimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.541vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .CStext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  top: -1215px;
-  margin-left: 760px;
+  top: -194.4vh;
+  margin-left: 55.636vw;
   align-content: center;
 }
 
 .CST {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .CScontent {
@@ -756,11 +771,11 @@ nav ul li a:hover {
 
 .CScontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .HomeDecor {
@@ -768,48 +783,48 @@ nav ul li a:hover {
 }
 
 .HDsection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .HDbgimg {
   background-image: url("http://cdn.home-designing.com/wp-content/uploads/2019/03/wooden-wall-decor.jpg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .HDimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.1464vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .HDimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.54vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .HDtext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  top: -1212px;
-  margin-left: 760px;
+  top: -193.92vh;
+  margin-left: 55.636vw;
   align-content: center;
 }
 
 .HDT {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .HDcontent {
@@ -820,11 +835,11 @@ nav ul li a:hover {
 
 .HDcontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .Wearable {
@@ -832,46 +847,46 @@ nav ul li a:hover {
 }
 
 .wsection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .Wbgimg {
   background-image: url("https://images.unsplash.com/photo-1584377334016-464803e03b80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .Wimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 580px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 42.459vw;
   position: relative;
 }
 
 .Wimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.541vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .Wtext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
-  margin-left: 146px;
+  margin-left: 10.688vw;
   position: relative;
-  top: -1212px;
+  top: -193.92vh;
 }
 
 .WT {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .Wcontent {
@@ -882,61 +897,61 @@ nav ul li a:hover {
 
 .Wcontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .Craft {
   position: relative;
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .Csection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .Cbgimg {
   background-image: url("https://images.unsplash.com/photo-1488806374796-a4071c52353b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNyYWZ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .Cimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.1464vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .Cimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.541vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .Ctext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  top: -1215px;
-  margin-left: 760px;
+  top: -194.4vh;
+  margin-left:  55.636vw;
   align-content: center;
 }
 
 .CT {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .Ccontent {
@@ -947,11 +962,11 @@ nav ul li a:hover {
 
 .Ccontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 /* Tstimonials designing */
@@ -1326,7 +1341,7 @@ nav ul li a:hover {
 .headerF {
   background-image: url("https://img.freepik.com/free-vector/fashion-background-with-jeans-cosmetic-shoes_83728-1896.jpg?size=626&ext=jpg");
   width: 100%;
-  height: 768px;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -1432,14 +1447,4 @@ nav ul li a:hover {
     -webkit-transition: left 3s;
   }
 
-
-  .heritageCouture {
-    width: 400px;
-    height: 530px;
-    background: white;
-    position: relative;
-    top: -1212px;
-    margin-left: 760px;
-    align-content: center;
-  }
 }
