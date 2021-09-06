@@ -7,8 +7,6 @@ const PORT = process.env.PORT || 5000;
 app.use(express.static('public'));
 app.use(express.json());
 
-$config['base_url']  =  "http://".$_SERVER['HTTP_HOST'];
-
 app.get('/', (req,res) => {
     res.sendFile(__dirname + "/public/index.html")
 })
