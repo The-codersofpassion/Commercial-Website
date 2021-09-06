@@ -7,11 +7,11 @@ const PORT = process.env.PORT || 5000;
 app.use(express.static('public'));
 app.use(express.json());
 
-app.get('/', (req,res) => {
+app.get('https://', (req,res) => {
     res.sendFile(__dirname + "/public/index.html")
 })
 
-app.post('/', (req,res) => {
+app.post('https://', (req,res) => {
     console.log(req.body);
     const transporter = nodemailer.createTransport({
         service: 'gmail',
