@@ -1471,31 +1471,32 @@ nav ul li a:hover {
 }
 
 #Work{
-height: 160rem;
+height: 100rem;
 }
 
 .img1{
-  padding-top: 7.5rem;
-  padding-left: 2rem;
+  margin-top: -11rem;
+  padding-left: 4.7rem;
   width: 21rem;
+  height: 17rem;
 }
 
 .img2{
-  padding-top: 7.5rem;
+  padding-top: 4rem;
   /* margin-left: 0rem; */
-  width: 28rem;
+  width: 20rem;
   margin-left: -14rem;
 }
 
 .img3{
-  padding-top: 7.5rem;
+  padding-top: 11.5rem;
   margin-left: 12.5rem;
   width: 30rem;
 }
 
 .button-container{
-  padding-top: 10rem;
-  padding-left: 11.5rem;
+  padding-top: 3rem;
+  padding-left: 13rem;
 }
 
 .story-title{
@@ -1509,7 +1510,11 @@ height: 160rem;
 }
 
 .story_content{
-  margin-top: 10rem;
+  margin-top: 5.3rem;
+}
+
+.text-center{ /* testimonial */
+  padding-top: -27rem;
 }
 
 }
