@@ -1483,7 +1483,8 @@ height: 160rem;
 .img2{
   padding-top: 7.5rem;
   /* margin-left: 0rem; */
-  width: 30rem;
+  width: 28rem;
+  margin-left: -14rem;
 }
 
 .img3{
