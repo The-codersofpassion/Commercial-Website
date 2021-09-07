@@ -1453,3 +1453,15 @@ nav ul li a:hover {
 
 
 /* for making responsive in mobiles */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .image-container{
+    width: 100%;
+    display: flex;
+    height: auto;
+  }
+
+  .home{
+    display: flex;
+  }
+}
