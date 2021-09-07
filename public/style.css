@@ -95,46 +95,71 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  line-height: 80px;
-  margin: 0 13px;
+  line-height: 4.9vw;
+  width: 8vw;
+  text-align: center;
 }
 
 nav ul li a {
   color: white;
   font-size: 1vw;
   font-family: sans-serif;
-  padding: 7px 3px;
-  border-radius: 2px;
+  padding: 1.12vh 0.3vw;
+  border-radius: 0.14vw;
   text-transform: uppercase;
 }
 
 nav ul li a:hover {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
-  border-radius: 4px;
+  border-radius: 0.3vw;
   transition: 0.5s;
-  border-bottom: 5px solid gold;
-  border-radius: 10px;
+  border-bottom: 0.4vw solid gold;
+  border-radius: 0.7vw;
+}
+
+.FnavLI{
+  display: inline-block;
+  line-height: 4.9vw;
+  width: 9vw;
+  text-align: center;
+}
+
+.artNav{
+  display: inline-block;
+  line-height: 4.9vw;
+  width: 4vw;
+  text-align: center;
+}
+
+#image1 {
+  transform: unset;
+  transition: 2s;
+}
+#image2 {
+  transform: unset;
+  transition: 2s;
+}
+#image3 {
+  transform: unset;
+  transition: 2s;
 }
 
 .slide-container {
-  width: 800px;
-  height: 600px;
-  /* margin-left: auto; */
+  width: 58.5vw;
+  height: 96vh;
   margin-right: auto;
-  /* overflow: hidden; */
 }
 
 .image-container {
-  width: 6100px;
-  height: 768px;
+  width: 446.5vw;
+  height: 122.88vh;
   position: sticky;
   transition: left 2s;
   -webkit-transition: left 2s;
 }
 
 .slider-image {
-  /* height: fit-content; */
   float: left;
   margin-top: 0;
   width: 100vw;
@@ -151,76 +176,36 @@ nav ul li a:hover {
 
 .slider-button {
   color: white;
-  font-size: 10px;
+  font-size: 10vw;
   font-family: "BaronMTModern";
   font-weight: normal;
   text-transform: uppercase;
   cursor: pointer;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 2.196vw;
+  margin-left: 2.196vw;
 }
 
 .slider-button h1 {
-  width: 155px;
-  font-size: 20px;
+  width: 11.5vw;
+  font-size: 1.46vw;
 }
 
 .fashion {
-  margin-right: 0px;
+  margin-right: 0vw;
 }
 
 .SD {
-  margin-right: 50px;
+  margin-right: 3.8vw;
 }
 
-.button-container a:hover {
-  font-size: 10.3px;
-  transition: 0.5s;
-  width: 155px;
+.slider-button h1:hover{
+  font-size: 1.54vw;
+  transition: 1s ease;
+  width: 11.5vw;
 }
 
-#slider-image-1:target ~ .image-container {
-  left: 0px;
-}
 
-#slider-image-2:target ~ .image-container {
-  left: -1366px;
-}
 
-#slider-image-3:target ~ .image-container {
-  left: -2733px;
-}
-
-.mywork2 {
-  position: relative;
-  display: flex;
-}
-
-.workimg2 {
-  width: 1520px;
-  height: 700px;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.worktext2 {
-  display: inline-block;
-  margin-top: 380px;
-  text-align: center;
-  margin-left: 200px;
-}
-
-.worktext2 h1 {
-  color: rgb(255, 255, 255);
-  font-size: 60px;
-  display: inline-block;
-  overflow: hidden;
-  letter-spacing: 2px;
-  animation: none;
-  white-space: nowrap;
-  border-right: 4px solid black;
-  box-sizing: border-box;
-}
 
 @keyframes typing {
   from {
@@ -245,10 +230,17 @@ nav ul li a:hover {
 .mystory {
   display: flex;
   width: 100vw;
-  margin-bottom: 280px;
-  margin-left: 300px;
-  margin-right: 300px;
-  height: 436px;
+  margin-bottom:  10vh;
+  padding-top: 5vh;
+  padding-left: 20vw;
+  padding-right: 20vw; 
+  height: 89.76vh;
+}
+
+#story {
+  align-items: center;
+  /* margin-top: 10.8vh; */
+  margin-bottom: 10vh;
 }
 
 .write {
@@ -256,34 +248,61 @@ nav ul li a:hover {
 }
 
 .story_image {
-  height: 400px;
-  width: 320px;
-  border-radius: 0.5rem;
-  margin-top: 100px;
+  height: 65vh;
+  width: 24.3vw;
+  border-radius: 0.7rem;
+  margin-top: 16vh;
 }
 
 .story-title {
-  margin-top: 100px;
-  padding-left: 155px;
-  height: 180px;
-  width: 280px;
+  margin-top: 14vh;
+  padding-left: 11.3vw;
+  height: 26.8vh;
+  width: 18.49vw;
 }
 
 .story_content {
-  height: 200px;
-  width: 500px;
+  height: 32vh;
+  width: 36.6vw;
   margin-left: 4.7vw;
   line-height: 1.8;
   letter-spacing: 0.05em;
-  font-size: 16px;
+  font-size: 1.1vw;
   text-align: left;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 5px;
+  margin-bottom: 0.366vh;
 }
 
-#story {
-  margin-top: 130px;
+.mywork2 {
+  position: relative;
+  display: flex;
+}
+
+.workimg2 {
+  width: 100vw;
+  height: 112vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.worktext2 {
+  display: inline-block;
+  margin-top: 60.8vh;
+  text-align: center;
+  margin-left: 14.6vw;
+}
+
+.worktext2 h1 {
+  color: rgb(255, 255, 255);
+  font-size: 4vw;
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 0.14vw;
+  animation: none;
+  white-space: nowrap;
+  border-right: 0.1vw solid black;
+  box-sizing: border-box;
 }
 
 #Work {
@@ -291,11 +310,13 @@ nav ul li a:hover {
   height: 110vh;
 }
 
+
+
 .WorkAdjust {
   background-color: white;
   /* background-image: url("https://www.clipartkey.com/mpngs/m/10-108759_clip-art-color-smoke-png-colored-smoke-transparent.png"); */
-  height: 628px;
-  width: 1366px;
+  height: 42.88vh;
+  width: 100vw;
   display: inline-flex;
 }
 
@@ -310,42 +331,42 @@ nav ul li a:hover {
 .img3 {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8qpZl4sdKiS42ioobI5QcrPw1kpfdr3fSydVcMuwGvzl9ec9jJyxbbKDjLFGfbn7ryt4&usqp=CAU");
   background-color: white;
-  height: 300px;
-  width: 310px;
+  height: 48vh;
+  width: 22.69vw;
   position: relative;
-  top: 250px;
-  margin-left: 110px;
-  border-radius: 20px;
+  top: 40vh;
+  margin-left: 8.052vw;
+  border-radius: 1.46vw;
 }
 
 .img1 {
-  height: 350px;
-  width: 250px;
-  margin-left: 140px;
-  margin-top: -200px;
-  border-radius: 5px;
+  height: 56vh;
+  width: 18.30vw;
+  margin-left: 10.24vw;
+  margin-top: -32vh;
+  border-radius: 0.366vw;
   position: relative;
   animation: none;
 }
 
 @keyframes img11 {
   from {
-    left: -100px;
+    left: -7.32vw;
   }
 
   to {
-    left: 0px;
+    left: 0vw;
   }
 }
 
 .img2 {
   position: absolute;
-  margin-top: 165px;
-  height: 140px;
-  width: 300px;
-  margin-left: -276.5px;
-  border: 2px solid black;
-  border-radius: 20px;
+  margin-top: 26.4vh;
+  height: 22.4vh;
+  width: 21.9vw;
+  margin-left: -20.24vw;
+  border: 0.146vw solid black;
+  border-radius: 1.46vw;
 }
 
 .fashionsection {
@@ -353,39 +374,40 @@ nav ul li a:hover {
 }
 
 #fashion {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .fashionbgimg {
   background-image: url("https://wallpapercave.com/wp/wp3626992.jpg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .KivaCouture {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.282vw;
+  height: 84.8vh;
+  margin-left: 10.54vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .heritageCouture {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  margin-left: 760px;
+  top: -194.4vh;
+  margin-left: 55.636vw;
   align-content: center;
 }
 
 .heritage {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .heritagecontent {
@@ -396,11 +418,11 @@ nav ul li a:hover {
 
 .heritagecontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size: 1.317vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .personalstylingBranding {
@@ -408,39 +430,39 @@ nav ul li a:hover {
 }
 
 .PSBsection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .PSBbgimg {
   background-image: url("img/wallpaperflare.com_wallpaper.jpg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .PSBranding {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.282vw;
+  height: 84.8vh;
+  margin-left: 10.54vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .PSBrad {
-  width: 400px;
-  height: 530px;
+  width: 29.282vw;
+  height: 84.8vh;
   background: white;
-  margin-left: 146px;
+  margin-left: 10.688vw;
   position: relative;
-  top: -1212px;
+  top: -193.92vh;
 }
 
 .PSBrd {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.86vw;
 }
 
 .PSBcontent {
@@ -451,25 +473,25 @@ nav ul li a:hover {
 
 .PSBcontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .fashionimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.1464vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .PSBimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 580px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 92.8vh;
   position: relative;
 }
 
@@ -502,52 +524,52 @@ nav ul li a:hover {
 
 .jewelry {
   position: relative;
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .jSection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .jewelrybgimg {
   background-image: url("https://a-static.besthdwallpaper.com/decorative-jewellery-wallpaper-1920x1080-11136_48.jpg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .jewelryimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.146vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .jewelryimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.54vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .EJtext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  top: -1215px;
-  margin-left: 760px;
+  top: -194.4vh;
+  margin-left: 55.636vw;
   align-content: center;
 }
 
 .EJT {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.86vw;
 }
 
 .EJcontent {
@@ -558,11 +580,11 @@ nav ul li a:hover {
 
 .EJcontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .SDsection {
@@ -570,48 +592,48 @@ nav ul li a:hover {
 }
 
 #SDco {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .SDbgimg {
   background-image: url("img/IMG_7111.JPG");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .SDimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.1464vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .SDimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.541vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .SDtext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  top: -1212px;
-  margin-left: 760px;
+  top: -193.92vh;
+  margin-left: 55.6368vw;
   align-content: center;
 }
 
 .SDT {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .SDcontent {
@@ -622,11 +644,11 @@ nav ul li a:hover {
 
 .SDcontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .LivingSpaceDesign {
@@ -634,46 +656,46 @@ nav ul li a:hover {
 }
 
 .LSsection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .LSbgimg {
   background-image: url("https://blenderartists.org/uploads/default/original/4X/6/6/a/66a3ab32f2c88c6f5867e96038e97d1d69d3af5f.jpeg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .LSimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 580px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 42.459vw;
   position: relative;
 }
 
 .LSimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.541vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .LStext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
-  margin-left: 146px;
+  margin-left: 10.688vw;
   position: relative;
-  top: -1212px;
+  top: -193.92vh;
 }
 
 .LST {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .LScontent {
@@ -684,61 +706,61 @@ nav ul li a:hover {
 
 .LScontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .CommSpaceDesign {
   position: relative;
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .CSsection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .CSbgimg {
   background-image: url("https://www.saffrontouch.com/wp-content/uploads/2014/08/Ansal-3D-HD-1-830x430.jpg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .CSimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.1464vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .CSimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.541vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .CStext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  top: -1215px;
-  margin-left: 760px;
+  top: -194.4vh;
+  margin-left: 55.636vw;
   align-content: center;
 }
 
 .CST {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .CScontent {
@@ -749,11 +771,11 @@ nav ul li a:hover {
 
 .CScontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .HomeDecor {
@@ -761,48 +783,48 @@ nav ul li a:hover {
 }
 
 .HDsection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .HDbgimg {
   background-image: url("http://cdn.home-designing.com/wp-content/uploads/2019/03/wooden-wall-decor.jpg");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .HDimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.1464vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .HDimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.54vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .HDtext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  top: -1212px;
-  margin-left: 760px;
+  top: -193.92vh;
+  margin-left: 55.636vw;
   align-content: center;
 }
 
 .HDT {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .HDcontent {
@@ -813,11 +835,11 @@ nav ul li a:hover {
 
 .HDcontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .Wearable {
@@ -825,46 +847,46 @@ nav ul li a:hover {
 }
 
 .wsection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .Wbgimg {
   background-image: url("https://images.unsplash.com/photo-1584377334016-464803e03b80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHJpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .Wimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 580px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 42.459vw;
   position: relative;
 }
 
 .Wimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.541vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .Wtext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
-  margin-left: 146px;
+  margin-left: 10.688vw;
   position: relative;
-  top: -1212px;
+  top: -193.92vh;
 }
 
 .WT {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .Wcontent {
@@ -875,61 +897,61 @@ nav ul li a:hover {
 
 .Wcontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 .Craft {
   position: relative;
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .Csection {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .Cbgimg {
   background-image: url("https://images.unsplash.com/photo-1488806374796-a4071c52353b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNyYWZ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
-  width: 1520px;
-  height: 768px;
+  width: 111.273vw;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
 }
 
 .Cimage-container {
-  width: 400px;
-  height: 530px;
-  margin-left: 2px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 0.1464vw;
   position: relative;
-  top: -20px;
+  top: -3.2vh;
 }
 
 .Cimages {
-  width: 400px;
-  height: 530px;
-  margin-left: 144px;
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 10.541vw;
   position: relative;
-  top: -550px;
+  top: -88vh;
 }
 
 .Ctext {
-  width: 400px;
-  height: 530px;
+  width: 29.28vw;
+  height: 84.8vh;
   background: white;
   position: relative;
-  top: -1215px;
-  margin-left: 760px;
+  top: -194.4vh;
+  margin-left:  55.636vw;
   align-content: center;
 }
 
 .CT {
   position: relative;
-  margin-left: 65px;
-  height: 110px;
-  width: 285px;
+  margin-left: 4.758vw;
+  height: 17.6vh;
+  width: 20.863vw;
 }
 
 .Ccontent {
@@ -940,11 +962,11 @@ nav ul li a:hover {
 
 .Ccontent h1 {
   color: black;
-  font-size: 18px;
-  line-height: 35px;
-  word-spacing: 7px;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size:  1.3177vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
 }
 
 /* Tstimonials designing */
@@ -953,7 +975,7 @@ nav ul li a:hover {
   display: block;
   width: 100%;
   height: auto;
-  margin-top: 150px;
+  margin-top: 24vh;
   text-align: center;
 }
 
@@ -964,7 +986,7 @@ nav ul li a:hover {
   position: relative;
   display: inline-block;
   width: 100%;
-  height: 350px;
+  height: 56vh;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -997,16 +1019,16 @@ nav ul li a:hover {
 
 .testimonial-slider q {
   display: inline-block;
-  font: normal 700 50px / 1.25 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+  font: normal 700 3.6vw / 1.25 "Raleway", Helvetica, Arial, Verdana, sans-serif;
   letter-spacing: 0.5pt;
-  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 0.36vw 0.73vw rgba(0, 0, 0, 0.1);
   max-width: 35ch;
 }
 
 .testimonial-slider .source {
-  margin-top: 25px;
+  margin-top: 4vh;
   color: #d9e0f9;
-  font: italic 400 30px / 1.35 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+  font: italic 400 3.6vw / 1.35 "Raleway", Helvetica, Arial, Verdana, sans-serif;
 
 }
 
@@ -1108,15 +1130,15 @@ nav ul li a:hover {
 .heading {
   text-align: center;
   color: #454343;
-  padding-top: 100px;
+  padding-top: 7vh;
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 11.2vh;
   text-transform: uppercase;
   z-index: 999;
 }
 
 .heading h1 {
-  font-size: 30px;
+  font-size: 2.19vw;
   font-weight: 700;
 }
 
@@ -1125,11 +1147,11 @@ nav ul li a:hover {
 }
 
 .testimonial {
-  min-height: 375px;
+  min-height: 60vh;
   position: relative;
   background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 3vh;
+  padding-bottom: 8vh;
   background-position: center;
   background-size: cover;
 }
@@ -1139,9 +1161,9 @@ nav ul li a:hover {
   position: absolute;
   top: 100%;
   left: 50%;
-  height: 40px;
-  width: 180px;
-  border-radius: 4px;
+  height: 6.4vh;
+  width: 13.17vw;
+  border-radius: 0.29vw;
   transform: translateX(-50%);
   background: url(img/heading-line.png);
   background-repeat: no-repeat;
@@ -1155,44 +1177,44 @@ nav ul li a:hover {
 
 /* Explore Styling */
 .Feature {
-  width: 1366px;
-  max-height: 768px;
+  width: 100vw;
+  max-height: 122.88vh;
   overflow: hidden;
 }
 
 .FeatureImage {
-  width: 1366px;
-  height: 768px;
+  width: 100vw;
+  height: 122.88vh;
   opacity: 0.1;
 }
 
 .Featuretitle h1 {
   text-orientation: upright;
-  width: 50px;
-  letter-spacing: 18px;
-  font-size: 40px;
+  width: 3.66vw;
+  letter-spacing: 1.317vw;
+  font-size: 2.92vw;
   color: black;
   backdrop-filter: inherit;
   position: relative;
-  top: -690px;
-  padding-left: 185px;
+  top: -110.4vh;
+  padding-left: 13.5vw;
 }
 
 .scontainer {
-  width: 1000px;
-  height: 470px;
+  width: 73.2vw;
+  height: 75.2vh;
   background-color: rgba(0, 0, 0, 0.6);
   position: relative;
-  top: -680px;
-  margin-left: 400px;
+  top: -108.8vh;
+  margin-left: 29.28vw;
 }
 
 .slider1 {
-  width: 1000px;
-  height: 470px;
-  margin-left: 200px;
+  width: 73.2vw;
+  height: 75.2vh;
+  margin-left: 14.64vw;
   position: relative;
-  top: -1100px;
+  top: -176vh;
 }
 
 .slider2 {
@@ -1200,15 +1222,15 @@ nav ul li a:hover {
 }
 
 .SliderImg {
-  width: 500px;
-  height: 300px;
+  width: 36.603vw;
+  height: 48vh;
   position: relative;
-  top: 70px;
+  top: 11.2vh;
 }
 
 .slidercontent h1 {
-  font-size: 40px;
-  margin-left: 120px;
+  font-size: 3.5vw;
+  margin-left: 8.7847vw;
   color: white;
   letter-spacing: 0.1em;
   font-weight: 400;
@@ -1216,14 +1238,15 @@ nav ul li a:hover {
 }
 
 .slidercontent p {
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: 2.19vw;
+  margin-top: 4.8vh;
   color: white;
   line-height: 1.8;
   letter-spacing: 0.1em;
   text-align: left;
   font-weight: 400;
   font-style: normal;
+  font-size: 1vw;
 }
 
 /* Contact Us Styling */
@@ -1232,16 +1255,16 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 780px;
+  height: 124.8vh;
   padding-bottom: 1.7rem;
 }
 
 .placeholderRed {
-  margin: 14px 0;
-  padding: 12px 10px;
+  margin: 2.24vh 0;
+  padding: 1.92vh 0.73vw;
   width: 100%;
-  font-size: 20px;
-  border-radius: 10px;
+  font-size: 1.464vw;
+  border-radius: 0.73vw;
   font-family: "BaronMTModern";
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   background-color: rgba(206, 48, 48, 0.8);
@@ -1254,26 +1277,26 @@ nav ul li a:hover {
 
 .text-center {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 16vh;
   color: black;
-  letter-spacing: 1px;
-  font-size: 40px;
+  letter-spacing: 0.0732vw;
+  font-size: 2.9282vw;
   color: white;
   font-family: "BaronMTModern";
-  font-weight: 100px;
+  font-weight: 100;
 }
 
 .form {
   width: 61%;
-  margin: 50px auto;
+  margin: 8vh auto;
 }
 
 .form-input {
-  margin: 14px 0;
-  padding: 12px 10px;
+  margin: 2.24vh 0;
+  padding: 1.92vh 0.73vw;
   width: 100%;
-  font-size: 20px;
-  border-radius: 10px;
+  font-size: 1.464vw;
+  border-radius: 0.73vw;
   font-family: "BaronMTModern";
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   background-color: rgba(248, 242, 242, 0.8);
@@ -1286,20 +1309,20 @@ nav ul li a:hover {
 }
 
 .NamePhone input {
-  width: 380px;
+  width: 27.8vw;
 }
 
 .submit-btn {
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 0.0732vw;
   width: 100%;
-  font-size: 30px;
+  font-size: 2.196vw;
   font-family: "BaronMTModern";
   color: black;
   background-color: rgba(248, 242, 242, 0.8);
-  padding: 5px 3px;
-  border-radius: 10px;
-  margin-left: 10px;
+  padding: 0.8vh 0.2196vw;
+  border-radius: 0.732vw;
+  margin-left: 0.732vw;
 }
 
 .submit-btn:hover {
@@ -1307,23 +1330,18 @@ nav ul li a:hover {
 }
 
 .submit-btn1{
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 7px;
-  padding-right: 7px;
-  font-size: 18px;
+  padding: 1.12vh 0.512vw;
+  font-size: 1.317vw;
 }
 
-
-
 .Fheader {
-  max-height: 768px;
+  max-height: 122.88vh;
 }
 
 .headerF {
   background-image: url("https://img.freepik.com/free-vector/fashion-background-with-jeans-cosmetic-shoes_83728-1896.jpg?size=626&ext=jpg");
   width: 100%;
-  height: 768px;
+  height: 122.88vh;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -1335,36 +1353,34 @@ nav ul li a:hover {
   position: relative;
 }
 
-
-
 .footertitle {
   text-align: center;
   justify-content: center;
-  padding-top: 2.5rem;
+  padding-top: 3vh;
   font-size: 2rem;
 }
 
 .connectstatement {
-  padding-top: 1rem;
+  padding-top: 5vh;
   display: flex;
   justify-content: space-between;
 }
 
 .leftconnectstatement {
-  padding-left: 15rem;
-  font-size: 2rem;
+  padding-left: 15vw;
+  font-size: 2.3vw;
   width: max-content;
   color: white;
 }
 
 .rightconnectstatement {
-  padding-right: 15rem;
-  font-size: 2rem;
+  padding-right: 15vw;
+  font-size: 2.3vw;
   color: white;
 }
 
 .mobnumber {
-  font-size: 1.3rem;
+  font-size: 1.5vw;
 }
 
 
@@ -1373,23 +1389,24 @@ nav ul li a:hover {
   position: relative;
   background-attachment: fixed;
   background-color: rgba(245, 189, 2);
+  height: 40vh;
 }
 
 .footertitle {
   text-align: center;
   justify-content: center;
-  padding-top: 2.5rem;
-  font-size: 2rem;
+  padding-top: 11.5vh;
+  font-size: 2.5vw;
   color: white;
 }
 
 .socialmedia {
-  padding-left: 3px;
+  padding-left:  0.21961vw;
 }
 
 /* Fashion footer */
 .mobnumber1 {
-  font-size: 1.3rem;
+  font-size: 1.5vw;
   color: white;
 }
 
@@ -1402,57 +1419,32 @@ nav ul li a:hover {
   }
 
   .image-container {
-    width: 5500px;
+    width: 402.6vw;
     height: fit-content;
     position: relative;
-    transition: left 2s;
-    -webkit-transition: left 2s;
-  }
-
-  #slider-image-2:target ~ .image-container {
-    left: -1537px;
-  }
-
-  #slider-image-3:target ~ .image-container {
-    left: -3071px;
+    transition: left 3s;
+    -webkit-transition: left 3s;
   }
 
   .img1 {
-    height: 280px;
-    width: 250px;
-    margin-left: 140px;
-    margin-top: -200px;
-    border-radius: 5px;
+    height: 44.8vh;
+    width: 18.30vw;
+    margin-left: 10.248vw;
+    margin-top: -32vh;
+    border-radius: 0.366vw;
     position: relative;
     animation: none;
-    border-radius: 7px;
+    border-radius: 0.5124vw;
   }
 }
 
 @media only screen and (min-width: 1030px) and (max-width: 1366px) {
   .image-container {
-    width: 5500px;
+    width: 402.6vw;
     height: fit-content;
     position: relative;
-    transition: left 2s;
-    -webkit-transition: left 2s;
+    transition: left 3s;
+    -webkit-transition: left 3s;
   }
 
-  #slider-image-2:target ~ .image-container {
-    left: -1366px;
-  }
-
-  #slider-image-3:target ~ .image-container {
-    left: -2740px;
-  }
-
-  .heritageCouture {
-    width: 400px;
-    height: 530px;
-    background: white;
-    position: relative;
-    top: -1212px;
-    margin-left: 760px;
-    align-content: center;
-  }
 }

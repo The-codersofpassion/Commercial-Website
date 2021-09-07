@@ -38,25 +38,31 @@
   </nav>
 
   <header id="home">
-    <div class="slide-container">
-      <span id="slider-image-1"></span>
-      <span id="slider-image-2"></span>
-      <span id="slider-image-3"></span>
-      <div class="image-container">
+    <div id="info"></div>
+    <div class="image-container">
+      <div id="image1" class="img">
         <img class="slider-image" src="./img/DSC_1881 (1).jpg" />
-        <img class="slider-image" src="./img/SD (1).jpg" />
-        <img class="slider-image" src="./img/0001_021 (1).jpg" />
       </div>
+      <div id="image2" class="img">
+        <img class="slider-image" src="./img/SD (1).jpg" />
+      </div>
+      <div id="image3" class="img">
+        <img  class="slider-image" src="./img/0001_021 (1).jpg" />
+      </div>
+    </div>
+      <div class="left" onclick="left()"></div>
+        <div class="right" onclick="right()"></div>
+
       <div class="button-container">
-        <a href="#slider-image-1" class="slider-button">
+        <div class="slider-button fashion dot a1">
           <h1>Fashion</h1>
-        </a>
-        <a href="#slider-image-2" class="slider-button">
+        </div>
+        <div class="slider-button SD dot a2">
           <h1>Space Design</h1>
-        </a>
-        <a href="#slider-image-3" class="slider-button">
+        </div>
+        <div class="slider-button dot a3">
           <h1>Art</h1>
-        </a>
+        </div>
       </div>
     </div>
   </header>
@@ -79,7 +85,7 @@
     </section>
   </div>
 
-  <!-- MY WORK-2 -->
+ 
   <section class="mywork2">
     <div class="workimg2" style="background-image: url('img/fort.jpg')">
       <div class="worktext2">
@@ -88,6 +94,7 @@
     </div>
   </section>
 
+  <!-- MY WORK-2 -->
   <div id="Work">
     <div class="WorkAdjust">
       <div class="FashionWork">

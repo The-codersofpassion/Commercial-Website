@@ -17,15 +17,15 @@ function function1() {
       scroll_pos = $(window).scrollTop();
       if (scroll_pos >= 100) {
         $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))"); 
-        $(".logo a img").css('max-width', '80px');
-        $("nav ul").css("margin-top","0.2vh");
+        $(".logo a img").css('max-width', '7vw');
+        $("nav ul").css("margin-top","1.3vh");
         $("nav ul li a").css("color","black");
         $("nav").css("box-shadow"," 0px 0px 10px #0000001c");
     }
     else {
         $("nav").css("background-image","linear-gradient(to right,rgb(252, 252, 249,0),rgba(231, 231, 219,0))"); 
-        $(".logo a img").css('max-width', '160px');
-        $("nav ul").css("margin-top","1vh");
+        $(".logo a img").css('max-width', '10vw');
+        $("nav ul").css("margin-top","2vh");
         $("nav ul li a").css("color","white");
         $("nav").css("box-shadow"," none");
     }
@@ -96,22 +96,3 @@ function showSlides2() {
   setTimeout(showSlides2, 4000); // Change image every 4 seconds
 }
 
-var slideIndex4 = 0;
-showSlides4();
-
-function showSlides4() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides4");
-  var dots = document.getElementsByClassName("dot4");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex4++;
-  if (slideIndex4 > slides.length) {slideIndex4 = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex4-1].style.display = "block";  
-  dots[slideIndex4-1].className += " active";
-  setTimeout(showSlides4, 4000); // Change image every 4 seconds
-}
