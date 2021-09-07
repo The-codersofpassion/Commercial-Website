@@ -17,6 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   font-family: "Playfair Display", serif;
   overflow-x: hidden;
@@ -131,6 +132,7 @@ nav ul li a:hover {
   width: 4vw;
   text-align: center;
 }
+
 
 #image1 {
   transform: unset;
@@ -1448,3 +1450,6 @@ nav ul li a:hover {
   }
 
 }
+
+
+/* for making responsive in mobiles */
