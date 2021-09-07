@@ -1498,4 +1498,18 @@ height: 160rem;
   padding-left: 11.5rem;
 }
 
+.story-title{
+  margin-top: -9rem;
+  margin-left: -6rem;
+}
+
+.story_image{
+  width: 15rem;
+  margin-left: -5rem;
+}
+
+.story_content{
+  margin-top: 10rem;
+}
+
 }
