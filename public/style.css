@@ -1493,4 +1493,9 @@ height: 160rem;
   width: 30rem;
 }
 
+.button-container{
+  padding-top: 10rem;
+  padding-left: 11.5rem;
+}
+
 }
