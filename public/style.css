@@ -1502,7 +1502,7 @@ nav ul li a:hover {
 
   .img1 {
     margin-top: -11rem;
-    padding-left: 4.7rem;
+    padding-left: 11.7rem;
     width: 21rem;
     height: 17rem;
   }
@@ -1511,7 +1511,7 @@ nav ul li a:hover {
     padding-top: 4rem;
     /* margin-left: 0rem; */
     width: 20rem;
-    margin-left: -14rem;
+    margin-left: -20rem;
   }
 
   .img3 {
@@ -1526,7 +1526,7 @@ nav ul li a:hover {
   }
 
   .story-title {
-    margin-top: -9rem;
+    margin-top: -5rem;
     margin-left: -6rem;
   }
 
@@ -1657,7 +1657,44 @@ nav ul li a:hover {
     padding-top: -10px;
   }
 
-  .FeatureImage{
-    
+  .SliderImg{
+    width: 41.603vw;
+    height: 48vh;
+    position: relative;
+    top: 11.2vh;
+    margin-left: -4rem;
+  }
+
+  .slidercontent h1{
+    font-size: 8.5vw;
+    margin-left: 7.7847vw;
+    color: white;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .slidercontent p{
+    margin-left: 6.19vw;
+    margin-top: 4.8vh;
+    color: white;
+    line-height: 2.8;
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
+  }
+
+  .Featuretitle h1{
+    text-orientation: upright;
+    width: 9.66vw;
+    letter-spacing: 1.317vw;
+    font-size: 5.92vw;
+    color: black;
+    backdrop-filter: inherit;
+    position: relative;
+    top: -110.4vh;
+    padding-left: 28.5vw;
   }
 }
