@@ -1539,7 +1539,7 @@ nav ul li a:hover {
 
   .story_content {
     margin-top: 53%;
-    }
+  }
 
   .text-center {
     /* testimonial */
@@ -1547,43 +1547,43 @@ nav ul li a:hover {
     margin-bottom: 0rem;
   }
 
-  .contact{
+  .contact {
     height: 44rem;
     margin-top: -69rem;
   }
 
-  .footer{
+  .footer {
     height: 11.5rem;
   }
 
-  .footertitle{
+  .footertitle {
     padding-top: 5%;
   }
 
 }
 
 @media only screen and (max-width: 600px) {
-  .button-container{
+  .button-container {
     padding-left: 9rem;
     padding-top: 7.0rem;
   }
 
-  .story-title{
+  .story-title {
     margin-top: -13rem;
     width: 16rem;
     margin-left: -13rem;
   }
 
-  .story_image{
+  .story_image {
     width: 18.7rem;
     margin-left: -5.7rem;
   }
 
-  .story_content{
+  .story_content {
     margin-top: 13.3rem;
     margin-left: 1rem;
   }
-  
+
   .image-container {
     width: 100%;
     display: flex;
@@ -1630,31 +1630,31 @@ nav ul li a:hover {
     margin-top: 67rem;
   }
 
-  
 
-  .white-heading h1{
+
+  .white-heading h1 {
     margin-top: -34px;
   }
 
-  .white-heading:after{
+  .white-heading:after {
     margin-top: -17px;
   }
 
-  .testimonial-slider q{
+  .testimonial-slider q {
     margin-bottom: -1rem;
     margin-top: 1rem;
   }
 
-  .testimonial-slider .source{
+  .testimonial-slider .source {
     margin-bottom: -9rem;
   }
 
-  .contact{
+  .contact {
     height: 27.7rem;
     margin-top: -70rem;
   }
 
-  .NamePhone input{
+  .NamePhone input {
     width: 39.8vw;
     font-size: 16px;
     height: 1.7vw;
@@ -1662,22 +1662,22 @@ nav ul li a:hover {
     margin-right: -69px;
   }
 
-  .form-input{
+  .form-input {
     width: 71.8vw;
     margin-left: -23px;
   }
 
-  .footer{
+  .footer {
     height: 5.5rem;
     padding-top: 3rem;
   }
 
-  .footertitle{
+  .footertitle {
     margin-top: -87px;
     padding-top: -10px;
   }
 
-  .SliderImg{
+  .SliderImg {
     width: 41.603vw;
     height: 48vh;
     position: relative;
@@ -1685,7 +1685,7 @@ nav ul li a:hover {
     margin-left: -4rem;
   }
 
-  .slidercontent h1{
+  .slidercontent h1 {
     font-size: 8.5vw;
     margin-left: 7.7847vw;
     color: white;
@@ -1694,7 +1694,7 @@ nav ul li a:hover {
     font-style: normal;
   }
 
-  .slidercontent p{
+  .slidercontent p {
     margin-left: 6.19vw;
     margin-top: 4.8vh;
     color: white;
@@ -1706,7 +1706,7 @@ nav ul li a:hover {
     font-size: 1vw;
   }
 
-  .Featuretitle h1{
+  .Featuretitle h1 {
     text-orientation: upright;
     width: 9.66vw;
     letter-spacing: 1.317vw;
@@ -1716,5 +1716,23 @@ nav ul li a:hover {
     position: relative;
     top: -110.4vh;
     padding-left: 28.5vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .button-container {
+    top: -16vw;
+    margin-left: 31.5vw;
+  }
+
+  .contact {
+    height: 61vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer{
+    height: 21.5vw;
+    padding-top: 1vh;
   }
 }
