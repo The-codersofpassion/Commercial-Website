@@ -1569,9 +1569,9 @@ nav ul li a:hover {
   }
 
   .story-title {
-    margin-top: -13rem;
+    margin-top: -9rem;
     width: 16rem;
-    margin-left: -13rem;
+    margin-left: -15rem;
   }
 
   .story_image {
@@ -1722,17 +1722,136 @@ nav ul li a:hover {
 @media only screen and (max-width: 992px) {
   .button-container {
     top: -16vw;
-    margin-left: 31.5vw;
+    margin-left: 42vw;
   }
 
+  .slider-image{
+    margin-left: -35rem;
+    width: 32.5%;
+    float: left;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .story-title{
+    margin-top: -2%;
+    width: 68%;
+    padding-left: 18.5%;
+    height: 30%;
+    margin-bottom: 15%;
+  }
+
+  .story_image{
+    height: 70%;
+    width: 44%;
+    border-radius: 0.7rem;
+    margin-top: 14%;
+    margin-left: -14%;
+  }
+
+  .story_content {
+    height: 38vh;
+    width: 38.6vw;
+    margin-left: 25%;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    font-size: 1.1vw;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0.366vh;
+}
+
+.mystory {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
+  /* padding-top: 5vh;
+  padding-left: 20vw;
+  padding-right: 20vw; */
+  height: 15%;
+}
+
+.write{
+  width: 100%;
+}
+
+.workimg2 {
+  width: 50%;
+  height: 112vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mywork2{
+  width: 251%;
+  position: relative;
+    display: flex;
+}
+
+.img1{
+  width: 60%;
+}
+
+.img2{
+  position: absolute;
+    margin-top: 26.4vh;
+    height: 22.4vh;
+    width: 21.9vw;
+    margin-left: -20.24vw;
+    border: 0.146vw solid black;
+    border-radius: 1.46vw;
+}
+
+.img3{
+  width: 77%;
+  height: 107%;
+}
+
+.worktext2 h1 {
+  color: rgb(255, 255, 255);
+  font-size: 4vw;
+  margin-left: 7%;
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 0.14vw;
+  animation: none;
+  white-space: nowrap;
+  border-right: 0.1vw solid black;
+  box-sizing: border-box;
+}
+/* 
+#Work{
+  width: 25%;
+} */
+
   .contact {
-    height: 61vw;
+    height: 52rem;
     padding: 0;
     margin: 0;
   }
 
+
+  .text-center{
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+    color: black;
+    letter-spacing: 0.0732vw;
+    font-size: 2.9282vw;
+    color: white;
+    font-family: "BaronMTModern";
+    font-weight: 100;
+  }
+
   .footer{
+    margin-top: -8%;
     height: 21.5vw;
-    padding-top: 1vh;
+    padding-top: 0vh;
+  }
+
+  .footertitle{
+    padding-top: 5%;
   }
 }
