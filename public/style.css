@@ -1442,7 +1442,8 @@ nav ul li a:hover {
 @media only screen and (max-width: 1920px) {
   .button-container {
     position: relative;
-    top: -30vh;
+    top: -14vh;
+    padding-left: 26vw;
   }
 
   .image-container {
@@ -1453,15 +1454,81 @@ nav ul li a:hover {
     -webkit-transition: left 3s;
   }
 
+  .mystory{
+    height: 60%;
+  }
+
+  .story-title{
+    margin-top: -11%;
+    margin-left: -53%;
+    height: 24%;
+    width: 66%;
+  }
+
+  .story_content{
+    margin-top: 32%;
+    height: 18%;
+    width: -5%;
+    margin-left: 15%;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+    font-size: 1.4vw;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0.366vh;
+}
+  
+.story_image{
+  height: 47%;
+    width: 35%;
+    border-radius: 0.7rem;
+    margin-top: 22%;
+    margin-left: -6rem;
+}
+
   .img1 {
-    height: 44.8vh;
-    width: 18.30vw;
-    margin-left: 10.248vw;
-    margin-top: -32vh;
+    height: 51%;
+    width: 55%;
+    margin-left: 37%;
+    margin-top: -24%;
     border-radius: 0.366vw;
     position: relative;
     animation: none;
     border-radius: 0.5124vw;
+  }
+
+  .img2{
+    position: absolute;
+    margin-top: 37%;
+    height: 13%;
+    width: 21%;
+    margin-left: -19.5%;
+    border: 0.15vw solid black;
+    border-radius: 1.46vw;
+  }
+
+  .contact{
+    height: 60rem;
+  }
+
+  .text-center{
+    text-align: center;
+    padding-top: 11%;
+    color: black;
+    letter-spacing: 0.0732vw;
+    font-size: 2.9282vw;
+    color: white;
+    font-family: "BaronMTModern";
+    font-weight: 100;
+  }
+
+  .footer{
+    height: 20rem;
+  }
+
+  .footertitle{
+    padding-top: 5%;
   }
 }
 
