@@ -1760,7 +1760,6 @@ nav ul li a:hover {
   }
 }
 
-
 @media only screen and (max-width: 768px) {
 
   /* For mobile phones: */
@@ -1823,6 +1822,7 @@ nav ul li a:hover {
     padding-top: 5vh;
     width: 15rem;
     margin-left: -5rem;
+}
   }
 
   .story_content {
