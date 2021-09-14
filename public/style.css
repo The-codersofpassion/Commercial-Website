@@ -1324,6 +1324,7 @@ nav ul li a:hover {
 .form {
   width: 61%;
   margin: 8vh auto;
+  margin-bottom: 5vh;
 }
 
 .form-input {
@@ -1497,10 +1498,10 @@ nav ul li a:hover {
 }
 
   .img1 {
-    height: 81%;
-    width: 55%;
+    height: 98%;
+    width: 57%;
     margin-left: 34%;
-    margin-top: -24%;
+    margin-top: -42%;
     border-radius: 0.366vw;
     position: relative;
     animation: none;
@@ -1510,15 +1511,16 @@ nav ul li a:hover {
   .img2{
     position: absolute;
     margin-top: 15%;
-    height: 13%;
-    width: 21%;
+    height: 16%;
+    width: 20%;
     margin-left: -18.59%;
     border: 0.15vw solid black;
     border-radius: 1.46vw;
   }
 
   .contact{
-    height: 60rem;
+    height: 100vh;
+    padding-bottom: 10vh;
   }
 
   .text-center{
