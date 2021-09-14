@@ -23,6 +23,12 @@ body {
   overflow-x: hidden;
 }
 
+.wrapper {
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
 ::-webkit-scrollbar {
   scroll-behavior: auto;
 }
@@ -56,6 +62,7 @@ body {
 
 /* For navbar */
 nav {
+  overflow-x: hidden;
   width: 100%;
   z-index: 999;
   position: fixed;
@@ -168,7 +175,7 @@ nav ul li a:hover {
 
 .button-container {
   position: relative;
-  top: -2vh;
+  top: -30vh;
   display: inline-flex;
   background: transparent;
   margin-left: 5vw;
@@ -334,13 +341,13 @@ nav ul li a:hover {
   height: 48vh;
   width: 22.69vw;
   position: relative;
-  top: 40vh;
+  top: 35vh;
   margin-left: 8.052vw;
   border-radius: 1.46vw;
 }
 
 .img1 {
-  height: 53%;
+  height: 20vw;
   width: 18.30vw;
   margin-left: 10.24vw;
   margin-top: -32vh;
@@ -1533,39 +1540,136 @@ nav ul li a:hover {
   }
 }
 
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .image-container {
+    width: 402.6vw;
+    height: fit-content;
+    position: relative;
+    transition: left 3s;
+    -webkit-transition: left 3s;
+  }
 
-@media only screen and (max-width: 1200px) {
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .image-container {
+    width: 403.5vw;
+    height: 73.88vh;
+    position: sticky;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+  }
+  
+  .slider-image {
+    float: left;
+    margin-top: 0;
+    width: 100vw;
+    height: auto;
+  }
+
+  .button-container {
+    position: relative;
+    top: -18vh;
+    display: inline-flex;
+    background: transparent;
+    margin-left: -3vw;
+  }
+  
+  .slider-button {
+    color: white;
+    font-size: 10vw;
+    font-family: "BaronMTModern";
+    font-weight: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 2.196vw;
+    margin-left: 2.196vw;
+  }
+  
+  .slider-button h1 {
+    width: 18.5vw;
+    font-size: 2.46vw;
+  }
+  
+  .fashion {
+    margin-right: -3vw;
+  }
+  
+  .SD {
+    margin-right: 3.8vw;
+  }
+  
+  .slider-button h1:hover {
+    font-size: 2.48vw;
+    transition: 1s ease;
+    width: 18.5vw;
+  }
+  
+  .mywork2 {
+    position: relative;
+   
+}
+
   .WorkAdjust {
     display: inline;
     /* height: 170rem; */
   }
 
+  .workimg2 {
+    width: 100vw;
+    height: 84vh;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: unset;
+  }
+  
+  .worktext2 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 0.14vw;
+    animation: none;
+    white-space: nowrap;
+    border-right: 0.1vw solid black;
+    box-sizing: border-box;
+    margin-left: 3vw;
+}
+
   #Work {
     height: 271vh;
   }
 
+  .FashionWork{
+    width: 100vw;
+    height: max-content;
+  }
+
   .img1 {
     padding: 0;
-    padding: 0;
-    margin-left: 25vw;
-    width: 47vw;
-    height: 31vh;
+    margin-left: 26vw;
+    width: 44vw;
+    height: 52vh;
     border-radius: 5vw;
-    margin-bottom: 14vh;
-    margin-top: -8vh;
+    margin-bottom: 26vh;
+    margin-top: -36vh;
 }
   
 
   .img2 {
     padding: 0;
-    margin-top: 29vh;
+    margin-top: 18vh;
     border-radius: 5vw;
-    /* margin-left: 0rem; */
-    width: 20rem;
-    margin-left: -39vw;
+    height: 22%;
+    width: 35rem;
+    margin-left: -44vw;
   }
 
   .img3 {
+    position: relative;
+    top: 28vh;
     padding: 0;
     border-radius: 5vw;
     height: 29vh;
@@ -1578,18 +1682,244 @@ nav ul li a:hover {
     height: 80vh;
   }
 
-}
-
-@media only screen and (min-width: 1030px) and (max-width: 1366px) {
-  .image-container {
-    width: 402.6vw;
-    height: fit-content;
-    position: relative;
-    transition: left 3s;
-    -webkit-transition: left 3s;
+  .slidercontent {
+    margin-top: 10vh;
   }
 
+  .slidercontent h1 {
+    font-size: 3.5vw;
+    margin-left: 8.7847vw;
+    color: white;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .slidercontent p {
+    font-size: 1.4vw;
+  }
+
+  .contact {
+    height: 100vh;
+    background-image: url('https://c0.wallpaperflare.com/preview/236/736/891/replacement-lamp-flowers-evening-garden.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 124.8vh;
+    padding-bottom: 1.7rem;
 }
+
+.headerF {
+  background-image: url(https://img.freepik.com/free-vector/fashion-background-with-jeans-cosmetic-shoes_83728-1896.jpg?size=626&ext=jpg);
+  width: 100vw;
+  height: 100vh;
+  background-attachment: initial;
+  background-size: cover;
+  position: relative;
+}
+
+.KivaCouture {
+  width: 38.282vw;
+  height: 80.8vh;
+  margin-left: 10.54vw;
+  position: relative;
+  top: -88vh;
+}
+
+.heritageCouture {
+  width: 33.28vw;
+  height: 84.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 55.636vw;
+  align-content: center;
+}
+
+.heritagecontent h1 {
+  color: black;
+  font-size: 2.1vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.EJtext {
+  width: 33.28vw;
+  height: 84.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 55.636vw;
+  align-content: center;
+}
+
+.EJcontent h1 {
+  color: black;
+  font-size: 2.1vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.jewelryimages {
+  width: 38.282vw;
+  height: 80.8vh;
+  margin-left: 10.54vw;
+  position: relative;
+  top: -88vh;
+}
+
+.PSBranding {
+  width: 38.282vw;
+  height: 80.8vh;
+  margin-left: -22.46vw;
+  position: relative;
+  top: -88vh;
+}
+
+.PSBcontent h1 {
+  color: black;
+  font-size: 2.1vw;
+  line-height: 5.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.PSBrad {
+  width: 33.282vw;
+  height: 84.8vh;
+  background: white;
+  margin-left: 10.688vw;
+  position: relative;
+  top: -193.92vh;
+}
+
+.SDtext {
+  width: 33.28vw;
+}
+
+.SDcontent h1 {
+  color: black;
+  font-size: 2.1vw;
+}
+
+.CStext {
+  width: 33.28vw;
+}
+
+.SDimages {
+  width: 33.28vw;
+  height: 80.8vh;
+}
+
+.CScontent h1 {
+  color: black;
+  font-size: 2.1vw;
+}
+
+.CSimages {
+  width: 33.28vw;
+  height: 80.8vh;
+}
+
+.LStext {
+  width: 33.28vw;
+}
+
+.LScontent h1 {
+  color: black;
+  font-size: 2.1vw;
+}
+
+.LSimages {
+  width: 33.28vw;
+  height: 80.8vh;
+}
+
+.SDbgimg {
+  width: 100vw;
+}
+
+.LSbgimg {
+  width: 100vw;
+}
+.CSbgimg {
+  width: 100vw;
+}
+
+.fashionbgimg {
+  width: 100vw;
+}
+
+.PSBbgimg {
+  width: 100vw;
+}
+
+.jewelrybgimg {
+  width: 100vw;
+}
+
+.HDtext {
+  width: 33.28vw;
+}
+
+.HDimages {
+  width: 33.28vw;
+  height: 80.8vh;
+}
+
+.HDcontent h1 {
+  color: black;
+  font-size: 2.1vw;
+}
+
+.HDbgimg {
+  width: 100vw;
+}
+.Wbgimg {
+  width: 100vw;
+}
+
+.Wimages {
+  width: 33.28vw;
+  height: 80.8vh;
+}
+
+.Wtext {
+  width: 33.28vw;
+}
+
+.Wcontent h1 {
+  color: black;
+  font-size: 2.1vw;
+}
+.Cbgimg {
+  width: 100vw;
+}
+
+.Cimages {
+  width: 33.28vw;
+  height: 80.8vh;
+}
+
+.Ctext {
+  width: 33.28vw;
+}
+
+.Ccontent h1 {
+  color: black;
+  font-size: 2.1vw;
+}
+
+
+
+
+}
+
 
 @media only screen and (max-width: 992px) {
 

@@ -5,16 +5,16 @@ function function1() {
     $(window).scroll(function () {
         window.scrollBy({ behavior: 'smooth' });
         scroll_pos = $(window).scrollTop();
-        if (scroll_pos >= 1391.199951171875 && scroll_pos <= 2665.5) {
+        if (scroll_pos >= 1031 && scroll_pos <= 2665.5) {
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))");
             $(".logo a img").css('max-width', '7vw');
             $("nav ul").css("margin-top","1.3vh");
             $("nav ul li a").css("color","black");
-            $(".img1").css("animation","none");
+            $(".img1").css("animation","img11 3s ease-in-out 0s 1");
             $(".worktext2 h1").css("animation","typing 8s steps(34, end) 1s 1 normal both, blink 900ms steps(34) infinite normal");
             $("nav").css("box-shadow"," 0px 0px 10px #0000001c");
         }
-        else if(scroll_pos >= 2394 && scroll_pos <= 3925.5){
+        else if(scroll_pos >= 1831 && scroll_pos <= 3925.5){
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))");
             $(".logo a img").css('max-width', '7vw');
             $("nav ul").css("margin-top","1.3vh");
