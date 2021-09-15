@@ -5,7 +5,7 @@ function function1() {
     $(window).scroll(function () {
         window.scrollBy({ behavior: 'smooth' });
         scroll_pos = $(window).scrollTop();
-        if (scroll_pos >= 1031 && scroll_pos <= 2665.5) {
+        if (scroll_pos >= 884 && scroll_pos <= 2665.5) {
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))");
             $(".logo a img").css('max-width', '7vw');
             $("nav ul").css("margin-top","1.3vh");

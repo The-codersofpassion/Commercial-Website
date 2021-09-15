@@ -449,6 +449,13 @@ nav ul li a:hover {
   background-size: cover;
 }
 
+.PSBimage-container {
+  width: 29.28vw;
+  height: 84.8vh;
+  margin-left: 42.459vw;
+  position: relative;
+}
+
 .PSBranding {
   width: 29.282vw;
   height: 84.8vh;
@@ -494,13 +501,6 @@ nav ul li a:hover {
   margin-left: 0.1464vw;
   position: relative;
   top: -3.2vh;
-}
-
-.PSBimage-container {
-  width: 29.28vw;
-  height: 84.8vh;
-  margin-left: 92.8vh;
-  position: relative;
 }
 
 .fade {
@@ -1781,9 +1781,6 @@ nav ul li a:hover {
 .PSBranding {
   width: 38.282vw;
   height: 80.8vh;
-  margin-left: -2.46vw;
-  position: relative;
-  top: -88vh;
 }
 
 .PSBcontent h1 {
@@ -1818,7 +1815,7 @@ nav ul li a:hover {
 }
 
 .SDimages {
-  width: 33.28vw;
+  width: 38.282vw;
   height: 80.8vh;
 }
 
@@ -1828,7 +1825,7 @@ nav ul li a:hover {
 }
 
 .CSimages {
-  width: 33.28vw;
+  width: 38.282vw;
   height: 80.8vh;
 }
 
@@ -1842,7 +1839,7 @@ nav ul li a:hover {
 }
 
 .LSimages {
-  width: 33.28vw;
+  width: 38.282vw;
   height: 80.8vh;
 }
 
@@ -1891,7 +1888,7 @@ nav ul li a:hover {
 }
 
 .Wimages {
-  width: 33.28vw;
+  width: 38.282vw;
   height: 80.8vh;
 }
 
@@ -1908,7 +1905,7 @@ nav ul li a:hover {
 }
 
 .Cimages {
-  width: 33.28vw;
+  width: 38.282vw;
   height: 80.8vh;
 }
 
@@ -1920,8 +1917,6 @@ nav ul li a:hover {
   color: black;
   font-size: 2.1vw;
 }
-
-
 
 
 }
@@ -2021,14 +2016,6 @@ nav ul li a:hover {
   margin-top: 36vh;
 }
 
-.PSBranding {
-  width: 38.282vw;
-  height: 80.8vh;
-  margin-left: 0.54vw;
-  position: relative;
-  top: -88vh;
-}
-
 .contact {
     height: 51rem;
     padding: 0;
@@ -2054,85 +2041,6 @@ nav ul li a:hover {
     width: 100%;
     display: flex;
     height: auto;
-  }
-
-  .home {
-    display: flex;
-  }
-
-  .WorkAdjust {
-    display: inline;
-    /* height: 170rem; */
-  }
-
-  #Work {
-    height: 66rem;
-  }
-
-  .img1 {
-    padding: 0;
-    margin-left: 27vw;
-    width: 21rem;
-    height: 20rem;
-    border-radius: 5vw;
-    margin-bottom: 7vh;
-  }
-
-  .img2 {
-    margin-top: 29vh;
-    border-radius: 5vw;
-    /* margin-left: 0rem; */
-    width: 20rem;
-    margin-left: -20.1rem;
-  }
-
-  .img3 {
-    border-radius: 5vw;
-    height: 29vh;
-    padding-top: 11.5rem;
-    margin-left: 7.5rem;
-    width: 30rem;
-  }
-
-  .button-container {
-    padding-top: 3%;
-    padding-left: 24%;
-  }
-
-  .story-title {
-    margin-top: -20%;
-    margin-left: -31%;
-    width: 65%;
-  }
-
-  .story_image {
-    padding-top: 5vh;
-    width: 15rem;
-    margin-left: -5rem;
-  }
-
-  .story_content {
-    margin-top: 53%;
-  }
-
-  .text-center {
-    /* testimonial */
-    margin-top: 69rem;
-    margin-bottom: 0rem;
-  }
-
-  .contact {
-    height: 44rem;
-    margin-top: -69rem;
-  }
-
-  .footer {
-    height: 11.5rem;
-    margin-top: 0vh;
-  }
-
-  .footertitle {
-    padding-top: 5%;
   }
 
 }
