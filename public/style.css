@@ -1290,8 +1290,12 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 124.8vh;
+  height: max-content;
   padding-bottom: 1.7rem;
+}
+
+.contact-form{
+  margin-bottom: 5vh;
 }
 
 .placeholderRed {
@@ -1521,7 +1525,6 @@ nav ul li a:hover {
   
 
   .contact{
-    height: 100vh;
     padding-bottom: 10vh;
   }
 
@@ -1706,12 +1709,11 @@ nav ul li a:hover {
   }
 
   .contact {
-    height: 100vh;
+    height: max-content;
     background-image: url('https://c0.wallpaperflare.com/preview/236/736/891/replacement-lamp-flowers-evening-garden.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 124.8vh;
     padding-bottom: 1.7rem;
 }
 
@@ -2081,11 +2083,6 @@ nav ul li a:hover {
   margin-top: 50vh;
 }
 
-.contact {
-    padding: 0;
-    margin: 0;
-  }
-
   .footer{
     margin-top: -8%;
     height: 27vw;
@@ -2331,7 +2328,7 @@ nav ul li a:hover {
 
 .testimonial {
   height: 80vh;
-  margin-top: 19vh;
+  margin-top: 44vh;
 }
 
 .slidercontent p {
@@ -2349,6 +2346,13 @@ nav ul li a:hover {
   top: 22.2vh;
 }
 
+}
+
+@media only screen and (max-width: 360px){
+  .testimonial {
+    height: 80vh;
+    margin-top: 29vh;
+  }
 }
 
 @media only screen and (max-width: 320px){
