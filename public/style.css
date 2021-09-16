@@ -1391,7 +1391,7 @@ nav ul li a:hover {
 
 .footer {
   position: relative;
-  height: 20%;
+  height: max-content;
 }
 
 .footertitle {
@@ -1430,7 +1430,7 @@ nav ul li a:hover {
   position: relative;
   background-attachment: fixed;
   background-color: rgba(245, 189, 2);
-  height: 40vh;
+  height: max-content;
 }
 
 .footertitle {
@@ -1540,7 +1540,7 @@ nav ul li a:hover {
   }
 
   .footer{
-    height: 20rem;
+    height: max-content;
   }
 
   .footertitle{
@@ -2085,7 +2085,7 @@ nav ul li a:hover {
 
   .footer{
     margin-top: -8%;
-    height: 27vw;
+    height: max-content;
     padding-top: 0vh;
   }
 
@@ -2360,12 +2360,21 @@ nav ul li a:hover {
     height: 80vh;
     margin-top: 60vh;
 }
+.icons {
+  height: 6vw;
+  width: 7vw;
+}
 }
 
 @media only screen and (max-width: 240px){
   .testimonial {
     height: 80vh;
     margin-top: 127vh;
+}
+
+.icons {
+  height: 6vw;
+  width: 7vw;
 }
 }
 
