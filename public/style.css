@@ -2191,13 +2191,13 @@ nav ul li a:hover {
   margin-left: 27.7vw;
   margin-top: -30vh;
   width: 44vw;
-  height: 44vh;
+  height: 31vh;
 }
 
 .img2 {
   /* position: absolute; */
-  margin-top: 16vh;
-  height: 16vh;
+  margin-top: 5vh;
+  height: 12vh;
   width: 32vw;
   margin-left: -37.5vw;
   border: 0.146vw solid black;
@@ -2206,7 +2206,7 @@ nav ul li a:hover {
 
 .testimonial {
   height: 80vh;
-  margin-top: 8vh;
+  margin-top: -93vh;
 }
 
 .SliderImg {
@@ -2216,6 +2216,155 @@ nav ul li a:hover {
 .slidercontent p {
   font-size: 1.7vw;
 }
+
+.heritageCouture {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.heritagecontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.heritage {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.KivaCouture {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: 7.54vw;
+  position: relative;
+  top: -71vh;
+}
+
+.PSBrad {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.PSBcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.PSBrd {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.PSBranding {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: -34.46vw;
+  position: relative;
+  top: -74vh;
+}
+
+.EJtext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.EJcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.EJT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.jewelryimages {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: 7.54vw;
+  position: relative;
+  top: -71vh;
+}
+
+.logo a img {
+  float: left;
+  position: relative;
+  max-width: 10vw;
+  max-height: auto;
+  padding-top: 0.5rem;
+  padding-left: 0.7rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: 2s;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+  padding-top: 11%;
+  color: black;
+  letter-spacing: 0.0732vw;
+  font-size: 4.9282vw;
+  color: white;
+  font-family: "BaronMTModern";
+  font-weight: 100;
+}
+
+.footertitle {
+  text-align: center;
+  justify-content: center;
+  font-size: 5.5vw;
+  color: white;
+}
+
+.leftconnectstatement {
+  padding-left: 4vw;
+  font-size: 4.3vw;
+  width: max-content;
+  color: white;
+}
+
+.rightconnectstatement {
+  padding-right: 5vw;
+  font-size: 4.3vw;
+  color: white;
+  text-align: center;
+}
+
 }
 
 @media only screen and (max-width: 480px){
@@ -2424,7 +2573,7 @@ nav ul li a:hover {
   .footertitle {
     text-align: center;
     justify-content: center;
-    font-size: 6.5vw;
+    font-size: 5.5vw;
     color: white;
   }
   
