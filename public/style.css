@@ -2916,6 +2916,7 @@ nav ul li a:hover {
 
   .fashionimage-container {
     top: -74vh;
+    height: max-content;
   }
   
   .KivaCouture {
@@ -2946,6 +2947,7 @@ nav ul li a:hover {
 
 .fashionimage-container {
   top: -74vh;
+  height: max-content;
 }
 
 .KivaCouture {
