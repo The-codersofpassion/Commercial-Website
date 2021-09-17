@@ -1714,7 +1714,6 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 1.7rem;
 }
 
 .headerF {
@@ -2123,23 +2122,41 @@ nav ul li a:hover {
 .img1 {
   margin-left: 29.7vw;
   margin-top: -25vh;
-  height: 34vh;
+  height: 26vh;
   width: 41vw;
 }
 
 .img2 {
   /* position: absolute; */
-  margin-top: 19vh;
-  height: 14vh;
+  margin-top: 4vh;
+  height: 10vh;
   width: 32vw;
   margin-left: -36.5vw;
   border: 0.146vw solid black;
   border-radius: 1.46vw;
 }
 
+.img3 {
+  margin-left: 18vw;
+  width: 64vw;
+  height: 14vh;
+}
+
 .testimonial {
   height: 80vh;
-  margin-top: -20vh;
+  margin-top: -103vh;
+}
+
+.Featuretitle h1 {
+  text-orientation: upright;
+  width: 3.66vw;
+  letter-spacing: 1.317vw;
+  font-size: 4.92vw;
+  color: black;
+  backdrop-filter: inherit;
+  position: relative;
+  top: -110.4vh;
+  padding-left: 13.5vw;
 }
 
 }
@@ -2224,6 +2241,122 @@ nav ul li a:hover {
   font-size: 1.6vw;
 }
 
+.heritageCouture {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.heritagecontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.heritage {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.KivaCouture {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: 7.54vw;
+  position: relative;
+  top: -71vh;
+}
+
+.PSBrad {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.PSBcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.PSBrd {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.PSBranding {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: -34.46vw;
+  position: relative;
+  top: -74vh;
+}
+
+.EJtext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.EJcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.EJT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.jewelryimages {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: 7.54vw;
+  position: relative;
+  top: -71vh;
+}
+
+.logo a img {
+  float: left;
+  position: relative;
+  max-width: 10vw;
+  max-height: auto;
+  padding-top: 0.5rem;
+  padding-left: 0.7rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: 2s;
+  overflow: hidden;
+}
+
 }
 
 @media only screen and (max-width: 439px){
@@ -2275,6 +2408,41 @@ nav ul li a:hover {
 
 }
 
+@media only screen and (max-width: 400px)
+{
+  .text-center {
+    text-align: center;
+    padding-top: 11%;
+    color: black;
+    letter-spacing: 0.0732vw;
+    font-size: 4.9282vw;
+    color: white;
+    font-family: "BaronMTModern";
+    font-weight: 100;
+  }
+  
+  .footertitle {
+    text-align: center;
+    justify-content: center;
+    font-size: 6.5vw;
+    color: white;
+  }
+  
+  .leftconnectstatement {
+    padding-left: 4vw;
+    font-size: 4.3vw;
+    width: max-content;
+    color: white;
+  }
+  
+  .rightconnectstatement {
+    padding-right: 5vw;
+    font-size: 4.3vw;
+    color: white;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 384px){
   .story_image {
     height: 45vh;
@@ -2302,6 +2470,8 @@ nav ul li a:hover {
   padding-right: 0vw;
   text-align: center;
 }
+
+
 
 }
 
