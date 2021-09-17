@@ -2319,6 +2319,210 @@ nav ul li a:hover {
   top: -71vh;
 }
 
+.SDtext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.SDcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.SDT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.SDimages {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: 7.54vw;
+  position: relative;
+  top: -71vh;
+}
+
+.LStext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.LScontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.LST {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.LSimages {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: -34.46vw;
+  position: relative;
+  top: -74vh;
+}
+
+.CStext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.CScontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.CST {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.CSimages {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: 7.54vw;
+  position: relative;
+  top: -71vh;
+}
+
+.HDtext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.HDcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.HDT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.HDimages {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: 7.54vw;
+  position: relative;
+  top: -71vh;
+}
+
+.Wtext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.Wcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.WT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.Wimages {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: -34.46vw;
+  position: relative;
+  top: -74vh;
+}
+
+.Ctext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -194.4vh;
+  margin-left: 7.636vw;
+  align-content: center;
+}
+
+.Ccontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.CT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.Cimages {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: 7.54vw;
+  position: relative;
+  top: -71vh;
+}
+
 .logo a img {
   float: left;
   position: relative;
@@ -2367,23 +2571,51 @@ nav ul li a:hover {
 
 }
 
+@media only screen and (max-width: 540px)
+{
+  .testimonial {
+    height: 80vh;
+    margin-top: -73vh;
+}
+}
+
 @media only screen and (max-width: 480px){
   .image-container {
     width: 403.5vw;
-    height: 56.88vh;
-  }
+    height: 49.88vh;
+}
 
 .story_image {
   height: 64vh;
   width: 43vw;
   border-radius: 0.7rem;
-  margin-top: 37vh;
+  margin-top: 30vh;
   margin-left: -14vw;
 }
 
+.img1 {
+  margin-left: 23.7vw;
+  margin-top: -22vh;
+  width: 53vw;
+  height: 42vh;
+}
+
 .img2 {
-  margin-top: 12vh;
-  height: 25vh;
+  margin-top: 27vh;
+  height: 19vh;
+  width: 42vw;
+  margin-left: -47.5vw;
+}
+
+.img3 {
+  position: relative;
+  top: 40vh;
+  padding: 0;
+  border-radius: 5vw;
+  height: 17vh;
+  padding-top: 11.5rem;
+  margin-left: 14vw;
+  width: 72vw;
 }
 
 .slidercontent p {
@@ -2504,6 +2736,15 @@ nav ul li a:hover {
   cursor: pointer;
   transition: 2s;
   overflow: hidden;
+}
+
+.testimonial {
+  height: 80vh;
+  margin-top: 35vh;
+}
+
+.mobnumber {
+  font-size: 2.5vw;
 }
 
 }
@@ -2685,10 +2926,17 @@ nav ul li a:hover {
 }
 }
 
+@media only screen and (max-width: 280px){
+  .testimonial {
+    height: 80vh;
+    margin-top: 19vh;
+}
+}
+
 @media only screen and (max-width: 240px){
   .testimonial {
     height: 80vh;
-    margin-top: 127vh;
+    margin-top: 21vh;
 }
 
 .icons {
