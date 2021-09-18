@@ -2046,6 +2046,342 @@ nav ul li a:hover {
   padding-left: 13.5vw;
 }
 
+.heritageCouture {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.heritagecontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.heritage {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.fashionimage-container {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -76vh;
+}
+
+.KivaCouture{
+  width: 80.282vw;
+  height: 69.8vh;
+}
+
+.slides {
+  width: 240.84vw;
+  height: 100%;
+  position: relative;
+  animation: slide 20s infinite;
+}
+
+.PSBrad {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.PSBcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.PSBrd {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.PSBimage-container {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -76vh;
+}
+
+.EJtext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.EJcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.EJT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.jewelryimage-container {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -76vh;
+}
+
+.SDtext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.SDcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.SDT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.SDimage-container {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -76vh;
+}
+
+.LStext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.LScontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.LST {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.LSimage-container {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -76vh;
+}
+
+.CStext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.CScontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.CST {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.CSimage-container {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -76vh;
+}
+
+.HDtext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.HDcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.HDT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.HDimage-container {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -76vh;
+}
+
+.Wtext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.Wcontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.WT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.Wimage-container {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -76vh;
+}
+
+.Ctext {
+  width: 80.28vw;
+  height: 33.8vh;
+  background: white;
+  position: relative;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.Ccontent h1 {
+  color: black;
+  font-size: 2.5vw;
+  line-height: 3.6vh;
+  word-spacing: 0.512vw;
+  margin-left: 1.464vw;
+  margin-right: 1.464vw;
+}
+
+.CT {
+  position: relative;
+  margin-left: 4.758vw;
+  height: 14.6vh;
+  width: 69.863vw;
+}
+
+.Cimage-container {
+  width: 80.282vw;
+  height: 69.8vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -76vh;
+}
+
 }
 
 @media only screen and (max-width: 600px){
