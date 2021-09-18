@@ -393,13 +393,61 @@ nav ul li a:hover {
   background-size: cover;
 }
 
-.KivaCouture {
-  width: 29.282vw;
+.fashionimage-container {
+  width: 29.28vw;
   height: 84.8vh;
-  margin-left: 10.54vw;
   position: relative;
+  margin-left: 10.54vw;
   top: -88vh;
+  overflow: hidden;
 }
+
+.slides {
+  width: 87.84vw;
+  height: 100%;
+  position: relative;
+  animation: slide 20s infinite;
+}
+
+.slider {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.KivaCouture {
+  width: 29.28vw;
+  height: 84.8vh;
+}
+
+  @keyframes slide{
+    0%,100%{
+      margin-left:0%;
+    }
+    16.665%{
+      margin-left:0%;
+    }
+    33.33%{
+      margin-left: -100%;
+    }
+    49.995%{
+      margin-left: -100%;
+    }
+    66.66%{
+      margin-left: -200%;
+    }
+    83.325%{
+      margin-left: -200%;
+    }
+  }
 
 .heritageCouture {
   width: 29.28vw;
@@ -451,17 +499,12 @@ nav ul li a:hover {
 
 .PSBimage-container {
   width: 29.28vw;
+  width: 29.28vw;
   height: 84.8vh;
-  margin-left: 42.459vw;
   position: relative;
-}
-
-.PSBranding {
-  width: 29.282vw;
-  height: 84.8vh;
-  margin-left: 10.54vw;
-  position: relative;
+  margin-left: 55.459vw;
   top: -88vh;
+  overflow: hidden;
 }
 
 .PSBrad {
@@ -495,41 +538,6 @@ nav ul li a:hover {
   margin-right: 1.464vw;
 }
 
-.fashionimage-container {
-  width: 29.28vw;
-  height: 84.8vh;
-  margin-left: 0.1464vw;
-  position: relative;
-  top: -3.2vh;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 4s;
-  animation-name: fade;
-  animation-duration: 4s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
 .jewelry {
   position: relative;
   max-height: 122.88vh;
@@ -550,17 +558,10 @@ nav ul li a:hover {
 .jewelryimage-container {
   width: 29.28vw;
   height: 84.8vh;
-  margin-left: 0.146vw;
   position: relative;
-  top: -3.2vh;
-}
-
-.jewelryimages {
-  width: 29.28vw;
-  height: 84.8vh;
   margin-left: 10.54vw;
-  position: relative;
   top: -88vh;
+  overflow: hidden;
 }
 
 .EJtext {
@@ -614,17 +615,10 @@ nav ul li a:hover {
 .SDimage-container {
   width: 29.28vw;
   height: 84.8vh;
-  margin-left: 0.1464vw;
   position: relative;
-  top: -3.2vh;
-}
-
-.SDimages {
-  width: 29.28vw;
-  height: 84.8vh;
-  margin-left: 10.541vw;
-  position: relative;
+  margin-left: 10.54vw;
   top: -88vh;
+  overflow: hidden;
 }
 
 .SDtext {
@@ -678,16 +672,10 @@ nav ul li a:hover {
 .LSimage-container {
   width: 29.28vw;
   height: 84.8vh;
-  margin-left: 42.459vw;
   position: relative;
-}
-
-.LSimages {
-  width: 29.28vw;
-  height: 84.8vh;
-  margin-left: 10.541vw;
-  position: relative;
+  margin-left: 55.459vw;
   top: -88vh;
+  overflow: hidden;
 }
 
 .LStext {
@@ -741,17 +729,10 @@ nav ul li a:hover {
 .CSimage-container {
   width: 29.28vw;
   height: 84.8vh;
-  margin-left: 0.1464vw;
   position: relative;
-  top: -3.2vh;
-}
-
-.CSimages {
-  width: 29.28vw;
-  height: 84.8vh;
-  margin-left: 10.541vw;
-  position: relative;
+  margin-left: 10.54vw;
   top: -88vh;
+  overflow: hidden;
 }
 
 .CStext {
@@ -805,17 +786,10 @@ nav ul li a:hover {
 .HDimage-container {
   width: 29.28vw;
   height: 84.8vh;
-  margin-left: 0.1464vw;
   position: relative;
-  top: -3.2vh;
-}
-
-.HDimages {
-  width: 29.28vw;
-  height: 84.8vh;
   margin-left: 10.54vw;
-  position: relative;
   top: -88vh;
+  overflow: hidden;
 }
 
 .HDtext {
@@ -869,16 +843,10 @@ nav ul li a:hover {
 .Wimage-container {
   width: 29.28vw;
   height: 84.8vh;
-  margin-left: 42.459vw;
   position: relative;
-}
-
-.Wimages {
-  width: 29.28vw;
-  height: 84.8vh;
-  margin-left: 10.541vw;
-  position: relative;
+  margin-left: 55.459vw;
   top: -88vh;
+  overflow: hidden;
 }
 
 .Wtext {
@@ -932,17 +900,10 @@ nav ul li a:hover {
 .Cimage-container {
   width: 29.28vw;
   height: 84.8vh;
-  margin-left: 0.1464vw;
   position: relative;
-  top: -3.2vh;
-}
-
-.Cimages {
-  width: 29.28vw;
-  height: 84.8vh;
-  margin-left: 10.541vw;
-  position: relative;
+  margin-left: 10.54vw;
   top: -88vh;
+  overflow: hidden;
 }
 
 .Ctext {
@@ -1388,19 +1349,6 @@ nav ul li a:hover {
 }
 
 /* footer styling */
-
-.footer {
-  position: relative;
-  height: max-content;
-}
-
-.footertitle {
-  text-align: center;
-  justify-content: center;
-  padding-top: 3vh;
-  font-size: 2rem;
-}
-
 .connectstatement {
   padding-top: 5vh;
   display: flex;
@@ -1424,9 +1372,7 @@ nav ul li a:hover {
   font-size: 1.5vw;
 }
 
-
 .footer {
-  /* background-image: url("https://hindi.gyaanghantaa.com/wp-content/uploads/sites/2/2020/03/footer-background.jpg"); */
   position: relative;
   background-attachment: fixed;
   background-color: rgba(245, 189, 2);
@@ -1443,12 +1389,6 @@ nav ul li a:hover {
 
 .socialmedia {
   padding-left: 0.21961vw;
-}
-
-/* Fashion footer */
-.mobnumber1 {
-  font-size: 1.5vw;
-  color: white;
 }
 
 /* ADD CSS HERE */
@@ -1725,14 +1665,6 @@ nav ul li a:hover {
   position: relative;
 }
 
-.KivaCouture {
-  width: 38.282vw;
-  height: 80.8vh;
-  margin-left: 10.54vw;
-  position: relative;
-  top: -88vh;
-}
-
 .heritageCouture {
   width: 33.28vw;
   height: 84.8vh;
@@ -1771,19 +1703,6 @@ nav ul li a:hover {
   margin-right: 1.464vw;
 }
 
-.jewelryimages {
-  width: 38.282vw;
-  height: 80.8vh;
-  margin-left: 10.54vw;
-  position: relative;
-  top: -88vh;
-}
-
-.PSBranding {
-  width: 38.282vw;
-  height: 80.8vh;
-}
-
 .PSBcontent h1 {
   color: black;
   font-size: 2.1vw;
@@ -1815,19 +1734,9 @@ nav ul li a:hover {
   width: 33.28vw;
 }
 
-.SDimages {
-  width: 38.282vw;
-  height: 80.8vh;
-}
-
 .CScontent h1 {
   color: black;
   font-size: 2.1vw;
-}
-
-.CSimages {
-  width: 38.282vw;
-  height: 80.8vh;
 }
 
 .LStext {
@@ -1837,11 +1746,6 @@ nav ul li a:hover {
 .LScontent h1 {
   color: black;
   font-size: 2.1vw;
-}
-
-.LSimages {
-  width: 38.282vw;
-  height: 80.8vh;
 }
 
 .SDbgimg {
@@ -1871,11 +1775,6 @@ nav ul li a:hover {
   width: 33.28vw;
 }
 
-.HDimages {
-  width: 33.28vw;
-  height: 80.8vh;
-}
-
 .HDcontent h1 {
   color: black;
   font-size: 2.1vw;
@@ -1886,11 +1785,6 @@ nav ul li a:hover {
 }
 .Wbgimg {
   width: 100vw;
-}
-
-.Wimages {
-  width: 38.282vw;
-  height: 80.8vh;
 }
 
 .Wtext {
@@ -1905,11 +1799,6 @@ nav ul li a:hover {
   width: 100vw;
 }
 
-.Cimages {
-  width: 38.282vw;
-  height: 80.8vh;
-}
-
 .Ctext {
   width: 33.28vw;
 }
@@ -1918,8 +1807,6 @@ nav ul li a:hover {
   color: black;
   font-size: 2.1vw;
 }
-
-
 }
 
 @media only screen and (max-width: 1024px){
@@ -2222,8 +2109,9 @@ nav ul li a:hover {
   height: 33.8vh;
   background: white;
   position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
 
@@ -2243,12 +2131,25 @@ nav ul li a:hover {
   width: 69.863vw;
 }
 
-.KivaCouture {
+.fashionimage-container {
   width: 80.282vw;
   height: 69.8vh;
-  margin-left: 7.54vw;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top: -71vh;
+  top: -76vh;
+}
+
+.KivaCouture{
+  width: 80.282vw;
+  height: 69.8vh;
+}
+
+.slides {
+  width: 240.84vw;
+  height: 100%;
+  position: relative;
+  animation: slide 20s infinite;
 }
 
 .PSBrad {
@@ -2256,8 +2157,9 @@ nav ul li a:hover {
   height: 33.8vh;
   background: white;
   position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
 
@@ -2277,12 +2179,13 @@ nav ul li a:hover {
   width: 69.863vw;
 }
 
-.PSBranding {
+.PSBimage-container {
   width: 80.282vw;
   height: 69.8vh;
-  margin-left: -34.46vw;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top: -74vh;
+  top: -76vh;
 }
 
 .EJtext {
@@ -2290,8 +2193,9 @@ nav ul li a:hover {
   height: 33.8vh;
   background: white;
   position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
 
@@ -2311,12 +2215,13 @@ nav ul li a:hover {
   width: 69.863vw;
 }
 
-.jewelryimages {
+.jewelryimage-container {
   width: 80.282vw;
   height: 69.8vh;
-  margin-left: 7.54vw;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top: -71vh;
+  top: -76vh;
 }
 
 .SDtext {
@@ -2324,8 +2229,9 @@ nav ul li a:hover {
   height: 33.8vh;
   background: white;
   position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
 
@@ -2345,12 +2251,13 @@ nav ul li a:hover {
   width: 69.863vw;
 }
 
-.SDimages {
+.SDimage-container {
   width: 80.282vw;
   height: 69.8vh;
-  margin-left: 7.54vw;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top: -71vh;
+  top: -76vh;
 }
 
 .LStext {
@@ -2358,8 +2265,9 @@ nav ul li a:hover {
   height: 33.8vh;
   background: white;
   position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
 
@@ -2379,12 +2287,13 @@ nav ul li a:hover {
   width: 69.863vw;
 }
 
-.LSimages {
+.LSimage-container {
   width: 80.282vw;
   height: 69.8vh;
-  margin-left: -34.46vw;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top: -74vh;
+  top: -76vh;
 }
 
 .CStext {
@@ -2392,8 +2301,9 @@ nav ul li a:hover {
   height: 33.8vh;
   background: white;
   position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
 
@@ -2413,12 +2323,13 @@ nav ul li a:hover {
   width: 69.863vw;
 }
 
-.CSimages {
+.CSimage-container {
   width: 80.282vw;
   height: 69.8vh;
-  margin-left: 7.54vw;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top: -71vh;
+  top: -76vh;
 }
 
 .HDtext {
@@ -2426,8 +2337,9 @@ nav ul li a:hover {
   height: 33.8vh;
   background: white;
   position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
 
@@ -2447,12 +2359,13 @@ nav ul li a:hover {
   width: 69.863vw;
 }
 
-.HDimages {
+.HDimage-container {
   width: 80.282vw;
   height: 69.8vh;
-  margin-left: 7.54vw;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top: -71vh;
+  top: -76vh;
 }
 
 .Wtext {
@@ -2460,8 +2373,9 @@ nav ul li a:hover {
   height: 33.8vh;
   background: white;
   position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
 
@@ -2481,12 +2395,13 @@ nav ul li a:hover {
   width: 69.863vw;
 }
 
-.Wimages {
+.Wimage-container {
   width: 80.282vw;
   height: 69.8vh;
-  margin-left: -34.46vw;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top: -74vh;
+  top: -76vh;
 }
 
 .Ctext {
@@ -2494,8 +2409,9 @@ nav ul li a:hover {
   height: 33.8vh;
   background: white;
   position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
+  top: -183.4vh;
+  margin-left: auto;
+  margin-right: auto;
   align-content: center;
 }
 
@@ -2515,12 +2431,13 @@ nav ul li a:hover {
   width: 69.863vw;
 }
 
-.Cimages {
+.Cimage-container {
   width: 80.282vw;
   height: 69.8vh;
-  margin-left: 7.54vw;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  top: -71vh;
+  top: -76vh;
 }
 
 .logo a img {
@@ -2622,107 +2539,6 @@ nav ul li a:hover {
   font-size: 1.6vw;
 }
 
-.heritageCouture {
-  width: 80.28vw;
-  height: 33.8vh;
-  background: white;
-  position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
-  align-content: center;
-}
-
-.heritagecontent h1 {
-  color: black;
-  font-size: 2.5vw;
-  line-height: 3.6vh;
-  word-spacing: 0.512vw;
-  margin-left: 1.464vw;
-  margin-right: 1.464vw;
-}
-
-.heritage {
-  position: relative;
-  margin-left: 4.758vw;
-  height: 14.6vh;
-  width: 69.863vw;
-}
-
-.KivaCouture {
-  width: 80.282vw;
-  height: 69.8vh;
-  margin-left: 7.54vw;
-  position: relative;
-  top: -71vh;
-}
-
-.PSBrad {
-  width: 80.28vw;
-  height: 33.8vh;
-  background: white;
-  position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
-  align-content: center;
-}
-
-.PSBcontent h1 {
-  color: black;
-  font-size: 2.5vw;
-  line-height: 3.6vh;
-  word-spacing: 0.512vw;
-  margin-left: 1.464vw;
-  margin-right: 1.464vw;
-}
-
-.PSBrd {
-  position: relative;
-  margin-left: 4.758vw;
-  height: 14.6vh;
-  width: 69.863vw;
-}
-
-.PSBranding {
-  width: 80.282vw;
-  height: 69.8vh;
-  margin-left: -34.46vw;
-  position: relative;
-  top: -74vh;
-}
-
-.EJtext {
-  width: 80.28vw;
-  height: 33.8vh;
-  background: white;
-  position: relative;
-  top: -194.4vh;
-  margin-left: 7.636vw;
-  align-content: center;
-}
-
-.EJcontent h1 {
-  color: black;
-  font-size: 2.5vw;
-  line-height: 3.6vh;
-  word-spacing: 0.512vw;
-  margin-left: 1.464vw;
-  margin-right: 1.464vw;
-}
-
-.EJT {
-  position: relative;
-  margin-left: 4.758vw;
-  height: 14.6vh;
-  width: 69.863vw;
-}
-
-.jewelryimages {
-  width: 80.282vw;
-  height: 69.8vh;
-  margin-left: 7.54vw;
-  position: relative;
-  top: -71vh;
-}
 
 .logo a img {
   float: left;
