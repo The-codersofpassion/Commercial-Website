@@ -1142,7 +1142,7 @@ nav ul li a:hover {
 }
 
 .testimonial {
-  min-height: 60vh;
+  min-height: 100vh;
   position: relative;
   background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
   padding-top: 3vh;
@@ -1501,6 +1501,18 @@ nav ul li a:hover {
 
 
 @media only screen and (max-width: 1280px) {
+  .story_image {
+    height: 65%;
+    width: 35%;
+    border-radius: 0.7rem;
+    margin-top: 22%;
+    margin-left: -6rem;
+}
+
+.story_content {
+  font-size: 1.8vw;
+}
+
   .image-container {
     width: 403.5vw;
     height: 73.88vh;
@@ -1645,7 +1657,7 @@ nav ul li a:hover {
   }
   
   .slidercontent p {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
 
   .contact {
@@ -1807,9 +1819,37 @@ nav ul li a:hover {
   color: black;
   font-size: 2.1vw;
 }
+
+.ForStyle {
+  margin-top: -19vh;
+  width: 69vw;
+}
+
+.ResponsiveContent {
+  margin-top: 40vh;
+  position: relative;
+  right: 55vw;
+}
+
+.ResponsiveContent p {
+  width: 69vw;
+  margin-top: 1vh;
+}
 }
 
 @media only screen and (max-width: 1024px){
+  .ResponsiveContent {
+    margin-top: 0vh;
+    position: relative;
+    right: 0vw;
+}
+
+.ResponsiveContent p {
+  font-size: 1.2vw;
+  width: 35vw;
+  margin-top: 1vh;
+}
+
   .image-container {
     width: 403.5vw;
     height: max-content;
@@ -1875,6 +1915,24 @@ nav ul li a:hover {
 }
 
 @media only screen and (max-width: 992px) {
+  .slidercontent h1 {
+    font-size: 3.5vw;
+    margin-left: 2.7847vw;
+    color: white;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-style: normal;
+}
+.ForStyle {
+  margin-top: -19vh;
+  width: 52vw;
+}
+
+.ResponsiveContent p {
+  font-size: 1.2vw;
+  width: 29vw;
+  margin-top: 1vh;
+}
 
   .story_image {
     height: 84vh;
@@ -2821,7 +2879,23 @@ nav ul li a:hover {
   color: white;
   text-align: center;
 }
+.ResponsiveContent p {
+  font-size: 2vw;
+  width: 58vw;
+  margin-top: 1vh;
+}
 
+.ResponsiveContent {
+margin-top: 19vh;
+position: relative;
+right: 61vw;
+}
+
+.ForStyle {
+margin-top: -19vh;
+width: 75.603vw;
+height: 26vh;
+}
 }
 
 @media only screen and (max-width: 540px)
@@ -2829,6 +2903,19 @@ nav ul li a:hover {
   .testimonial {
     height: 80vh;
     margin-top: -73vh;
+}
+.ForStyle {
+  margin-top: -19vh;
+  width: 75.603vw;
+  height: 30vh;
+}
+.ResponsiveContent {
+  margin-top: 23vh;
+  position: relative;
+  right: 59vw;
+}
+.ResponsiveContent p {
+  font-size: 2.2vw;
 }
 }
 
@@ -2898,7 +2985,23 @@ nav ul li a:hover {
 .mobnumber {
   font-size: 2.5vw;
 }
+.ResponsiveContent p {
+  font-size: 2vw;
+  width: 58vw;
+  margin-top: 1vh;
+}
 
+.ResponsiveContent {
+margin-top: 19vh;
+position: relative;
+right: 61vw;
+}
+
+.ForStyle {
+margin-top: -19vh;
+width: 75.603vw;
+height: 26vh;
+}
 }
 
 @media only screen and (max-width: 439px){
@@ -2986,6 +3089,7 @@ nav ul li a:hover {
 }
 
 @media only screen and (max-width: 384px){
+  
   .story_image {
     height: 45vh;
     width: 43vw;
@@ -3013,7 +3117,11 @@ nav ul li a:hover {
   text-align: center;
 }
 
-
+.ForStyle {
+  margin-top: -19vh;
+  width: 77.603vw;
+  height: 26vh;
+}
 
 }
 
@@ -3058,6 +3166,21 @@ nav ul li a:hover {
   top: 22.2vh;
 }
 
+.ForStyle {
+  margin-top: -19vh;
+  width: 77.603vw;
+  height: 26vh;
+}
+
+.ResponsiveContent {
+  margin-top: 32vh;
+  position: relative;
+  right: 61vw;
+}
+
+.ResponsiveContent p {
+  font-size: 2.3vw;
+}
 }
 
 @media only screen and (max-width: 360px){
@@ -3065,7 +3188,20 @@ nav ul li a:hover {
     height: 80vh;
     margin-top: 44vh;
   }
+  .ForStyle {
+    margin-top: -29vh;
+    width: 83.603vw;
+    height: 31vh;
+}
+.ResponsiveContent {
+  margin-top: 26vh;
+  position: relative;
+  right: 66vw;
+}
 
+.ResponsiveContent p {
+  font-size: 2.7vw;
+}
 }
 
 @media only screen and (max-width: 320px){
@@ -3076,6 +3212,11 @@ nav ul li a:hover {
 .icons {
   height: 6vw;
   width: 7vw;
+}
+.ResponsiveContent {
+  margin-top: 25vh;
+  position: relative;
+  right: 66vw;
 }
 }
 
