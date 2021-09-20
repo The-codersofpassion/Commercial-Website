@@ -2054,6 +2054,20 @@ nav ul li a:hover {
   background-color: black;
   margin: 6px 0;
 }
+
+.FnavLI {
+  display: inline-block;
+  line-height: 4.9vw;
+  width: 18vw;
+  text-align: center;
+}
+
+.artNav {
+  display: inline-block;
+  line-height: 4.9vw;
+  width: 18vw;
+  text-align: center;
+}
   nav ul {
     background-color: black;
     width: 19vw;
