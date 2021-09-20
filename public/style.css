@@ -2052,7 +2052,7 @@ nav ul li a:hover {
   .story-title {
     margin-top: -2vh;
     width: 31vw;
-    height: 25vh;
+    height: 20vh;
     margin-bottom: 6vh;
 }
 
@@ -2060,7 +2060,7 @@ nav ul li a:hover {
   height: 43vh;
   width: 43vw;
   border-radius: 0.7rem;
-  margin-top: 27vh;
+  margin-top: 22vh;
   margin-left: -14vw;
 }
 
@@ -2439,7 +2439,45 @@ nav ul li a:hover {
   position: relative;
   top: -76vh;
 }
+}
 
+@media only screen and (max-width: 640px){
+  .story-title {
+    margin-top: -6vh;
+    width: 28vw;
+    height: 27vh;
+    margin-bottom: 6vh;
+}
+.story_image {
+  height: 86vh;
+  width: 43vw;
+  border-radius: 0.7rem;
+  margin-top: 22vh;
+  margin-left: -14vw;
+}
+.story_content {
+  margin-top: -3vw;
+}
+.img2 {
+  /* position: absolute; */
+  margin-top: 4vh;
+  height: 21vh;
+  width: 32vw;
+  margin-left: -36.5vw;
+  border: 0.146vw solid black;
+  border-radius: 1.46vw;
+}
+.img1 {
+  margin-left: 29.7vw;
+  margin-top: -52vh;
+  height: 53vh;
+  width: 41vw;
+}
+.img3 {
+  margin-left: 18vw;
+  width: 64vw;
+  height: 2vh;
+}
 }
 
 @media only screen and (max-width: 600px){
@@ -2456,16 +2494,25 @@ nav ul li a:hover {
   .story-title {
     margin-top: -2vh;
     width: 42vw;
-    height: 27vh;
+    height: 22vh;
     margin-bottom: 7vh;
 }
 
 .story_image {
-  height: 43vh;
+  height: 44vh;
   width: 43vw;
   border-radius: 0.7rem;
-  margin-top: 30vh;
+  margin-top: 23vh;
   margin-left: -14vw;
+}
+
+.story_content {
+  height: max-content;
+  width: 38.6vw;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+  font-size: 2.4vw;
+  margin-top: -7vw;
 }
 
 .img1 {
@@ -2483,6 +2530,11 @@ nav ul li a:hover {
   margin-left: -37.5vw;
   border: 0.146vw solid black;
   border-radius: 1.46vw;
+}
+.img3 {
+  margin-left: 18vw;
+  width: 64vw;
+  height: 30vh;
 }
 
 .testimonial {
@@ -2900,6 +2952,13 @@ height: 26vh;
 
 @media only screen and (max-width: 540px)
 {
+  .story_image {
+    height: 54vh;
+    width: 43vw;
+    border-radius: 0.7rem;
+    margin-top: 23vh;
+    margin-left: -14vw;
+}
   .testimonial {
     height: 80vh;
     margin-top: -73vh;
@@ -2922,14 +2981,21 @@ height: 26vh;
 @media only screen and (max-width: 480px){
   .image-container {
     width: 403.5vw;
-    height: 49.88vh;
+    height: 20.88vh;
+}
+
+.story-title {
+  margin-top: -2vh;
+  width: 37vw;
+  height: 16vh;
+  margin-bottom: 7vh;
 }
 
 .story_image {
-  height: 64vh;
+  height: 51vh;
   width: 43vw;
   border-radius: 0.7rem;
-  margin-top: 30vh;
+  margin-top: 18vh;
   margin-left: -14vw;
 }
 
@@ -3027,7 +3093,7 @@ height: 26vh;
     height: 45vh;
     width: 43vw;
     border-radius: 0.7rem;
-    margin-top: 25vh;
+    margin-top: 17vh;
     margin-left: -14vw;
 }
 .testimonial {
@@ -3042,7 +3108,7 @@ height: 26vh;
     height: 42vh;
     width: 43vw;
     border-radius: 0.7rem;
-    margin-top: 29vh;
+    margin-top: 17vh;
     margin-left: -14vw;
 }
 
@@ -3094,7 +3160,7 @@ height: 26vh;
     height: 45vh;
     width: 43vw;
     border-radius: 0.7rem;
-    margin-top: 30vh;
+    margin-top: 18vh;
     margin-left: -14vw;
 }
 
@@ -3130,7 +3196,7 @@ height: 26vh;
     height: 33vh;
     width: 43vw;
     border-radius: 0.7rem;
-    margin-top: 24vh;
+    margin-top: 18vh;
     margin-left: -14vw;
 }
 
@@ -3143,7 +3209,7 @@ height: 26vh;
 }
 
 .story-title {
-  height: 22vh;
+  height: 18vh;
 }
 
 .testimonial {
@@ -3226,6 +3292,23 @@ height: 26vh;
     margin-top: 19vh;
 }
 
+.story-title {
+  height: 13vh;
+  margin-top: -6vh;
+}
+.story_image {
+  height: 33vh;
+  width: 43vw;
+  border-radius: 0.7rem;
+  margin-top: 11vh;
+  margin-left: -14vw;
+}
+.img1 {
+  margin-left: 23.7vw;
+  margin-top: -14vh;
+  width: 53vw;
+  height: 38vh;
+}
 }
 
 @media only screen and (max-width: 240px){
