@@ -9,7 +9,6 @@ function function1() {
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))");
             $(".logo a img").css('max-width', '7vw');
             $("nav ul").css("margin-top","1.3vh");
-            $("nav ul li a").css("color","black");
             $(".img1").css("animation","img11 3s ease-in-out 0s 1");
             $(".worktext2 h1").css("animation","typing 8s steps(34, end) 1s 1 normal both, blink 900ms steps(34) infinite normal");
             $("nav").css("box-shadow"," 0px 0px 10px #0000001c");
@@ -18,8 +17,16 @@ function function1() {
             $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))");
             $(".logo a img").css('max-width', '7vw');
             $("nav ul").css("margin-top","1.3vh");
-            $("nav ul li a").css("color","black");
             $(".img1").css("animation","img11 3s ease-in-out 0s 1");
+            $(".worktext2 h1").css("animation","none");
+            $("nav").css("box-shadow"," 0px 0px 10px #0000001c");
+        }
+        else if(scroll_pos >= 100 && window.matchMedia('(max-width: 800px)').matches){
+            $("nav").css("background-image","linear-gradient(to right,rgba(252, 252, 245, 0.80),rgba(252, 252, 245, 0.80))"); 
+            $(".logo a img").css('max-width', '12vw');
+            $("nav ul").css("margin-top","1.3vh");
+            $("nav ul li a").css("color","white");
+            $(".img1").css("animation","none");
             $(".worktext2 h1").css("animation","none");
             $("nav").css("box-shadow"," 0px 0px 10px #0000001c");
         }
@@ -63,6 +70,17 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 8000); 
 }
+
+function menu() {
+  var menu = document.getElementsByClassName("navmenu");
+  if(menu[0].style.display=="none"){
+    menu[0].style.display="block";
+  }
+  else{
+    menu[0].style.display = "none";
+    j=0;
+  }
+};
 
 
 function scrollto(div) {

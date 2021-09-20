@@ -19,13 +19,18 @@
 </head>
 
 <body>
-<div class="wrapper">
+
   <!-- For navbar -->
   <nav class="nav">
     <label class="logo">
       <a href="#home" onclick="scrollto('home')" ;><img src="img/logo.png" alt="logo" /></a>
     </label>
-    <ul>
+    <div class="navicon" onclick="menu()";>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul class="navmenu">
       <li><a href="#story" onclick="scrollto('story');">My Story</a></li>
       <li>
         <a href="#Work" onclick="scrollto('Work');">My Work</a>
@@ -64,7 +69,6 @@
       <div class="slider-button dot a3">
         <h1>Art</h1>
       </div>
-    </div>
     </div>
   </header>
 
