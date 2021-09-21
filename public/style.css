@@ -3246,10 +3246,10 @@ height: 26vh;
   width: 77.603vw;
   height: 26vh;
 }
-
 }
 
 @media only screen and (max-width: 375px){
+
   .story_image {
     height: 33vh;
     width: 43vw;
@@ -3305,6 +3305,29 @@ height: 26vh;
 .ResponsiveContent p {
   font-size: 2.3vw;
 }
+.MadhuSlide{
+  margin-top: -29vh;
+}
+
+.madhuPIC {
+  width: max-content;
+  position: relative;
+  left: 19vw;
+  height: 32vh;
+}
+
+.madhurimacontent {
+  position: relative;
+  right: 26vw;
+  width: max-content;
+  margin-top: 55vh;
+}
+
+.madhurimacontent p {
+  font-size: 2.7vw;
+  width:60vw;
+  margin-top: 1vh;
+}
 }
 
 @media only screen and (max-width: 360px){
@@ -3342,6 +3365,29 @@ height: 26vh;
   position: relative;
   right: 66vw;
 }
+.MadhuSlide{
+  margin-top: -29vh;
+}
+
+.madhuPIC {
+  width: max-content;
+  position: relative;
+  left: 19vw;
+  height: 32vh;
+}
+
+.madhurimacontent {
+  position: relative;
+  right: 26vw;
+  width: max-content;
+  margin-top: 55vh;
+}
+
+.madhurimacontent p {
+  font-size: 2.7vw;
+  width:60vw;
+  margin-top: 1vh;
+}
 }
 
 @media only screen and (max-width: 280px){
@@ -3372,6 +3418,12 @@ height: 26vh;
   margin-top: -14vh;
   width: 53vw;
   height: 38vh;
+}
+.madhurimacontent {
+  position: relative;
+  right: 40vw;
+  width: max-content;
+  margin-top: 55vh;
 }
 }
 
